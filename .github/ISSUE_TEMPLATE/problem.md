@@ -1,3 +1,9 @@
+---
+name: Report a problem or bug
+about: Open an issue to report a problem with the INSPIRE validator or test results
+
+---
+
 Please replace these lines with a brief summary of your issue and the expected
 behaviour.
 
