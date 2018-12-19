@@ -1,3 +1,13 @@
+# v1.0.2
+
+## Status: planned
+### Modifications in ETS for the issue #188
+Modifications in the code to correct the spanish title of GEMET controlled vocabulary.
+* Repository: metadata/iso
+* ETS: md-iso.c.4: Dataset conformity
+* Version: v0.2.8
+* Issue: [#188](https://github.com/inspire-eu-validation/ets-repository/issues/188)
+
 # v1.0.1
 
 ## Status: pull request [#194](https://github.com/inspire-eu-validation/ets-repository/pull/194)
