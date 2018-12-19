@@ -7,10 +7,21 @@ Modifications in the code to correct the spanish title of GEMET controlled vocab
 * ETS: md-iso.c.4: Dataset conformity
 * Version: v0.2.8
 * Issue: [#188](https://github.com/inspire-eu-validation/ets-repository/issues/188)
+* Target release date: 17/01/2019
+
+## Status: planned
+### Modifications in ETS and ATS for the issue #117
+Some modifications are needed in the ETS code. The validations have been divided in two main blocks of code. In a first step the ETS validates that exists at least one url that is a valid service (WFS, WMS, WCS, SOS or Atom). In a second step, if one or more URL exists and is valid, there will be no 'TR.unknownXMLResource' errors. If there is not any available URL, some warning(s) will be shown.
+* Repository: metadata/iso
+* ETS: md-iso.c.3: Dataset linkage
+* Version: v0.2.8
+* ATS: ds-linkage.md
+* Issue: [#117](https://github.com/inspire-eu-validation/ets-repository/issues/117)
+* Target release date: 17/01/2019
 
 # v1.0.1
 
-## Status: pull request [#194](https://github.com/inspire-eu-validation/ets-repository/pull/194)
+## Status: pull request 
 ### Modifications in ETS and ATS for the issue community#5
 Improvements in the code to call to the https secure urls instead of the http to avoid the redirection.
 * Repository: data/interoperability-metadata
@@ -18,22 +29,28 @@ Improvements in the code to call to the https secure urls instead of the http to
 * Version: v0.2.4
 * ATS: character-encoding.md and spatial-representation-type.md
 * Issue: [community#5](https://github.com/inspire-eu-validation/community/issues/5) and [#189](https://github.com/inspire-eu-validation/ets-repository/issues/189)
+* Pull request: [#194](https://github.com/inspire-eu-validation/ets-repository/pull/194)
+* Target release date: 03/01/2019
 
-## Status: pull request [#194](https://github.com/inspire-eu-validation/ets-repository/pull/194)
+## Status: pull request
 ### Modifications in ETS for the issue #180
 The check for the text value of dateType element is removed. The assertion should only check that the codeListValue attribute is "publication".
 * Repository: metadata/iso
 * ETS: md-iso.f.1: Dataset keyword
 * Version: v0.2.7
 * Issue: [#180](https://github.com/inspire-eu-validation/ets-repository/issues/180)
+* Pull request: [#194](https://github.com/inspire-eu-validation/ets-repository/pull/194)
+* Target release date: 03/01/2019
 
-## Status: pull request [#194](https://github.com/inspire-eu-validation/ets-repository/pull/194)
+## Status: pull request 
 ### Modifications in ETS for the issue #182
 Improvements in the code to check the descendant elements of wfs:FeatureCollection element for all feature types.
 * Repository: data-ad/ad-gml, data-au/au-gml, data-cp/cp-gml, data-gn/gn-gml, data-hy/hy-gml, data-ps/ps-gml and data-tn/tn-gml
 * ETS: ad-gml.a.1: Address feature in dataset, au-gml.a.1: Administrative Unit feature in dataset, cp-gml.a.1: CadastralParcel feature in dataset, gn-gml.a.1: Geographical Names feature in dataset, hy-gml.a.1: Hydrographic feature in dataset, ps-gml.a.1: Protected site feature in dataset and tn-gml.a.1: Transport Network feature in dataset
 * Version: v0.2.2
 * Issue: [#182](https://github.com/inspire-eu-validation/ets-repository/issues/182)
+* Pull request: [#194](https://github.com/inspire-eu-validation/ets-repository/pull/194)
+* Target release date: 03/01/2019
 
 # v1.0.0 
 
