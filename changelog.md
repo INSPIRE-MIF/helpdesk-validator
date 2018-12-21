@@ -1,15 +1,16 @@
-# v1.0.2
+## v1.0.2
 
-## Status: planned
+**Status:** planned
+
+**Target release date:** 24/01/2019
+
 ### Modifications in ETS for the issue #188
 Modifications in the code to correct the spanish title of GEMET controlled vocabulary.
 * Repository: metadata/iso
 * ETS: md-iso.c.4: Dataset conformity
 * Version: v0.2.8
 * Issue: [#188](https://github.com/inspire-eu-validation/ets-repository/issues/188)
-* Target release date: 17/01/2019
 
-## Status: planned
 ### Modifications in ETS and ATS for the issue #117
 Some modifications are needed in the ETS code. The validations have been divided in two main blocks of code. In a first step the ETS validates that exists at least one url that is a valid service (WFS, WMS, WCS, SOS or Atom). In a second step, if one or more URL exists and is valid, there will be no 'TR.unknownXMLResource' errors. If there is not any available URL, some warning(s) will be shown.
 * Repository: metadata/iso
@@ -17,11 +18,13 @@ Some modifications are needed in the ETS code. The validations have been divided
 * Version: v0.2.8
 * ATS: ds-linkage.md
 * Issue: [#117](https://github.com/inspire-eu-validation/ets-repository/issues/117)
-* Target release date: 17/01/2019
 
-# v1.0.1
+## v1.0.1
 
-## Status: pull request 
+**Status:** pull request 
+
+**Target release date:** 10/01/2019
+
 ### Modifications in ETS and ATS for the issue community#5
 Improvements in the code to call to the https secure urls instead of the http to avoid the redirection.
 * Repository: data/interoperability-metadata
@@ -30,9 +33,7 @@ Improvements in the code to call to the https secure urls instead of the http to
 * ATS: character-encoding.md and spatial-representation-type.md
 * Issue: [community#5](https://github.com/inspire-eu-validation/community/issues/5) and [#189](https://github.com/inspire-eu-validation/ets-repository/issues/189)
 * Pull request: [#194](https://github.com/inspire-eu-validation/ets-repository/pull/194)
-* Target release date: 03/01/2019
 
-## Status: pull request
 ### Modifications in ETS for the issue #180
 The check for the text value of dateType element is removed. The assertion should only check that the codeListValue attribute is "publication".
 * Repository: metadata/iso
@@ -40,9 +41,7 @@ The check for the text value of dateType element is removed. The assertion shoul
 * Version: v0.2.7
 * Issue: [#180](https://github.com/inspire-eu-validation/ets-repository/issues/180)
 * Pull request: [#194](https://github.com/inspire-eu-validation/ets-repository/pull/194)
-* Target release date: 03/01/2019
 
-## Status: pull request 
 ### Modifications in ETS for the issue #182
 Improvements in the code to check the descendant elements of wfs:FeatureCollection element for all feature types.
 * Repository: data-ad/ad-gml, data-au/au-gml, data-cp/cp-gml, data-gn/gn-gml, data-hy/hy-gml, data-ps/ps-gml and data-tn/tn-gml
@@ -50,11 +49,13 @@ Improvements in the code to check the descendant elements of wfs:FeatureCollecti
 * Version: v0.2.2
 * Issue: [#182](https://github.com/inspire-eu-validation/ets-repository/issues/182)
 * Pull request: [#194](https://github.com/inspire-eu-validation/ets-repository/pull/194)
-* Target release date: 03/01/2019
 
-# v1.0.0 
+## v1.0.0 
 
-## Status: deployed into reference validator
+**Status:** deployed in reference validator
+
+**Release date:** 09/09/2018
+
 ### Modifications in ETS and ATS for the issues #30
 Improvements in the code to don´t check anymore the specification in the test.
 * Repository: data/interoperability-metadata
@@ -62,9 +63,7 @@ Improvements in the code to don´t check anymore the specification in the test.
 * Version: v0.2.3
 * ATS: encoding.md
 * Issue: [#30](https://github.com/inspire-eu-validation/ets-repository/issues/30)
-* Target release date: 09/09/2018
 
-## Status: deployed into reference validator
 ### Modifications in ETS and ATS for the issues #127
 Improvements in the code to relax the xPath validations for name and version.
 * Repository: data/interoperability-metadata
@@ -72,9 +71,7 @@ Improvements in the code to relax the xPath validations for name and version.
 * Version: v0.2.3
 * ATS: encoding.md
 * Issue: [#127](https://github.com/inspire-eu-validation/ets-repository/issues/127)
-* Target release date: 09/09/2018
 
-## Status: deployed into reference validator
 ### Modifications in ETS and ATS for the issue #119
 Improvements in the code to accept application/atom as a media type for distribution. 
 * Repository: metadata/iso
@@ -82,9 +79,7 @@ Improvements in the code to accept application/atom as a media type for distribu
 * Version: v0.2.6
 * ATS: srv-linkage.md
 * Issue: [#119](https://github.com/inspire-eu-validation/ets-repository/issues/119)
-* Target release date: 09/09/2018
 
-## Status: deployed into reference validator
 ### Modifications in ETS and ATS for the issue #130
 The vocabulary test should check that the date type is "publication" and the date is "2008-06-01" when the title of the thesaurus is "GEMET - INSPIRE themes, version 1.0". 
 * Repository: metadata/iso
@@ -92,9 +87,7 @@ The vocabulary test should check that the date type is "publication" and the dat
 * Version: v0.2.6
 * ATS: ds-keyword.md
 * Issue: [#130](https://github.com/inspire-eu-validation/metadata/issues/130)
-* Target release date: 09/09/2018
 
-## Status: deployed into reference validator
 ### Modifications in ETS and ATS for the issue #120. 
 Improvements in the code to check if there is at least one DQ_ConformanceResult element, in case there is none the test fails. 
 Other check added is whether the title of one of the CI_Citation elements is the title of the Data interoperability IRs (in different languages).
@@ -103,9 +96,7 @@ Other check added is whether the title of one of the CI_Citation elements is the
 * Version: v0.2.6
 * ATS: ds-conformity.md
 * Issue: [#120](https://github.com/inspire-eu-validation/ets-repository/issues/120)
-* Target release date: 09/09/2018
 
-## Status: deployed into reference validator
 ### Modifications in ETS and ATS for the issue #130 
 Some improvements in the code: 
 This test case only applies to records with a hierarchyLevel value 'dataset' or 'series'. 
@@ -116,5 +107,3 @@ The DQ_ConformanceResult has an element gmd:pass that must contain a value of ty
 * Version: v0.2.6
 * ATS: ds-specification.md
 * Issue: [#130](https://github.com/inspire-eu-validation/ets-repository/issues/130)
-* Target release date: 09/09/2018
-
