@@ -2,14 +2,7 @@
 
 **Status:** planned
 
-**Target release date:** 24/01/2019
-
-### Modifications in ETS for the issue #188
-Modifications in the code to correct the spanish title of GEMET controlled vocabulary.
-* Repository: metadata/iso
-* ETS: md-iso.c.4: Dataset conformity
-* Version: v0.2.8
-* Issue: [#188](https://github.com/inspire-eu-validation/ets-repository/issues/188)
+**Target release date:** 18/02/2019
 
 ### Modifications in ETS and ATS for the issue #117
 Some modifications are needed in the ETS code. The validations have been divided in two main blocks of code. In a first step the ETS validates that exists at least one url that is a valid service (WFS, WMS, WCS, SOS or Atom). In a second step, if one or more URL exists and is valid, there will be no 'TR.unknownXMLResource' errors. If there is not any available URL, some warning(s) will be shown.
@@ -21,9 +14,9 @@ Some modifications are needed in the ETS code. The validations have been divided
 
 ## v1.0.1
 
-**Status:** pull request 
+**Status:** merged into master 
 
-**Target release date:** 10/01/2019
+**Release date:** 01/02/2019
 
 ### Modifications in ETS and ATS for the issue community#5
 Improvements in the code to call to the https secure urls instead of the http to avoid the redirection.
@@ -49,6 +42,13 @@ Improvements in the code to check the descendant elements of wfs:FeatureCollecti
 * Version: v0.2.2
 * Issue: [#182](https://github.com/inspire-eu-validation/ets-repository/issues/182)
 * Pull request: [#194](https://github.com/inspire-eu-validation/ets-repository/pull/194)
+
+### Modifications in ETS for the issue #188
+Modifications in the code to correct the spanish and french titles of GEMET controlled vocabulary.
+* Repository: metadata/iso
+* ETS: md-iso.c.4: Dataset conformity
+* Version: v0.2.8
+* Issue: [#188](https://github.com/inspire-eu-validation/ets-repository/issues/188)
 
 ## v1.0.0 
 
