@@ -25,7 +25,6 @@ Improvements in the code to call to the https secure urls instead of the http to
 * Version: v0.2.4
 * ATS: character-encoding.md and spatial-representation-type.md
 * Issue: [community#5](https://github.com/inspire-eu-validation/community/issues/5) and [#189](https://github.com/inspire-eu-validation/ets-repository/issues/189)
-* Pull request: [#194](https://github.com/inspire-eu-validation/ets-repository/pull/194)
 
 ### Modifications in ETS for the issue #180
 The check for the text value of dateType element is removed. The assertion should only check that the codeListValue attribute is "publication".
@@ -33,7 +32,6 @@ The check for the text value of dateType element is removed. The assertion shoul
 * ETS: md-iso.f.1: Dataset keyword
 * Version: v0.2.7
 * Issue: [#180](https://github.com/inspire-eu-validation/ets-repository/issues/180)
-* Pull request: [#194](https://github.com/inspire-eu-validation/ets-repository/pull/194)
 
 ### Modifications in ETS for the issue #182
 Improvements in the code to check the descendant elements of wfs:FeatureCollection element for all feature types.
@@ -41,7 +39,6 @@ Improvements in the code to check the descendant elements of wfs:FeatureCollecti
 * ETS: ad-gml.a.1: Address feature in dataset, au-gml.a.1: Administrative Unit feature in dataset, cp-gml.a.1: CadastralParcel feature in dataset, gn-gml.a.1: Geographical Names feature in dataset, hy-gml.a.1: Hydrographic feature in dataset, ps-gml.a.1: Protected site feature in dataset and tn-gml.a.1: Transport Network feature in dataset
 * Version: v0.2.2
 * Issue: [#182](https://github.com/inspire-eu-validation/ets-repository/issues/182)
-* Pull request: [#194](https://github.com/inspire-eu-validation/ets-repository/pull/194)
 
 ### Modifications in ETS for the issue #188
 Modifications in the code to correct the spanish and french titles of GEMET controlled vocabulary.
