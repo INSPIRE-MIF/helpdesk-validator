@@ -1,6 +1,6 @@
 ## v1.0.2
 
-**Status:** pull request
+**Status:** merged into master
 
 **Target release date:** 18/02/2019
 
@@ -11,7 +11,6 @@ Some modifications are needed in the ETS code. The validations have been divided
 * Version: v0.2.8
 * ATS: ds-linkage.md
 * Issue: [#117](https://github.com/inspire-eu-validation/ets-repository/issues/117)
-* Pull request: [#202](https://github.com/inspire-eu-validation/ets-repository/pull/202)
 
 ## v1.0.1
 
