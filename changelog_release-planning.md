@@ -1,3 +1,5 @@
+# Changelog and Release Planning
+
 ## v1.0.2
 
 **Status:** merged into master
@@ -41,7 +43,7 @@ Improvements in the code to check the descendant elements of wfs:FeatureCollecti
 * Issue: [#182](https://github.com/inspire-eu-validation/ets-repository/issues/182)
 
 ### Modifications in ETS for the issue #188
-Modifications in the code to correct the spanish and french titles of GEMET controlled vocabulary.
+Modifications in the code to correct the Spanish and French titles of GEMET controlled vocabulary.
 * Repository: metadata/iso
 * ETS: md-iso.c.4: Dataset conformity
 * Version: v0.2.8
