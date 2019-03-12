@@ -2,7 +2,7 @@
 
 **Status:** merged into master
 
-**Target release date:** 18/02/2019
+**Release date:** 07/03/2019
 
 ### Modifications in ETS and ATS for the issue #117
 Some modifications are needed in the ETS code. The validations have been divided in two main blocks of code. In a first step the ETS validates that exists at least one url that is a valid service (WFS, WMS, WCS, SOS or Atom). In a second step, if one or more URL exists and is valid, there will be no 'TR.unknownXMLResource' errors. If there is not any available URL, some warning(s) will be shown.
