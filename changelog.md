@@ -1,71 +1,8 @@
 # Changelog and Release Planning
 
-## v1.0.3
-
-**Status:** pull request
-
-**Release date:** 25/03/2019
-
-### Modifications in ETS for the issue #180
-The assertion checks that there is a non-empty value of the element CI_DateTypeCode.
-* Repository: metadata/iso
-* ETS: md-iso.f.1: Dataset keyword
-* Version: v0.2.9
-* Issue: [#180](https://github.com/inspire-eu-validation/ets-repository/issues/180)
-* Pull request: [#216](https://github.com/inspire-eu-validation/ets-repository/pull/216)
-
-## v1.0.2
-
-**Status:** merged into master
-
-**Release date:** 07/03/2019
-
-### Modifications in ETS and ATS for the issue #117
-Some modifications are needed in the ETS code. The validations have been divided in two main blocks of code. In a first step the ETS validates that exists at least one url that is a valid service (WFS, WMS, WCS, SOS or Atom). In a second step, if one or more URL exists and is valid, there will be no 'TR.unknownXMLResource' errors. If there is not any available URL, some warning(s) will be shown.
-* Repository: metadata/iso
-* ETS: md-iso.c.3: Dataset linkage
-* Version: v0.2.8
-* ATS: ds-linkage.md
-* Issue: [#117](https://github.com/inspire-eu-validation/ets-repository/issues/117)
-
-## v1.0.1
-
-**Status:** merged into master 
-
-**Release date:** 01/02/2019
-
-### Modifications in ETS and ATS for the issue community#5
-Improvements in the code to call to the https secure urls instead of the http to avoid the redirection.
-* Repository: data/interoperability-metadata
-* ETS: md-iop.a.5: Character Encoding and md-iop.a.6: Spatial Representation Type
-* Version: v0.2.4
-* ATS: character-encoding.md and spatial-representation-type.md
-* Issue: [community#5](https://github.com/inspire-eu-validation/community/issues/5) and [#189](https://github.com/inspire-eu-validation/ets-repository/issues/189)
-
-### Modifications in ETS for the issue #180
-The check for the text value of dateType element is removed. The assertion should only check that the codeListValue attribute is "publication".
-* Repository: metadata/iso
-* ETS: md-iso.f.1: Dataset keyword
-* Version: v0.2.7
-* Issue: [#180](https://github.com/inspire-eu-validation/ets-repository/issues/180)
-
-### Modifications in ETS for the issue #182
-Improvements in the code to check the descendant elements of wfs:FeatureCollection element for all feature types.
-* Repository: data-ad/ad-gml, data-au/au-gml, data-cp/cp-gml, data-gn/gn-gml, data-hy/hy-gml, data-ps/ps-gml and data-tn/tn-gml
-* ETS: ad-gml.a.1: Address feature in dataset, au-gml.a.1: Administrative Unit feature in dataset, cp-gml.a.1: CadastralParcel feature in dataset, gn-gml.a.1: Geographical Names feature in dataset, hy-gml.a.1: Hydrographic feature in dataset, ps-gml.a.1: Protected site feature in dataset and tn-gml.a.1: Transport Network feature in dataset
-* Version: v0.2.2
-* Issue: [#182](https://github.com/inspire-eu-validation/ets-repository/issues/182)
-
-### Modifications in ETS for the issue #188
-Modifications in the code to correct the Spanish and French titles of GEMET controlled vocabulary.
-* Repository: metadata/iso
-* ETS: md-iso.c.4: Dataset conformity
-* Version: v0.2.8
-* Issue: [#188](https://github.com/inspire-eu-validation/ets-repository/issues/188)
-
 ## v1.0.0 
 
-**Status:** deployed in reference validator
+**Status:** deployed in production
 
 **Release date:** 09/09/2018
 
@@ -120,3 +57,67 @@ The DQ_ConformanceResult has an element gmd:pass that must contain a value of ty
 * Version: v0.2.6
 * ATS: ds-specification.md
 * Issue: [#130](https://github.com/inspire-eu-validation/ets-repository/issues/130)
+
+
+## v1.0.3
+
+**Status:** pull request
+
+**Release date:** 25/03/2019
+
+### Modifications in ETS for the issue #180
+The assertion checks that there is a non-empty value of the element CI_DateTypeCode.
+* Repository: metadata/iso
+* ETS: md-iso.f.1: Dataset keyword
+* Version: v0.2.9
+* Issue: [#180](https://github.com/inspire-eu-validation/ets-repository/issues/180)
+* Pull request: [#216](https://github.com/inspire-eu-validation/ets-repository/pull/216)
+
+## v1.0.2
+
+**Status:** deployed in staging
+
+**Release date:** 07/03/2019
+
+### Modifications in ETS and ATS for the issue #117
+Some modifications are needed in the ETS code. The validations have been divided in two main blocks of code. In a first step the ETS validates that exists at least one url that is a valid service (WFS, WMS, WCS, SOS or Atom). In a second step, if one or more URL exists and is valid, there will be no 'TR.unknownXMLResource' errors. If there is not any available URL, some warning(s) will be shown.
+* Repository: metadata/iso
+* ETS: md-iso.c.3: Dataset linkage
+* Version: v0.2.8
+* ATS: ds-linkage.md
+* Issue: [#117](https://github.com/inspire-eu-validation/ets-repository/issues/117)
+
+## v1.0.1
+
+**Status:** deployed in staging
+
+**Release date:** 01/02/2019
+
+### Modifications in ETS and ATS for the issue community#5
+Improvements in the code to call to the https secure urls instead of the http to avoid the redirection.
+* Repository: data/interoperability-metadata
+* ETS: md-iop.a.5: Character Encoding and md-iop.a.6: Spatial Representation Type
+* Version: v0.2.4
+* ATS: character-encoding.md and spatial-representation-type.md
+* Issue: [community#5](https://github.com/inspire-eu-validation/community/issues/5) and [#189](https://github.com/inspire-eu-validation/ets-repository/issues/189)
+
+### Modifications in ETS for the issue #180
+The check for the text value of dateType element is removed. The assertion should only check that the codeListValue attribute is "publication".
+* Repository: metadata/iso
+* ETS: md-iso.f.1: Dataset keyword
+* Version: v0.2.7
+* Issue: [#180](https://github.com/inspire-eu-validation/ets-repository/issues/180)
+
+### Modifications in ETS for the issue #182
+Improvements in the code to check the descendant elements of wfs:FeatureCollection element for all feature types.
+* Repository: data-ad/ad-gml, data-au/au-gml, data-cp/cp-gml, data-gn/gn-gml, data-hy/hy-gml, data-ps/ps-gml and data-tn/tn-gml
+* ETS: ad-gml.a.1: Address feature in dataset, au-gml.a.1: Administrative Unit feature in dataset, cp-gml.a.1: CadastralParcel feature in dataset, gn-gml.a.1: Geographical Names feature in dataset, hy-gml.a.1: Hydrographic feature in dataset, ps-gml.a.1: Protected site feature in dataset and tn-gml.a.1: Transport Network feature in dataset
+* Version: v0.2.2
+* Issue: [#182](https://github.com/inspire-eu-validation/ets-repository/issues/182)
+
+### Modifications in ETS for the issue #188
+Modifications in the code to correct the Spanish and French titles of GEMET controlled vocabulary.
+* Repository: metadata/iso
+* ETS: md-iso.c.4: Dataset conformity
+* Version: v0.2.8
+* Issue: [#188](https://github.com/inspire-eu-validation/ets-repository/issues/188)
