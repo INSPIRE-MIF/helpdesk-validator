@@ -7,21 +7,21 @@ This changes are already present on the staging deployment to be tested, and wil
     * https://github.com/inspire-eu-validation/metadata/tree/2.0 
 * ETS MD TG v2.0
     * https://github.com/inspire-eu-validation/ets-repository/tree/md-tg-2.0
-* ATS WMS
+* ATS WMS v3.11
     * https://github.com/inspire-eu-validation/view-service/tree/review-ats-tg_3.11/iso-19128
-* ETS WMS
+* ETS WMS v3.11
     * https://github.com/inspire-eu-validation/ets-repository/tree/wms-tg-3.11
-* ATS WMTS
+* ATS WMTS v3.11
     * https://github.com/inspire-eu-validation/view-service/tree/review-ats-tg_3.11/wmts-1.0.0
-* ETS WMTS
+* ETS WMTS v3.11
     * https://github.com/inspire-eu-validation/ets-repository/tree/wmts-tg-3.1
-* ATS SOS
+* ATS SOS v1.0
     * https://github.com/inspire-eu-validation/download-service/tree/tg-ds-sos-1.0
-* ETS SOS
+* ETS SOS v1.0
     * https://github.com/inspire-eu-validation/ets-repository/tree/sos-tg-1.0
-* ATS WCS
+* ATS WCS v1.0
     * https://github.com/inspire-eu-validation/download-service/tree/tg-ds-wcs-1.0
-* ETS for WCS-based dowload service TG v1.0
+* ETS WCS v1.0
     * https://github.com/inspire-eu-validation/ets-repository/tree/wcs-tg-1.0
 
 ### ETF
@@ -41,7 +41,10 @@ This changes are already present on the staging deployment to be tested, and wil
 ## Staging
 This features are under development and will be deployed on the staging environment to be validated.
 ### ATS/ETS
-
+* ATS CSW v3.1
+    * https://github.com/inspire-eu-validation/discovery-service/tree/review-ats-csw-3.1
+* ETS CSW v3.1
+    * https://github.com/inspire-eu-validation/ets-repository/tree/csw-tg-3.1
 
 ### ETF
 * Improve test reports with an statistics summary
