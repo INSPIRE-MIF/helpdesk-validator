@@ -1,4 +1,4 @@
-# Changelog and Release Planning
+# Changelog
 
 ## v1.0.0 
 
