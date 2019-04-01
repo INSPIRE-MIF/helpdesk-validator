@@ -1,1 +1,51 @@
+# Release planning
 
+## Production
+This changes are already present on the staging deployment to be tested, and will be incorporated on the production environment eventually.
+### ATS/ETS
+* ATS MD TG v2.0
+    * https://github.com/inspire-eu-validation/metadata/tree/2.0 
+* ETS MD TG v2.0
+    * https://github.com/inspire-eu-validation/ets-repository/tree/md-tg-2.0
+* ATS WMS
+    * https://github.com/inspire-eu-validation/view-service/tree/review-ats-tg_3.11/iso-19128
+* ETS WMS
+    * https://github.com/inspire-eu-validation/ets-repository/tree/wms-tg-3.11
+* ATS WMTS
+    * https://github.com/inspire-eu-validation/view-service/tree/review-ats-tg_3.11/wmts-1.0.0
+* ETS WMTS
+    * https://github.com/inspire-eu-validation/ets-repository/tree/wmts-tg-3.1
+* ATS SOS
+    * https://github.com/inspire-eu-validation/download-service/tree/tg-ds-sos-1.0
+* ETS SOS
+    * https://github.com/inspire-eu-validation/ets-repository/tree/sos-tg-1.0
+* ATS WCS
+    * https://github.com/inspire-eu-validation/download-service/tree/tg-ds-wcs-1.0
+* ETS for WCS-based dowload service TG v1.0
+    * https://github.com/inspire-eu-validation/ets-repository/tree/wcs-tg-1.0
+
+### ETF
+* Rerun button on test report
+* Test types integrations
+    * MD 2.0
+    * WMS
+    * WMTS
+    * SOS
+    * WCS
+* Skipped color differente from manual check in test report
+* Password field on test run configuration
+* Customizable configuration of parallel test runs
+* Test Run log opened in separated tab
+* Cancel button on delete report action works properly
+
+## Staging
+This features are under development and will be deployed on the staging environment to be validated.
+### ATS/ETS
+
+
+### ETF
+* Improve test reports with an statistics summary
+* Show ETS dependencies on Conformance Classes selection
+* Printable version of test reports
+* Memory consumption improvement and shorter test run execution times
+* Manual tests checklist on test report
