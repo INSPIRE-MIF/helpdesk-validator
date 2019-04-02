@@ -64,7 +64,7 @@ The DQ_ConformanceResult has an element gmd:pass that must contain a value of ty
 
 ## v1.0.3
 
-**Status:** pull request
+**Status:** under development
 
 **Release date:** 25/03/2019
 
@@ -78,7 +78,7 @@ The assertion checks that there is a non-empty value of the element CI_DateTypeC
 
 ## v1.0.2
 
-**Status:** deployed in staging
+**Status:** deployed in staging / ready for testing
 
 **Release date:** 07/03/2019
 
@@ -92,7 +92,7 @@ Some modifications are needed in the ETS code. The validations have been divided
 
 ## v1.0.1
 
-**Status:** deployed in staging
+**Status:** deployed in staging / ready for testing
 
 **Release date:** 01/02/2019
 
