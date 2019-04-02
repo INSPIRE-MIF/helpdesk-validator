@@ -66,7 +66,7 @@ The DQ_ConformanceResult has an element gmd:pass that must contain a value of ty
 
 **Status:** under development
 
-**Release date:** 25/03/2019
+**Planned release date:** 15/04/2019
 
 ### Modifications in ETS for the issue #180
 The assertion checks that there is a non-empty value of the element CI_DateTypeCode.
