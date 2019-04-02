@@ -60,7 +60,7 @@ The DQ_ConformanceResult has an element gmd:pass that must contain a value of ty
 * ATS: ds-specification.md
 * Issue: [#130](https://github.com/inspire-eu-validation/ets-repository/issues/130)
 
-# Production
+# Staging
 
 ## v1.0.3
 
