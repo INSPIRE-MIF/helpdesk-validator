@@ -4,7 +4,7 @@
 
 ## v1.0.0 
 
-**Status:** deployed in production
+**Status:** deployed in [production](http://inspire-sandbox.jrc.ec.europa.eu/etf-webapp/)
 
 **Release date:** 09/09/2018
 
@@ -78,7 +78,7 @@ The assertion checks that there is a non-empty value of the element CI_DateTypeC
 
 ## v1.0.2
 
-**Status:** deployed in staging / ready for testing
+**Status:** deployed in [staging](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp) / ready for testing
 
 **Release date:** 07/03/2019
 
@@ -92,7 +92,7 @@ Some modifications are needed in the ETS code. The validations have been divided
 
 ## v1.0.1
 
-**Status:** deployed in staging / ready for testing
+**Status:** deployed in [staging](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp) / ready for testing
 
 **Release date:** 01/02/2019
 
