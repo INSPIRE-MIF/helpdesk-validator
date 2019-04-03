@@ -1,7 +1,8 @@
 # Release planning
 
 ## Production
-This changes are already present on the staging deployment to be tested, and will be incorporated on the production environment eventually.
+This changes are already present on the Staging instance to be tested, and will be incorporated on the Production instance eventually.
+
 ### ATS/ETS
 * ATS MD TG v2.0
     * https://github.com/inspire-eu-validation/metadata/tree/2.0 
@@ -40,6 +41,7 @@ This changes are already present on the staging deployment to be tested, and wil
 
 ## Staging
 This features are under development and will be deployed on the staging environment to be validated.
+
 ### ATS/ETS
 * ATS CSW v3.1
     * https://github.com/inspire-eu-validation/discovery-service/tree/review-ats-csw-3.1
