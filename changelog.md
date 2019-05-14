@@ -1,8 +1,10 @@
-# Changelog and Release Planning
+# Changelog
+
+# Production
 
 ## v1.0.0 
 
-**Status:** deployed in production
+**Status:** deployed in [production](http://inspire-sandbox.jrc.ec.europa.eu/etf-webapp/)
 
 **Release date:** 09/09/2018
 
@@ -58,12 +60,13 @@ The DQ_ConformanceResult has an element gmd:pass that must contain a value of ty
 * ATS: ds-specification.md
 * Issue: [#130](https://github.com/inspire-eu-validation/ets-repository/issues/130)
 
+# Staging
 
 ## v1.0.3
 
-**Status:** pull request
+**Status:** under development
 
-**Release date:** 25/03/2019
+**Planned release date:** 15/04/2019
 
 ### Modifications in ETS for the issue #180
 The assertion checks that there is a non-empty value of the element CI_DateTypeCode.
@@ -75,7 +78,7 @@ The assertion checks that there is a non-empty value of the element CI_DateTypeC
 
 ## v1.0.2
 
-**Status:** deployed in staging
+**Status:** deployed in [staging](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp) / ready for testing
 
 **Release date:** 07/03/2019
 
@@ -89,7 +92,7 @@ Some modifications are needed in the ETS code. The validations have been divided
 
 ## v1.0.1
 
-**Status:** deployed in staging
+**Status:** deployed in [staging](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp) / ready for testing
 
 **Release date:** 01/02/2019
 
