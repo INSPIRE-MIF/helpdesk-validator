@@ -88,7 +88,6 @@ The assertion checks that there is a non-empty value of the element CI_DateTypeC
 * ETS: md-iso.f.1: Dataset keyword
 * Version: v0.2.9
 * Issue: [#180](https://github.com/inspire-eu-validation/ets-repository/issues/180)
-* Pull request: [#216](https://github.com/inspire-eu-validation/ets-repository/pull/216)
 
 ## v1.0.2
 
