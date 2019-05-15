@@ -62,25 +62,11 @@ The DQ_ConformanceResult has an element gmd:pass that must contain a value of ty
 
 # Staging
 
-## v1.0.4
-
-**Status:** deployed in [staging](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp) / ready for testing
-
-**Release date:** 13/05/2019
-
-### Modifications in ETS for the issue #251
-The validation checks that the 'zoning' properties references a resource 'CadastralZoning' instead of 'BasicPropertyUnit'.
-* Repository: data-cp/cp-ia
-* ETS: cp-ia.b.4: CadastralParcel.zoning
-* Version: v0.2.2
-* Issue: [#251](https://github.com/inspire-eu-validation/ets-repository/issues/251)
-* Pull request: [#258](https://github.com/inspire-eu-validation/ets-repository/pull/258)
-
 ## v1.0.3
 
-**Status:** deployed in [staging](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp) / ready for testing
+**Status:** under development
 
-**Release date:** 15/04/2019
+**Planned release date:** 15/04/2019
 
 ### Modifications in ETS for the issue #180
 The assertion checks that there is a non-empty value of the element CI_DateTypeCode.
@@ -88,6 +74,7 @@ The assertion checks that there is a non-empty value of the element CI_DateTypeC
 * ETS: md-iso.f.1: Dataset keyword
 * Version: v0.2.9
 * Issue: [#180](https://github.com/inspire-eu-validation/ets-repository/issues/180)
+* Pull request: [#216](https://github.com/inspire-eu-validation/ets-repository/pull/216)
 
 ## v1.0.2
 
@@ -137,3 +124,4 @@ Modifications in the code to correct the Spanish and French titles of GEMET cont
 * ETS: md-iso.c.4: Dataset conformity
 * Version: v0.2.8
 * Issue: [#188](https://github.com/inspire-eu-validation/ets-repository/issues/188)
+
