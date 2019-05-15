@@ -74,7 +74,6 @@ The validation checks that the 'zoning' properties references a resource 'Cadast
 * ETS: cp-ia.b.4: CadastralParcel.zoning
 * Version: v0.2.2
 * Issue: [#251](https://github.com/inspire-eu-validation/ets-repository/issues/251)
-* Pull request: [#258](https://github.com/inspire-eu-validation/ets-repository/pull/258)
 
 ## v1.0.3
 
