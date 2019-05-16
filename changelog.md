@@ -99,7 +99,7 @@ Some modifications are needed in the ETS code. The validations have been divided
 
 **Release date:** 01/02/2019
 
-### Modifications in ETS and ATS for the issues [#5](https://github.com/inspire-eu-validation/community/issues/5) and [#189](https://github.com/inspire-eu-validation/ets-repository/issues/189)
+### Modifications in ETS and ATS for the issues [#5](https://github.com/inspire-eu-validation/community/issues/5) and [#189](https://github.com/inspire-eu-validation/ets-repository/issues/189) and [257](https://github.com/inspire-eu-validation/ets-repository/issues/257)
 Improvements in the code to call to the https secure urls instead of the http to avoid the redirection.
 * Repository: data/interoperability-metadata
 * ETS: md-iop.a.5: Character Encoding and md-iop.a.6: Spatial Representation Type
