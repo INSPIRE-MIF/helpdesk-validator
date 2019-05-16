@@ -18,14 +18,6 @@ Planned release date: 30/5/2019
     * https://github.com/inspire-eu-validation/view-service/tree/review-ats-tg_3.11/wmts-1.0.0
 * ETS WMTS v3.11
     * https://github.com/inspire-eu-validation/ets-repository/tree/wmts-tg-3.1
-* ATS SOS v1.0
-    * https://github.com/inspire-eu-validation/download-service/tree/tg-ds-sos-1.0
-* ETS SOS v1.0
-    * https://github.com/inspire-eu-validation/ets-repository/tree/sos-tg-1.0
-* ATS WCS v1.0
-    * https://github.com/inspire-eu-validation/download-service/tree/tg-ds-wcs-1.0
-* ETS WCS v1.0
-    * https://github.com/inspire-eu-validation/ets-repository/tree/wcs-tg-1.0
 
 ### ETF
 * Rerun button on test report
@@ -40,6 +32,20 @@ Planned release date: 30/5/2019
 * Customizable configuration of parallel test runs
 * Test Run log opened in separated tab
 * Cancel button on delete report action works properly
+
+Planned release date: 10/6/2019
+
+### ATS/ETS
+
+* ATS SOS v1.0
+    * https://github.com/inspire-eu-validation/download-service/tree/tg-ds-sos-1.0
+* ETS SOS v1.0
+    * https://github.com/inspire-eu-validation/ets-repository/tree/sos-tg-1.0
+* ATS WCS v1.0
+    * https://github.com/inspire-eu-validation/download-service/tree/tg-ds-wcs-1.0
+* ETS WCS v1.0
+    * https://github.com/inspire-eu-validation/ets-repository/tree/wcs-tg-1.0
+
 
 ## Staging
 This features are under development and will be deployed on the staging environment to be validated.
