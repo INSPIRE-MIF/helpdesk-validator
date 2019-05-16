@@ -3,7 +3,7 @@
 ## Production
 This changes are already present on the Staging instance to be tested, and will be incorporated on the Production instance eventually.
 
-Release date: 22/5/2019
+Planned release date: 30/5/2019
 
 ### ATS/ETS
 * ATS MD TG v2.0
@@ -44,7 +44,7 @@ Release date: 22/5/2019
 ## Staging
 This features are under development and will be deployed on the staging environment to be validated.
 
-Release date: 22/5/2019
+Planned release date: 30/5/2019
 
 ### ATS/ETS
 * ATS CSW v3.1
