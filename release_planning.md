@@ -3,7 +3,7 @@
 ## Production
 This changes are already present on the Staging instance to be tested, and will be incorporated on the Production instance eventually.
 
-*Planned release date: 30/5/2019*
+*Planned release date: 3/6/2019*
 
 ### ATS/ETS
 * ATS MD TG v2.0
@@ -33,7 +33,7 @@ This changes are already present on the Staging instance to be tested, and will 
 * Test Run log opened in separated tab
 * Cancel button on delete report action works properly
 
-*Planned release date: 10/6/2019*
+*Planned release date: 17/6/2019*
 
 ### ATS/ETS
 
@@ -50,7 +50,7 @@ This changes are already present on the Staging instance to be tested, and will 
 ## Staging
 This features are under development and will be deployed on the staging environment to be validated.
 
-*Planned release date: 30/5/2019*
+*Planned release date: 11/5/2019*
 
 ### ATS/ETS
 * ATS CSW v3.1
