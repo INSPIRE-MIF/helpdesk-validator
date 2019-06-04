@@ -56,6 +56,18 @@ The DQ_ConformanceResult has an element gmd:pass that must contain a value of ty
 
 # Staging
 
+## v1.0.5
+
+**Status:** deployed in [staging](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp) / ready for testing
+
+**Release date:** 23/05/2019
+
+### Modifications in ETS for the issue [#45](https://github.com/inspire-eu-validation/community/issues/45)
+The XPath of Coordinate Reference System and Spatial Representation Type have been relaxed.
+* Repository: data/interoperability-metadata
+* ETS: md-iop.a.1: Coordinate Reference System and md-iop.a.6: Spatial Representation Type
+* Version: v0.2.5
+
 ## v1.0.4
 
 **Status:** deployed in [staging](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp) / ready for testing
