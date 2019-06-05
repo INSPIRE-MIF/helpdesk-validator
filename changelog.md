@@ -56,6 +56,18 @@ The DQ_ConformanceResult has an element gmd:pass that must contain a value of ty
 
 # Staging
 
+## v1.0.6
+
+**Status:** deployed in [staging](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp) / ready for testing
+
+**Release date:** 05/06/2019
+
+### Modifications in ETS for the issue [#262](https://github.com/inspire-eu-validation/ets-repository/issues/262)
+The Croatian title of the Regulation 1089/2010 has been added.
+* Repository: metadata/iso
+* ETS: md-iso.c.4: Dataset conformity
+* Version: v0.3.0
+
 ## v1.0.5
 
 **Status:** deployed in [staging](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp) / ready for testing
