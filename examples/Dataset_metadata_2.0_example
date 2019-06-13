@@ -346,7 +346,7 @@ If the version of the encoding is unknown or if the encoding is not versioned, t
             <gmx:Anchor xlink:href="https://www.iana.org/assignments/media-types/application/gml+xml">gml+xml</gmx:Anchor>
           </gmd:name>
           <gmd:version>
-            <gco:CharacterString>3.2</gco:CharacterString>
+            <gco:CharacterString>3.2.1</gco:CharacterString>
           </gmd:version>
         </gmd:MD_Format>
       </gmd:distributionFormat>
