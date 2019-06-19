@@ -1,3 +1,9 @@
+# IMPORTANT - Please read carefully!
+The [current instance of the Validator](http://inspire-sandbox.jrc.ec.europa.eu/etf-webapp/) will be replaced by the new cloud instance and will be discontinued from Monday, 24/06/2019. **Please save your test reports before!**
+
+_____________
+
+
 # INSPIRE Validation Community
 This space is used for discussions and announcements around INSPIRE validation & conformity testing.
 
