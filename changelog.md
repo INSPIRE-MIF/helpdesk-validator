@@ -135,7 +135,7 @@ Some modifications are needed in the ETS code. The validations have been divided
 ### Modifications in ETS and ATS for the issues [#5](https://github.com/inspire-eu-validation/community/issues/5) and [#189](https://github.com/inspire-eu-validation/ets-repository/issues/189) and [#257](https://github.com/inspire-eu-validation/ets-repository/issues/257)
 Improvements in the code to call to the https secure urls instead of the http to avoid the redirection.
 * ETS Repository: [data/interoperability-metadata](https://github.com/inspire-eu-validation/ets-repository/tree/master/data/interoperability-metadata)
-* ETS: md-iop.a.5: Character Encoding and md-iop.a.6: Spatial Representation Type
+* ETS: [md-iop.a.5: Character Encoding](https://github.com/inspire-eu-validation/ets-repository/pull/190/commits/7cd3252de2e100d08a82b5121534b906e575af0d) and [md-iop.a.6: Spatial Representation Type](https://github.com/inspire-eu-validation/ets-repository/pull/190/commits/7cd3252de2e100d08a82b5121534b906e575af0d)
 * ETS Version: v0.2.4
 * ATS Repository: [data/interoperability-metadata](https://github.com/inspire-eu-validation/data/tree/master/interoperability-metadata)
 * ATS: [character-encoding.md](https://github.com/inspire-eu-validation/data/blob/master/interoperability-metadata/character-encoding.md) and [spatial-representation-type.md](https://github.com/inspire-eu-validation/data/blob/master/interoperability-metadata/spatial-representation-type.md)
@@ -143,17 +143,17 @@ Improvements in the code to call to the https secure urls instead of the http to
 ### Modifications in ETS for the issue [#180](https://github.com/inspire-eu-validation/ets-repository/issues/180)
 The check for the text value of dateType element is removed. The assertion should only check that the codeListValue attribute is "publication".
 * ETS Repository: [metadata/iso](https://github.com/inspire-eu-validation/ets-repository/tree/master/metadata/iso)
-* ETS: md-iso.f.1: Dataset keyword
+* ETS: [md-iso.f.1: Dataset keyword](https://github.com/inspire-eu-validation/ets-repository/commit/2603836e5ce9a233020d5c12477e74c3a8e4618b)
 * ETS Version: v0.2.7
 
 ### Modifications in ETS for the issue [#182](https://github.com/inspire-eu-validation/ets-repository/issues/182)
 Improvements in the code to check the descendant elements of wfs:FeatureCollection element for all feature types.
 * ETS Repository: [data-ad/ad-gml](https://github.com/inspire-eu-validation/ets-repository/tree/master/data-ad/ad-gml), [data-au/au-gml](https://github.com/inspire-eu-validation/ets-repository/tree/master/data-au/au-gml), [data-cp/cp-gml](https://github.com/inspire-eu-validation/ets-repository/tree/master/data-cp/cp-gml), [data-gn/gn-gml](https://github.com/inspire-eu-validation/ets-repository/tree/master/data-gn/gn-gml), [data-hy/hy-gml](https://github.com/inspire-eu-validation/ets-repository/tree/master/data-hy/hy-gml), [data-ps/ps-gml](https://github.com/inspire-eu-validation/ets-repository/tree/master/data-ps/ps-gml) and [data-tn/tn-gml](https://github.com/inspire-eu-validation/ets-repository/tree/master/data-tn/tn-gml)
-* ETS: ad-gml.a.1: Address feature in dataset, au-gml.a.1: Administrative Unit feature in dataset, cp-gml.a.1: CadastralParcel feature in dataset, gn-gml.a.1: Geographical Names feature in dataset, hy-gml.a.1: Hydrographic feature in dataset, ps-gml.a.1: Protected site feature in dataset and tn-gml.a.1: Transport Network feature in dataset
+* ETS: [ad-gml.a.1: Address feature in dataset](https://github.com/inspire-eu-validation/ets-repository/commit/aabe657e60e5d831c97e7a4b49a968659daa5af8), [au-gml.a.1: Administrative Unit feature in dataset](https://github.com/inspire-eu-validation/ets-repository/commit/aabe657e60e5d831c97e7a4b49a968659daa5af8), [cp-gml.a.1: CadastralParcel feature in dataset](https://github.com/inspire-eu-validation/ets-repository/commit/aabe657e60e5d831c97e7a4b49a968659daa5af8), [gn-gml.a.1: Geographical Names feature in dataset](https://github.com/inspire-eu-validation/ets-repository/commit/aabe657e60e5d831c97e7a4b49a968659daa5af8), [hy-gml.a.1: Hydrographic feature in dataset](https://github.com/inspire-eu-validation/ets-repository/commit/aabe657e60e5d831c97e7a4b49a968659daa5af8), [ps-gml.a.1: Protected site feature in dataset](https://github.com/inspire-eu-validation/ets-repository/commit/aabe657e60e5d831c97e7a4b49a968659daa5af8) and [tn-gml.a.1: Transport Network feature in dataset](https://github.com/inspire-eu-validation/ets-repository/commit/aabe657e60e5d831c97e7a4b49a968659daa5af8)
 * ETS Version: v0.2.2
 
 ### Modifications in ETS for the issue [#188](https://github.com/inspire-eu-validation/ets-repository/issues/188)
 Modifications in the code to correct the Spanish and French titles of GEMET controlled vocabulary.
 * ETS Repository: [metadata/iso](https://github.com/inspire-eu-validation/ets-repository/tree/master/metadata/iso)
-* ETS: md-iso.c.4: Dataset conformity
+* ETS: [md-iso.c.4: Dataset conformity](https://github.com/inspire-eu-validation/ets-repository/commit/8803ede975879ec1ea484aec73a09ac15abb5480)
 * ETS Version: v0.2.8
