@@ -3,7 +3,7 @@
 ## Production
 This changes are already present on the Staging instance to be tested, and will be incorporated on the Production instance eventually.
 
-*Planned release date: 3/6/2019*
+*Planned release date: 24/6/2019*
 
 ### ATS/ETS
 * ATS MD TG v2.0
@@ -27,13 +27,14 @@ This changes are already present on the Staging instance to be tested, and will 
     * WMTS
     * SOS
     * WCS
-* Skipped color differente from manual check in test report
+* Color for skipped tests different from color of manual checks in test report
 * Password field on test run configuration
 * Customizable configuration of parallel test runs
 * Test Run log opened in separated tab
 * Cancel button on delete report action works properly
+* Show ETS dependencies on Conformance Classes selection
 
-*Planned release date: 17/6/2019*
+*Planned release date: 15/7/2019*
 
 ### ATS/ETS
 
@@ -60,7 +61,6 @@ This features are under development and will be deployed on the staging environm
 
 ### ETF
 * Improve test reports with an statistics summary
-* Show ETS dependencies on Conformance Classes selection
 * Printable version of test reports
 * Memory consumption improvement and shorter test run execution times
 * Manual tests checklist on test report
