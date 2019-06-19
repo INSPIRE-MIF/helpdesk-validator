@@ -11,42 +11,42 @@
 ### Modifications in ETS and ATS for the issue [#30](https://github.com/inspire-eu-validation/ets-repository/issues/30)
 Improvements in the code in order not to check anymore the specification in the test.
 * ETS Repository: [data/interoperability-metadata](https://github.com/inspire-eu-validation/ets-repository/tree/master/data/interoperability-metadata)
-* ATS Repository: [data/interoperability-metadata](https://github.com/inspire-eu-validation/data/tree/master/interoperability-metadata)
 * ETS: md-iop.a.3: Encoding
 * ETS Version: v0.2.3
+* ATS Repository: [data/interoperability-metadata](https://github.com/inspire-eu-validation/data/tree/master/interoperability-metadata)
 * ATS: [encoding.md](https://github.com/inspire-eu-validation/data/blob/master/interoperability-metadata/encoding.md)
 
 ### Modifications in ETS and ATS for the issue [#127](https://github.com/inspire-eu-validation/ets-repository/issues/127)
 Improvements in the code to relax the xPath validations for name and version.
 * ETS Repository: [data/interoperability-metadata](https://github.com/inspire-eu-validation/ets-repository/tree/master/data/interoperability-metadata)
-* ATS Repository: [data/interoperability-metadata](https://github.com/inspire-eu-validation/data/tree/master/interoperability-metadata)
 * ETS: md-iop.a.3: Encoding
 * ETS Version: v0.2.3
+* ATS Repository: [data/interoperability-metadata](https://github.com/inspire-eu-validation/data/tree/master/interoperability-metadata)
 * ATS: [encoding.md](https://github.com/inspire-eu-validation/data/blob/master/interoperability-metadata/encoding.md)
 
 ### Modifications in ETS and ATS for the issue [#119](https://github.com/inspire-eu-validation/ets-repository/issues/119)
 Improvements in the code to accept application/atom as a media type for distribution. 
 * ETS Repository: [metadata/iso](https://github.com/inspire-eu-validation/ets-repository/tree/master/metadata/iso)
-* ATS Repository: [metadata/iso](https://github.com/inspire-eu-validation/metadata/tree/master/iso-19115-19119)
 * ETS: md-iso.d.2: Service linkage
 * ETS Version: v0.2.6
+* ATS Repository: [metadata/iso](https://github.com/inspire-eu-validation/metadata/tree/master/iso-19115-19119)
 * ATS: [srv-linkage.md](https://github.com/inspire-eu-validation/metadata/blob/master/iso-19115-19119/srv-linkage.md)
 
 ### Modifications in ETS and ATS for the issue [#130](https://github.com/inspire-eu-validation/metadata/issues/130)
 The vocabulary test should check that the date type is "publication" and the date is "2008-06-01" when the title of the thesaurus is "GEMET - INSPIRE themes, version 1.0". 
 * ETS Repository: [metadata/iso](https://github.com/inspire-eu-validation/ets-repository/tree/master/metadata/iso)
-* ATS Repository: [metadata/iso](https://github.com/inspire-eu-validation/metadata/tree/master/iso-19115-19119)
 * ETS: md-iso.f.1: Dataset keyword
-* Version: v0.2.6
+* ETS Version: v0.2.6
+* ATS Repository: [metadata/iso](https://github.com/inspire-eu-validation/metadata/tree/master/iso-19115-19119)
 * ATS: [ds-keyword.md](https://github.com/inspire-eu-validation/metadata/blob/master/iso-19115-19119/ds-keyword.md)
 
 ### Modifications in ETS and ATS for the issue [#120](https://github.com/inspire-eu-validation/ets-repository/issues/120)
 Improvements in the code to check if there is at least one DQ_ConformanceResult element, in case there is none the test fails. 
 Other check added is whether the title of one of the CI_Citation elements is the title of the Data interoperability IRs (in different languages).
 * ETS Repository: [metadata/iso](https://github.com/inspire-eu-validation/ets-repository/tree/master/metadata/iso)
-* ATS Repository: [metadata/iso](https://github.com/inspire-eu-validation/metadata/tree/master/iso-19115-19119)
 * ETS: md-iso.c.4: Dataset conformity
 * ETS Version: v0.2.6
+* ATS Repository: [metadata/iso](https://github.com/inspire-eu-validation/metadata/tree/master/iso-19115-19119)
 * ATS: [ds-conformity.md](https://github.com/inspire-eu-validation/metadata/blob/master/iso-19115-19119/ds-conformity.md)
 
 ### Modifications in ETS and ATS for the issue [#130](https://github.com/inspire-eu-validation/ets-repository/issues/130) 
@@ -55,9 +55,9 @@ This test case only applies to records with a hierarchyLevel value 'dataset' or 
 For every DQ_ConformanceResult element, check if there is at least one specification. In case there is none, the test fails.
 The DQ_ConformanceResult has an element gmd:pass that must contain a value of type gco:Boolean.
 * ETS Repository: [metadata/iso](https://github.com/inspire-eu-validation/ets-repository/tree/master/metadata/iso)
-* ATS Repository: [metadata/iso](https://github.com/inspire-eu-validation/metadata/tree/master/iso-19115-19119)
 * ETS: md-iso.a.5: Specification
 * ETS Version: v0.2.6
+* ATS Repository: [metadata/iso](https://github.com/inspire-eu-validation/metadata/tree/master/iso-19115-19119)
 * ATS: [ds-specification.md](https://github.com/inspire-eu-validation/metadata/blob/master/iso-19115-19119/ds-specification.md)
 
 # Staging
@@ -83,9 +83,9 @@ The Croatian title of the Regulation 1089/2010 has been added.
 ### Modifications in ETS for the issue [#45](https://github.com/inspire-eu-validation/community/issues/45)
 The XPath of Coordinate Reference System and Spatial Representation Type have been relaxed. 
 * ETS Repository: [data/interoperability-metadata](https://github.com/inspire-eu-validation/ets-repository/tree/master/data/interoperability-metadata)
-* ATS Repository: [data/interoperability-metadata](https://github.com/inspire-eu-validation/data/tree/master/interoperability-metadata)
 * ETS: md-iop.a.1: Coordinate Reference System and md-iop.a.6: Spatial Representation Type
 * ETS Version: v0.2.5
+* ATS Repository: [data/interoperability-metadata](https://github.com/inspire-eu-validation/data/tree/master/interoperability-metadata)
 * ATS: [coordinate-reference-system.md](https://github.com/inspire-eu-validation/data/blob/master/interoperability-metadata/coordinate-reference-system.md) and [spatial-representation-type.md](https://github.com/inspire-eu-validation/data/blob/master/interoperability-metadata/spatial-representation-type.md)
 
 ## v1.0.4
@@ -121,9 +121,9 @@ The assertion checks that there is a non-empty value of the element CI_DateTypeC
 ### Modifications in ETS and ATS for the issue [#117](https://github.com/inspire-eu-validation/ets-repository/issues/117)
 Some modifications are needed in the ETS code. The validations have been divided in two main blocks of code. In a first step the ETS validates that exists at least one url that is a valid service (WFS, WMS, WCS, SOS or Atom). In a second step, if one or more URL exists and is valid, there will be no 'TR.unknownXMLResource' errors. If there is not any available URL, some warning(s) will be shown.
 * ETS Repository: [metadata/iso](https://github.com/inspire-eu-validation/ets-repository/tree/master/metadata/iso)
-* ATS Repository: [metadata/iso](https://github.com/inspire-eu-validation/metadata/tree/master/iso-19115-19119)
 * ETS: md-iso.c.3: Dataset linkage
 * ETS Version: v0.2.8
+* ATS Repository: [metadata/iso](https://github.com/inspire-eu-validation/metadata/tree/master/iso-19115-19119)
 * ATS: [ds-linkage.md](https://github.com/inspire-eu-validation/metadata/blob/master/iso-19115-19119/ds-linkage.md)
 
 ## v1.0.1
@@ -135,9 +135,9 @@ Some modifications are needed in the ETS code. The validations have been divided
 ### Modifications in ETS and ATS for the issues [#5](https://github.com/inspire-eu-validation/community/issues/5) and [#189](https://github.com/inspire-eu-validation/ets-repository/issues/189) and [#257](https://github.com/inspire-eu-validation/ets-repository/issues/257)
 Improvements in the code to call to the https secure urls instead of the http to avoid the redirection.
 * ETS Repository: [data/interoperability-metadata](https://github.com/inspire-eu-validation/ets-repository/tree/master/data/interoperability-metadata)
-* ATS Repository: [data/interoperability-metadata](https://github.com/inspire-eu-validation/data/tree/master/interoperability-metadata)
 * ETS: md-iop.a.5: Character Encoding and md-iop.a.6: Spatial Representation Type
 * ETS Version: v0.2.4
+* ATS Repository: [data/interoperability-metadata](https://github.com/inspire-eu-validation/data/tree/master/interoperability-metadata)
 * ATS: [character-encoding.md](https://github.com/inspire-eu-validation/data/blob/master/interoperability-metadata/character-encoding.md) and [spatial-representation-type.md](https://github.com/inspire-eu-validation/data/blob/master/interoperability-metadata/spatial-representation-type.md)
 
 ### Modifications in ETS for the issue [#180](https://github.com/inspire-eu-validation/ets-repository/issues/180)
