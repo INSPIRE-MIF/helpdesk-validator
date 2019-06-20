@@ -71,7 +71,7 @@ The DQ_ConformanceResult has an element gmd:pass that must contain a value of ty
 ### Modifications in ETS for the issue [#262](https://github.com/inspire-eu-validation/ets-repository/issues/262)
 The Croatian title of the Regulation 1089/2010 has been added.
 * ETS Repository: [metadata/iso](https://github.com/inspire-eu-validation/ets-repository/tree/master/metadata/iso)
-* ETS: md-iso.c.4: Dataset conformity
+* ETS: [md-iso.c.4: Dataset conformity](https://github.com/inspire-eu-validation/ets-repository/commit/5eea1ab22ccddbad45c728eb4a799adde58a0ed7)
 * ETS Version: v0.3.0
 
 ## v1.0.5
@@ -81,9 +81,9 @@ The Croatian title of the Regulation 1089/2010 has been added.
 **Release date:** 04/06/2019
 
 ### Modifications in ETS for the issue [#45](https://github.com/inspire-eu-validation/community/issues/45)
-The XPath of Coordinate Reference System and Spatial Representation Type have been relaxed. 
+The XPath of Coordinate Reference System and Spatial Representation Type have been relaxed. The validation that the value of CRS is a http URI and includes one of the values from table 2 in [TG_DS_TMPL](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/interoperability-metadata/README#ref_TG_DS_TMPL) is removed.
 * ETS Repository: [data/interoperability-metadata](https://github.com/inspire-eu-validation/ets-repository/tree/master/data/interoperability-metadata)
-* ETS: md-iop.a.1: Coordinate Reference System and md-iop.a.6: Spatial Representation Type
+* ETS: [md-iop.a.1: Coordinate Reference System](https://github.com/inspire-eu-validation/ets-repository/commit/e2eddde1bd4511c458f96be38550482356edc776) and [md-iop.a.6: Spatial Representation Type](https://github.com/inspire-eu-validation/ets-repository/pull/269/commits/8a2f45c6aadb42ecd4aa62dfbf8ca3cde2d3321a)
 * ETS Version: v0.2.5
 * ATS Repository: [data/interoperability-metadata](https://github.com/inspire-eu-validation/data/tree/master/interoperability-metadata)
 * ATS: [coordinate-reference-system.md](https://github.com/inspire-eu-validation/data/blob/master/interoperability-metadata/coordinate-reference-system.md) and [spatial-representation-type.md](https://github.com/inspire-eu-validation/data/blob/master/interoperability-metadata/spatial-representation-type.md)
@@ -97,7 +97,7 @@ The XPath of Coordinate Reference System and Spatial Representation Type have be
 ### Modifications in ETS for the issue [#251](https://github.com/inspire-eu-validation/ets-repository/issues/251)
 The validation checks that the 'zoning' properties references a resource 'CadastralZoning' instead of 'BasicPropertyUnit'.
 * ETS Repository: [data-cp/cp-ia](https://github.com/inspire-eu-validation/ets-repository/tree/master/data-cp/cp-ia)
-* ETS: cp-ia.b.4: CadastralParcel.zoning
+* ETS: [cp-ia.b.4: CadastralParcel.zoning](https://github.com/inspire-eu-validation/ets-repository/commit/c2eaf40db5f515dd0db385fd7cb745f297c104cc)
 * ETS Version: v0.2.2
 
 ## v1.0.3
@@ -109,7 +109,7 @@ The validation checks that the 'zoning' properties references a resource 'Cadast
 ### Modifications in ETS for the issue [#180](https://github.com/inspire-eu-validation/ets-repository/issues/180)
 The assertion checks that there is a non-empty value of the element CI_DateTypeCode.
 * ETS Repository: [metadata/iso](https://github.com/inspire-eu-validation/ets-repository/tree/master/metadata/iso)
-* ETS: md-iso.f.1: Dataset keyword
+* ETS: [md-iso.f.1: Dataset keyword](https://github.com/inspire-eu-validation/ets-repository/commit/2cdd5f60dce728c4a32ac197a1599eefbf5bbabd)
 * ETS Version: v0.2.9
 
 ## v1.0.2
@@ -121,7 +121,7 @@ The assertion checks that there is a non-empty value of the element CI_DateTypeC
 ### Modifications in ETS and ATS for the issue [#117](https://github.com/inspire-eu-validation/ets-repository/issues/117)
 Some modifications are needed in the ETS code. The validations have been divided in two main blocks of code. In a first step the ETS validates that exists at least one url that is a valid service (WFS, WMS, WCS, SOS or Atom). In a second step, if one or more URL exists and is valid, there will be no 'TR.unknownXMLResource' errors. If there is not any available URL, some warning(s) will be shown.
 * ETS Repository: [metadata/iso](https://github.com/inspire-eu-validation/ets-repository/tree/master/metadata/iso)
-* ETS: md-iso.c.3: Dataset linkage
+* ETS: [md-iso.c.3: Dataset linkage](https://github.com/inspire-eu-validation/ets-repository/commit/08bf74c4db1935e16c358f2a9e6ca28ce448e9fa)
 * ETS Version: v0.2.8
 * ATS Repository: [metadata/iso](https://github.com/inspire-eu-validation/metadata/tree/master/iso-19115-19119)
 * ATS: [ds-linkage.md](https://github.com/inspire-eu-validation/metadata/blob/master/iso-19115-19119/ds-linkage.md)
