@@ -1,5 +1,5 @@
 # IMPORTANT - Please read carefully!
-The [current instance of the Validator](http://inspire-sandbox.jrc.ec.europa.eu/etf-webapp/) will be replaced by the new cloud instance and will be discontinued from Monday, 24/06/2019. **Please save your test reports before!**
+The old instance of the Validator has been just replaced by [the new cloud instance](http://inspire.ec.europa.eu/validator/), where you can test additional resources (please refer to the [release planning](release_planning.md) for details).
 
 _____________
 
