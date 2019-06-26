@@ -4,7 +4,7 @@
 
 ## v1.0.0 
 
-**Status:** deployed in [production](http://inspire-sandbox.jrc.ec.europa.eu/etf-webapp/)
+**Status:** deployed in [production](http://inspire.ec.europa.eu/validator/)
 
 **Release date:** 09/09/2018
 
