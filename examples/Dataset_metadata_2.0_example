@@ -415,7 +415,7 @@ The date value shall be expressed in accordance with ISO 8601 with only the date
                 </gmd:CI_Citation>
               </gmd:specification>
               <gmd:explanation>
-                <gco:CharacterString>This data set is conformant with the INSPIRE Implementing Rules for the interoperability of spatial data sets and services</gco:CharacterString>
+                <gco:CharacterString>This data set metadata record was tested with the INSPIRE Validator and passed the following tests: e.g. "Common Requirements for ISO/TC 19139:2007 based INSPIRE metadata records“, "Conformance Class 1: INSPIRE data set and data set series baseline metadata" and "Conformance Class 2: INSPIRE data sets and data set series interoperability metadata".</gco:CharacterString>
               </gmd:explanation>
               <gmd:pass>
                 <gco:Boolean>true</gco:Boolean>
