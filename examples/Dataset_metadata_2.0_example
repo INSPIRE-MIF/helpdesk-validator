@@ -47,7 +47,7 @@
   
 <!--TG Requirement C.7: metadata/2.0/req/common/md-date: The latest update date of the metadata description shall be given for each metadata record. It shall be encoded using the gmd:MD_Metadata/gmd:dateStamp element. If no updates to the metadata have been made since publishing it, the creation date of the metadata shall be used instead. The multiplicity of this element is 1.-->
   <gmd:dateStamp>
-    <gco:DateTime>2019-05-15T09:00:00</gco:DateTime>
+    <gco:DateTime>2019-05-15T09:00:00+02:00</gco:DateTime>
   </gmd:dateStamp>
   <gmd:metadataStandardName>
     <gco:CharacterString>ISO19115</gco:CharacterString>
