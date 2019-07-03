@@ -123,7 +123,9 @@ The multiplicity of this element is 1..*.-->
           <gmd:identifier>
             <gmd:MD_Identifier>
 				<gmd:code>
-					<gmx:Anchor xlink:href="http://www.my-organisation.eu/so/lu/land-use-map">http://www.my-organisation.eu/so/lu/land-use-map</gmx:Anchor>
+					<gco:CharacterString>http://www.my-organisation.eu/so/lu/land-use-map</gco:CharacterString>
+					<!-- also possible as a gmx:Anchor-Element -->
+					<!-- <gmx:Anchor xlink:href="http://www.my-organisation.eu/so/lu/land-use-map">http://www.my-organisation.eu/so/lu/land-use-map</gmx:Anchor> -->
 				</gmd:code>
             </gmd:MD_Identifier>
           </gmd:identifier>
