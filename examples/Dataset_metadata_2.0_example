@@ -49,12 +49,6 @@
   <gmd:dateStamp>
     <gco:DateTime>2019-05-15T09:00:00</gco:DateTime>
   </gmd:dateStamp>
-  <gmd:metadataStandardName>
-    <gco:CharacterString>ISO19115</gco:CharacterString>
-  </gmd:metadataStandardName>
-  <gmd:metadataStandardVersion>
-    <gco:CharacterString>2003/Cor.1:2006</gco:CharacterString>
-  </gmd:metadataStandardVersion>
   
   <!--TG Requirement 2.1: metadata/2.0/req/isdss/crs: The coordinate reference system(s) used in the described data set or data set series shall be given using element gmd:referenceSystemInfo/gmd:MD_ReferenceSystem/gmd:referenceSystemIdentifier/gmd:RS_Identifier.
 The multiplicity of this element is 1..*.
