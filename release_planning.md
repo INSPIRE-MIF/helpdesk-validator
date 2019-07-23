@@ -3,7 +3,7 @@
 ## Production
 These changes are already present on the Staging instance to be tested, and will be incorporated on the Production instance eventually.
 
-*Planned release date: 31/07/2019*
+*Planned release date: 09/08/2019*
 
 ### ATS/ETS
 
@@ -20,7 +20,7 @@ These changes are already present on the Staging instance to be tested, and will
 ## Staging
 These features are under development and will be deployed on the staging environment to be validated.
 
-*Planned release date: 22/07/2019*
+*Planned release date: 25/07/2019*
 
 ### ATS/ETS
 * ATS CSW v3.1
