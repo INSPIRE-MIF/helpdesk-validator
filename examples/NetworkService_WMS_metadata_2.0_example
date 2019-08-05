@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://schemas.opengis.net/csw/2.0.2/profiles/apiso/1.0.0/apiso.xsd">
+	<!--TG Recommendation C.1: metadata/2.0/rec/common/fileIdentifier: The metadata record should contain a globally unique and persistent fileIdentifier element.-->
+	<gmd:fileIdentifier>
+		<gco:CharacterString>123e4567-e89b-12d3-a456-426655440123</gco:CharacterString>
+	</gmd:fileIdentifier>
+	<!--TG Requirement C.5: metadata/2.0/req/common/metadata-language-code: The language of the provided metadata content shall be given. It shall be encoded using gmd:MD_Metadata/gmd:language/gmd:LanguageCode element pointing to one of the three-letter language codes of the ISO 639-2/B code list. Only the code values for the official languages of the European Union shall be used. The multiplicity of this element is 1.-->
+	<gmd:language>
+		<gmd:LanguageCode codeList="http://www.loc.gov/standards/iso639-2/" codeListValue="eng"/>
+	</gmd:language>
+	<gmd:characterSet>
+		<gmd:MD_CharacterSetCode codeListValue="utf8" codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_CharacterSetCode">UTF-8</gmd:MD_CharacterSetCode>
+	</gmd:characterSet>
+	<!--TG Requirement 3.1: metadata/2.0/req/sds/resource-type: Resource type shall be declared as "service" using gmd:hierarchyLevel/gmd:MD_ScopeCode element.
+Additionally the name of the hierarchy level shall be given using element gmd:hierarchyLevelName element with a Non-empty Free Text Element containing the term "service" in the language of the metadata.
+The multiplicity of both of these elements is 1.-->
+	<gmd:hierarchyLevel>
+		<gmd:MD_ScopeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode" codeListValue="service"/>
+	</gmd:hierarchyLevel>
+	<gmd:hierarchyLevelName>
+		<gco:CharacterString>Service</gco:CharacterString>
+	</gmd:hierarchyLevelName>
+	<!--TG Requirement C.6: metadata/2.0/req/common/md-point-of-contact: Point of contact for the responsible party for the provided metadata shall be given using element gmd:MD_metadata/gmd:contact/gmd:CI_ResponsibleParty. The multiplicity of this element is 1..*. The gmd:CI_ResponsibleParty element shall contain the following child elements: The name of the responsible organisation shall be provided as the value of gmd:organisationName element with a Non-empty Free Text Element content. The email address of the organisation shall be provided as the value of gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address/gmd:electronicMailAddress element with a Non-empty Free Text Element containing a functioning email address of the responsible party. The value of gmd:role/gmd:CI_RoleCode shall point to the value "pointOfContact" of [ISO 19139] code list CI_RoleCode.-->
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty>
+			<gmd:organisationName>
+				<gco:CharacterString>MyOrganisation</gco:CharacterString>
+			</gmd:organisationName>
+			<gmd:contactInfo>
+				<gmd:CI_Contact>
+					<gmd:address>
+						<gmd:CI_Address>
+							<gmd:electronicMailAddress>
+								<gco:CharacterString>info@my-organisation.eu</gco:CharacterString>
+							</gmd:electronicMailAddress>
+						</gmd:CI_Address>
+					</gmd:address>
+				</gmd:CI_Contact>
+			</gmd:contactInfo>
+			<gmd:role>
+				<gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+			</gmd:role>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<!--TG Requirement C.7: metadata/2.0/req/common/md-date: The latest update date of the metadata description shall be given for each metadata record. It shall be encoded using the gmd:MD_Metadata/gmd:dateStamp element. If no updates to the metadata have been made since publishing it, the creation date of the metadata shall be used instead. The multiplicity of this element is 1.-->
+	<gmd:dateStamp>
+		<gco:DateTime>2019-05-15T09:00:00</gco:DateTime>
+		<!-- To also specify the time zone (optional), the value would be e.g. 2019-05-15T09:00:00+02:00 -->
+	</gmd:dateStamp>
+	<gmd:referenceSystemInfo>
+		<gmd:MD_ReferenceSystem>
+			<gmd:referenceSystemIdentifier>
+				<gmd:RS_Identifier>
+					<gmd:code>
+						<gmx:Anchor xlink:href="http://www.opengis.net/def/crs/EPSG/0/4258">EPSG:4258</gmx:Anchor>
+					</gmd:code>
+				</gmd:RS_Identifier>
+			</gmd:referenceSystemIdentifier>
+		</gmd:MD_ReferenceSystem>
+	</gmd:referenceSystemInfo>
+	<!--TG Requirement 3.2: metadata/2.0/req/sds/service-identification-element: The first gmd:identificationInfo property of gmd:MD_Metadata element shall contain a srv:SV_ServiceIdentification element for identifying an INSPIRE Spatial Data Service.-->
+	<gmd:identificationInfo>
+		<srv:SV_ServiceIdentification>
+			<!--TG Requirement C.8: metadata/2.0/req/common/resource-title: A human readable, non-empty title of the described data set, data set series or service shall be provided. It shall be encoded using the gmd:citation/gmd:CI_Citation/gmd:title element with a Non-empty Free Text Element content in the language of the metadata. The multiplicity of the element is 1.-->
+			<!--TG Requirement C.11: metadata/2.0/req/common/temporal-reference: At least one temporal reference describing the resource shall be given using gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:date element, with one of the following date types: - publication for date of publication of the resource, - revision for the date of last revision of the resource, or - creation for the date of creation of the resource.
+The date type shall be given using the gmd:citation/gmd:CI_Citation/gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode element and it shall point to the corresponding value of [ISO 19139] code list CI_DateTypeCode mentioned above.
+The date values shall be expressed using Gregorian calendar and in accordance with [ISO 8601] with either date precision or date and time precision. For date precision the gmd:CI_Date/gmd:date/gco:Date element, and for date and time precision gmd:CI_Date/gmd:date/gco:DateTime element shall be used.-->
+			<!--TG Requirement C.12: metadata/2.0/req/common/max-1-date-of-creation: Not more than one date of creation for the described resource shall be given.-->
+			<!--TG Requirement C.13: metadata/2.0/req/common/max-1-date-of-last-revision: Not more than one date of last revision for the described resource shall be given.-->
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>Land Use map of MyCountry</gco:CharacterString>
+					</gmd:title>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2019-05-15</gco:Date>
+							</gmd:date>
+							<gmd:dateType>
+								<gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">Creation</gmd:CI_DateTypeCode>
+							</gmd:dateType>
+						</gmd:CI_Date>
+					</gmd:date>
+				</gmd:CI_Citation>
+			</gmd:citation>
+			<!--TG Requirement C.9: metadata/2.0/req/common/resource-abstract: A non-empty brief narrative summary of the content of the described data set, data set series or service shall be provided. It shall be encoded using the gmd:abstract element with a Non-empty Free Text Element content in the language of the metadata. The multiplicity of this element is 1.-->
+			<!-- TG Requirement 3.3: metadata/2.0/req/sds/spatial-resolution: For services with restriction on the spatial resolution, these restrictions shall be expressed in the gmd:abstract element with a Non-empty Free Text Element content. The spatial resolution restriction text shall include either an equivalent scale as integer valued scale denominator or a resolution distance using a numerical length value and with a unit of length.-->
+			<gmd:abstract>
+				<gco:CharacterString>This service provides a map of the land use distribution of MyCountry. To be used only at scales lower than 1:10000.</gco:CharacterString>
+			</gmd:abstract>
+			<!--TG Requirement C.10: metadata/2.0/req/common/responsible-organisation: The point of contact for the organisation responsible for the establishment, management, maintenance and distribution of the described resource shall be given using element gmd:pointOfContact/gmd:CI_ResponsibleParty. The multiplicity of this element is 1..*.
+The gmd:CI_ResponsibleParty element shall contain the following child elements: The name of the organisation shall be given as the value of gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:organisationName element with a Non-empty Free Text Element content.
+The email address of the organisation shall be provided as the value of gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address/gmd:electronicMailAddress element with a Non-empty Free Text Element containing a functioning email address of the responsible party.
+The value of gmd:pointOfContact/gmd:CI_ResponsibleParty/gmd:role/gmd:CI_RoleCode shall point to the most relevant value of ISO 19139 code list CI_RoleCode.-->
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:organisationName>
+						<gco:CharacterString>MyOrganisation</gco:CharacterString>
+					</gmd:organisationName>
+					<gmd:contactInfo>
+						<gmd:CI_Contact>
+							<gmd:address>
+								<gmd:CI_Address>
+									<gmd:electronicMailAddress>
+										<gco:CharacterString>info@my-organisation.eu</gco:CharacterString>
+									</gmd:electronicMailAddress>
+								</gmd:CI_Address>
+							</gmd:address>
+						</gmd:CI_Contact>
+					</gmd:contactInfo>
+					<gmd:role>
+						<gmd:CI_RoleCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_RoleCode" codeListValue="owner"/>
+					</gmd:role>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<!--TG Requirement C.15: metadata/2.0/req/common/keyword-originating-cv: When using keywords originating from a controlled vocabulary, the originating controlled vocabulary shall be cited using gmd:descriptiveKeywords/gmd:MD_Keywords/gmd:thesaurusName/gmd:CI_Citation element.
+The title of the vocabulary shall be given using gmd:title element with a Non-empty Free Text Element content.
+The publication date of the vocabulary shall be given using the gmd:date/gmd:CI_Date/gmd:date/gco:Date and gmd:dateType/gmd:CI_DateTypeCode elements.-->
+			<!--TG Requirement 3.4: metadata/2.0/req/sds/sds-category
+At least one Spatial Data Service category or subcategory for the described service shall be given using the language-neutral keyword values as defined in Part D 4 “Classification of Spatial Data Services” of [Regulation 1205/2008].-->
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceCategory/infoMapAccessService">infoMapAccessService</gmx:Anchor>
+					</gmd:keyword>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gmx:Anchor xlink:href="http://data.europa.eu/eli/reg/2008/1205">Commission Regulation (EC) No 1205/2008 of 3 December 2008 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards metadata</gmx:Anchor>
+							</gmd:title>
+							<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2008-12-03</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">Publication</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<!--TG Requirement C.16: metadata/2.0/req/common/group-keywords-by-cv: All keywords originating from the same controlled vocabulary, or its version, shall be grouped under one gmd:descriptiveKeywords/gmd:MD_Keywords element. A single gmd:MD_Keywords element may only contain keywords originating from the one cited controlled vocabulary, or its version.-->
+			<gmd:descriptiveKeywords>
+				<gmd:MD_Keywords>
+					<gmd:keyword>
+						<gmx:Anchor xlink:href="https://www.eionet.europa.eu/gemet/en/concept/4614">land development</gmx:Anchor>
+					</gmd:keyword>
+					<gmd:keyword>
+						<gmx:Anchor xlink:href="https://www.eionet.europa.eu/gemet/en/concept/11323">land use regime</gmx:Anchor>
+					</gmd:keyword>
+					<gmd:thesaurusName>
+						<gmd:CI_Citation>
+							<gmd:title>
+								<gmx:Anchor xlink:href="https://www.eionet.europa.eu/gemet/en/concept/13102">GEMET - Concepts, version 4.1.3</gmx:Anchor>
+							</gmd:title>
+							<gmd:date>
+								<gmd:CI_Date>
+									<gmd:date>
+										<gco:Date>2019-01-28</gco:Date>
+									</gmd:date>
+									<gmd:dateType>
+										<gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">Publication</gmd:CI_DateTypeCode>
+									</gmd:dateType>
+								</gmd:CI_Date>
+							</gmd:date>
+						</gmd:CI_Citation>
+					</gmd:thesaurusName>
+				</gmd:MD_Keywords>
+			</gmd:descriptiveKeywords>
+			<!--TG Requirement C.18: metadata/2.0/req/common/conditions-for-access-and-use: Conditions for access and use of the described resource shall be described using exactly one gmd:resourceConstraints/gmd:MD_LegalConstraints element. This element shall not be the same used for describing limitations on public access (see 2.4.6).
+The gmd:resourceConstraints/gmd:MD_LegalConstraints element for conditions for access and use shall be encoded as follows:
+One instance of either gmd:accessConstraints or gmd:useConstraints element shall be given. In both cases this element shall contain a gmd:MD_RestrictionCode element with code list value "otherRestrictions".
+Additionally at least one instance of gmd:otherConstraints shall be given describing the actual conditions.
+If no conditions apply the gmd:otherConstraints shall include a gmx:Anchor element pointing to the value "noConditionsApply" in the code list ConditionsApplyingToAccessAndUse.
+If the conditions are unknown gmd:otherConstraints shall include a gmx:Anchor element pointing to the value "conditionsUnknown" in the code list ConditionsApplyingToAccessAndUse.
+In other cases gmd:otherConstraints shall include a Non-empty Free Text Element with a textual description of the conditions in the language of the metadata. This text shall include descriptions of terms and conditions, including where applicable, the corresponding fees or an URL pointing to an online resource where these terms and conditions are described.-->
+			<gmd:resourceConstraints>
+				<gmd:MD_LegalConstraints>
+					<gmd:useConstraints>
+						<gmd:MD_RestrictionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions"/>
+					</gmd:useConstraints>
+					<gmd:otherConstraints>
+						<gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadata-codelist/ConditionsApplyingToAccessAndUse/noConditionsApply">No conditions apply to access and use</gmx:Anchor>
+					</gmd:otherConstraints>
+				</gmd:MD_LegalConstraints>
+			</gmd:resourceConstraints>
+			<!--TG Requirement C.17: metadata/2.0/req/common/limitations-on-public-access: Limitations on public access (or lack of such limitations) for the described resource shall be described using exactly one gmd:resourceConstraints/gmd:MD_LegalConstraints element. This element shall not be the same one as used for describing conditions applying to access and use (see 2.4.7).
+The limitations on public access (or lack of such limitations) based on reasons referred to in point (a) or in points (c) to (h) of Article 13(1) of INSPIRE Directive quoted above, the gmd:resourceConstraints/gmd:MD_LegalConstraints element shall include a combination of: - one instance of gmd:accessConstraints/gmd:MD_RestrictionCode element with code list value "otherRestrictions" and - at least one instance of gmd:otherConstraints/gmx:Anchor pointing to one of the values from the code list for LimitationsOnPublicAccess. If there are no limitations on public access, the element shall point to the code list value "noLimitations".-->
+			<gmd:resourceConstraints>
+				<gmd:MD_LegalConstraints>
+					<gmd:accessConstraints>
+						<gmd:MD_RestrictionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions"/>
+					</gmd:accessConstraints>
+					<gmd:otherConstraints>
+						<gmx:Anchor xlink:href="http://inspire.ec.europa.eu/metadata-codelist/LimitationsOnPublicAccess/INSPIRE_Directive_Article13_1d">Public access to spatial data sets and services would adversely affect the confidentiality of commercial or industrial information, where such confidentiality is provided for by national or Community law to protect a legitimate economic interest, including the public interest in maintaining statistical confidentiality and tax secrecy.</gmx:Anchor>
+					</gmd:otherConstraints>
+				</gmd:MD_LegalConstraints>
+			</gmd:resourceConstraints>
+			<!--TG Requirement 3.5: metadata/2.0/req/sds/sds-type: Spatial Data Service type shall be given using element srv:serviceType/gco:LocalName. The multiplicity of this element is 1.-->
+			<!--TG Requirement 4.1: metadata/2.0/req/ns/sds-type: Spatial Data Service type shall be given encoded as specified in TG Requirement 3.5. The value for the element shall be "view", "download", "discovery" or "transformation" depending on the kind of the described Network Service. The multiplicity of the srv:serviceType/gco:LocalName element used for the above purpose is 1.-->
+			<srv:serviceType>
+				<gco:LocalName codeSpace="http://inspire.ec.europa.eu/metadata-codelist/SpatialDataServiceType">view</gco:LocalName>
+			</srv:serviceType>
+			<srv:extent>
+				<gmd:EX_Extent>
+					<!--TG Requirement C.19: metadata/2.0/req/common/bounding-box: A minimal containing geographic bounding box of the data set or data set series shall be described. This bounding box shall be encoded using one or more gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox elements.
+The multiplicity of this element is 1..* for data sets and data set series, and 0..n for services.
+The bounding coordinate values for west and east bound longitudes and south and north bound latitudes shall be given in decimal degree values using WGS 84 Coordinate Reference System, as specified for the EX_GeographicBoundingBox class of the [ISO 19115] data model. The coordinates shall be given with at least 2 decimal precision.-->
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>14.18</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>14.58</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>35.81</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>36.08</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+					<!--TG Requirement C.14: metadata/2.0/req/common/temporal-extent: If a temporal reference is provided using the temporal extent, it shall be encoded using the gmd:extent/gmd:EX_Extent element with one or more gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent child elements. The value of each of these element may be an individual date or a time period between two dates.
+The multiplicity of this element is 0..*.
+A single individual date or a time period shall be encoded using one gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent element. For individual dates this element shall contain a gml:TimeInstant/gml:timePosition element with the date value given according to [ISO 8601].
+For a single time period the gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent element shall contain a gml:TimePeriod element containing start and end dates of the period. In case the time period is open-ended with either the start or the end date unknown, the elements gml:startPosition or gml:endPosition may be used with an empty value and the attribute indeterminatePosition with value "unknown". If the temporal extent is on-going, the gml:endPosition may be used with an empty value and the attribute indeterminatePosition with value "now".
+Individual dates and time periods may be combined to form a complex temporal extent using multiple gmd:temporalElement/gmd:EX_TemporalExtent/gmd:extent elements.-->
+					<gmd:temporalElement>
+						<gmd:EX_TemporalExtent>
+							<gmd:extent>
+								<gml:TimePeriod gml:id="IDcd3b1c4f-b5f7-439a-afc4-3317a4cd89be">
+									<gml:beginPosition>2019-04-29</gml:beginPosition>
+									<gml:endPosition indeterminatePosition="now"/>
+								</gml:TimePeriod>
+							</gmd:extent>
+						</gmd:EX_TemporalExtent>
+					</gmd:temporalElement>
+				</gmd:EX_Extent>
+			</srv:extent>
+			<srv:couplingType>
+				<srv:SV_CouplingType codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#SV_CouplingType" codeListValue="tight"/>
+			</srv:couplingType>
+			<srv:containsOperations>
+				<srv:SV_OperationMetadata>
+					<srv:operationName>
+						<gco:CharacterString>GetCapabilities</gco:CharacterString>
+					</srv:operationName>
+					<srv:DCP>
+						<srv:DCPList codeListValue="WebServices" codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DCPList"/>
+					</srv:DCP>
+					<srv:connectPoint>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://my-service-endpoint</gmd:URL>
+							</gmd:linkage>
+							<gmd:protocol>
+								<gco:CharacterString>OGC:WMS-http-get-capabilities</gco:CharacterString>
+							</gmd:protocol>
+						</gmd:CI_OnlineResource>
+					</srv:connectPoint>
+				</srv:SV_OperationMetadata>
+			</srv:containsOperations>
+			<srv:containsOperations>
+				<srv:SV_OperationMetadata>
+					<srv:operationName>
+						<gco:CharacterString>GetMap</gco:CharacterString>
+					</srv:operationName>
+					<srv:DCP>
+						<srv:DCPList codeListValue="WebServices" codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DCPList"/>
+					</srv:DCP>
+					<srv:connectPoint>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://my-service-endpoint</gmd:URL>
+							</gmd:linkage>
+							<gmd:protocol>
+								<gco:CharacterString>OGC:WMS-http-get-map</gco:CharacterString>
+							</gmd:protocol>
+						</gmd:CI_OnlineResource>
+					</srv:connectPoint>
+				</srv:SV_OperationMetadata>
+			</srv:containsOperations>
+			<srv:containsOperations>
+				<srv:SV_OperationMetadata>
+					<srv:operationName>
+						<gco:CharacterString>GetFeatureInfo</gco:CharacterString>
+					</srv:operationName>
+					<srv:DCP>
+						<srv:DCPList codeListValue="WebServices" codeList="https://standards.iso.org/iso/19115/resources/Codelists/cat/codelists.xml#DCPList"/>
+					</srv:DCP>
+					<srv:connectPoint>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://my-service-endpoint</gmd:URL>
+							</gmd:linkage>
+							<gmd:protocol>
+								<gco:CharacterString>OGC:WMS-http-get-featureinfo</gco:CharacterString>
+							</gmd:protocol>
+						</gmd:CI_OnlineResource>
+					</srv:connectPoint>
+				</srv:SV_OperationMetadata>
+			</srv:containsOperations>
+			<!--TG Requirement 3.6: metadata/2.0/req/sds/coupled-resource: Links pointing to the online metadata descriptions of data sets provided by the described service shall be given using srv:operatesOn element. The multiplicity of this element is 0..n. This property shall be implemented by reference. The xlink:href attribute of each of the srv:operatesOn elements shall contain a URI pointing to the gmd:MD_DataIdentification element of the metadata record of the provided the data set or data set series.-->
+			<srv:operatesOn  xlink:href="https://inspire.ec.europa.eu/sites/default/files/md_2.0_datasets_example.xml"/>
+		</srv:SV_ServiceIdentification>
+	</gmd:identificationInfo>
+	<gmd:distributionInfo>
+		<gmd:MD_Distribution>
+			<gmd:distributionFormat>
+				<gmd:MD_Format>
+					<gmd:name>
+						<gmx:Anchor xlink:href="https://www.iana.org/assignments/media-types/image/png">png</gmx:Anchor>
+					</gmd:name>
+					<gmd:version gco:nilReason="http://inspire.ec.europa.eu/codelist/VoidReasonValue/Unknown"/>
+				</gmd:MD_Format>
+			</gmd:distributionFormat>
+			<!--TG Requirement 3.7: metadata/2.0/req/sds/resource-locator
+A Resource locator linking to the described Spatial Data Service shall be given, if online access to this service is available. If no online access to the described Spatial Data Service is available, but there is a publicly available online resource providing additional information about the described service, the URL pointing to this resource shall be given instead. These links shall be encoded using gmd:transferOptions/gmd:MD_DigitalTransferOptions/gmd:onLine/ gmd:CI_OnlineResource/gmd:linkage/gmd:URL element. The multiplicity of this element is 0..n.-->
+			<gmd:transferOptions>
+				<gmd:MD_DigitalTransferOptions>
+					<gmd:onLine>
+						<gmd:CI_OnlineResource>
+							<gmd:linkage>
+								<gmd:URL>http://www.my-organisation.eu/wms?VERSION=1.3.0&amp;SERVICE=WMS&amp;REQUEST=GetCapabilities</gmd:URL>
+							</gmd:linkage>
+							<gmd:protocol>
+								<gco:CharacterString>OGC:WMS-1.3.0-http-get-capabilities</gco:CharacterString>
+							</gmd:protocol>
+							<gmd:name>
+								<gco:CharacterString>GetCapabilities request for the Land Use WMS service</gco:CharacterString>
+							</gmd:name>
+							<gmd:description>
+								<gco:CharacterString>WMS GetCapabilities request providing machine readable service metadata</gco:CharacterString>
+							</gmd:description>
+							<gmd:function>
+								<gmd:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="information"/>
+							</gmd:function>
+						</gmd:CI_OnlineResource>
+					</gmd:onLine>
+				</gmd:MD_DigitalTransferOptions>
+			</gmd:transferOptions>
+		</gmd:MD_Distribution>
+	</gmd:distributionInfo>
+	<!--TG Requirement 3.8: metadata/2.0/req/sds/only-one-dq-element
+There shall be exactly one gmd:dataQualityInfo/gmd:DQ_DataQuality element scoped to the entire described service. The scoping shall be encoded using gmd:scope/gmd:DQ_Scope/gmd:level/gmd:MD_ScopeCode element referring to value "service" of [ISO 19139] code list MD_ScopeCode61. Additionally the level shall be named using element gmd:scope/gmd:DQ_Scope/gmd:levelDescription/gmd:MD_ScopeDescription/gmd:other element with a Non-empty Free Text Element containing the term "service" in the language of the metadata.-->
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:scope>
+				<gmd:DQ_Scope>
+					<gmd:level>
+						<gmd:MD_ScopeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode" codeListValue="service"/>
+					</gmd:level>
+					<gmd:levelDescription>
+						<gmd:MD_ScopeDescription>
+							<gmd:other>
+								<gco:CharacterString>Service</gco:CharacterString>
+							</gmd:other>
+						</gmd:MD_ScopeDescription>
+					</gmd:levelDescription>
+				</gmd:DQ_Scope>
+			</gmd:scope>
+			<!--TG Requirement C.20: metadata/2.0/req/common/conformity: The degree of conformity of the described resource with an INSPIRE Implementing Rule, specification document or Conformance Class, shall be given using one or several gmd:DQ_ConformanceResult elements under gmd:report/gmd:DQ_DomainConsistency/gmd:result. For each conformity statement (i.e. for each specification), a separate gmd:DQ_ConformanceResult element shall be used. The multiplicity of this element is 1..*.-->
+			<!--TG Requirement C.21: metadata/2.0/req/common/conformity-specification: Each gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_ConformanceResult element shall include a citation of the INSPIRE Implementing Rule, specification document or Conformance Class, including its official title and the date of publication of the document, using gmd:specification/gmd:CI_Citation element.
+The title shall be given using the gmd:title child element of the citation element with a Non-empty Free Text Element content. For the INSPIRE Implementation Rule documents the value of the title element shall match exactly the official title of the cited document in the language of the metadata.
+The publication date of the cited document shall be given using gmd:date child element.
+The date value shall be expressed in accordance with ISO 8601 with only the date part included. The date type code element gmd:date/gmd:CI_Date/gmd:dateType/gmd:CI_DateTypeCode shall be given and it shall point to the value "publication" of the ISO 19139 code list CI_DateTypeCode.-->
+			<!--TG Requirement C.22: metadata/2.0/req/common/conformity-degree: Each gmd:report/gmd:DQ_DomainConsistency/gmd:result/gmd:DQ_ConformanceResult element containing a specification citation described in Requirement C.21 shall also include the degree of declared conformity against this specification using gmd:pass property with gco:Boolean value of "true" for a conformant resource and "false" for non-conformant resource. If the conformity has not yet been evaluated, the gmd:pass element shall be empty and contain a nil reason attribute with value "unknown".-->
+			<!--TG Recommendation 4.1: metadata/2.0/rec/ns/conformity: Metadata for an INSPIRE Network Services should declare the conformity to the Network Services Implementation Rules, and it should be encoded using gmd:report/gmd:DQ_DomainConsistency/gmd:result/ gmd:DQ_ConformanceResult element as specified in the TG Requirement C.2063. This element should contain a citation for the [Regulation 976/2009] encoded according to TG Requirement C.2164. The degree of conformity should be encoded according to TG Requirement C.2265. The multiplicity of the gmd:report/gmd:DQ_DomainConsistency/gmd:result/ gmd:DQ_ConformanceResult element used for the above purpose is 1.-->
+			<!--TG Recommendation 4.2: metadata/2.0/rec/ns/uri-for-regulation-976-2009: If providing the specification title as an gmx:Anchor element (as recommended in TG Recommendation C.11), the following URI should be used to refer to [Regulation 976/2009]: http://data.europa.eu/eli/reg/2009/976.-->
+			<gmd:report>
+				<gmd:DQ_DomainConsistency>
+					<gmd:result>
+						<gmd:DQ_ConformanceResult>
+							<gmd:specification>
+								<gmd:CI_Citation>
+									<gmd:title>
+										<gmx:Anchor xlink:href="http://data.europa.eu/eli/reg/2009/976">Commission Regulation (EC) No 976/2009 of 19 October 2009 implementing Directive 2007/2/EC of the European Parliament and of the Council as regards the Network Services</gmx:Anchor>
+									</gmd:title>
+									<gmd:date>
+										<gmd:CI_Date>
+											<gmd:date>
+												<gco:Date>2010-12-08</gco:Date>
+											</gmd:date>
+											<gmd:dateType>
+												<gmd:CI_DateTypeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">Publication</gmd:CI_DateTypeCode>
+											</gmd:dateType>
+										</gmd:CI_Date>
+									</gmd:date>
+								</gmd:CI_Citation>
+							</gmd:specification>
+							<gmd:explanation>
+								<gco:CharacterString>This data set is conformant with the INSPIRE Implementing Rules for Network Services</gco:CharacterString>
+							</gmd:explanation>
+							<gmd:pass>
+								<gco:Boolean>true</gco:Boolean>
+							</gmd:pass>
+						</gmd:DQ_ConformanceResult>
+					</gmd:result>
+				</gmd:DQ_DomainConsistency>
+			</gmd:report>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+</gmd:MD_Metadata>

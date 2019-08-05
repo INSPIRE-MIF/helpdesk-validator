@@ -1,3 +1,9 @@
+# IMPORTANT - Please read carefully!
+The old instance of the Validator has been just replaced by [the new cloud instance](http://inspire.ec.europa.eu/validator/), where you can test additional resources (please refer to the [release planning](release_planning.md) for details).
+
+_____________
+
+
 # INSPIRE Validation Community
 This space is used for discussions and announcements around INSPIRE validation & conformity testing.
 

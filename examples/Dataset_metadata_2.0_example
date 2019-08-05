@@ -2,7 +2,7 @@
 <gmd:MD_Metadata xmlns:gmd="http://www.isotc211.org/2005/gmd"
   xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmx="http://www.isotc211.org/2005/gmx"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gml="http://www.opengis.net/gml/3.2"
-  xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd https://inspire.ec.europa.eu/draft-schemas/inspire-md-schemas-temp/apiso-inspire/apiso-inspire.xsd">
+  xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://schemas.opengis.net/csw/2.0.2/profiles/apiso/1.0.0/apiso.xsd">
   
 <!--TG Recommendation C.1: metadata/2.0/rec/common/fileIdentifier: The metadata record should contain a globally unique and persistent fileIdentifier element.-->  
   <gmd:fileIdentifier>
@@ -47,14 +47,8 @@
   
 <!--TG Requirement C.7: metadata/2.0/req/common/md-date: The latest update date of the metadata description shall be given for each metadata record. It shall be encoded using the gmd:MD_Metadata/gmd:dateStamp element. If no updates to the metadata have been made since publishing it, the creation date of the metadata shall be used instead. The multiplicity of this element is 1.-->
   <gmd:dateStamp>
-    <gco:DateTime>2019-05-15T09:00:00</gco:DateTime>
+    <gco:DateTime>2019-05-15T09:00:00</gco:DateTime> <!-- To also specify the time zone (optional), the value would be e.g. 2019-05-15T09:00:00+02:00 -->
   </gmd:dateStamp>
-  <gmd:metadataStandardName>
-    <gco:CharacterString>ISO19115</gco:CharacterString>
-  </gmd:metadataStandardName>
-  <gmd:metadataStandardVersion>
-    <gco:CharacterString>2003/Cor.1:2006</gco:CharacterString>
-  </gmd:metadataStandardVersion>
   
   <!--TG Requirement 2.1: metadata/2.0/req/isdss/crs: The coordinate reference system(s) used in the described data set or data set series shall be given using element gmd:referenceSystemInfo/gmd:MD_ReferenceSystem/gmd:referenceSystemIdentifier/gmd:RS_Identifier.
 The multiplicity of this element is 1..*.
@@ -123,7 +117,7 @@ The multiplicity of this element is 1..*.-->
           <gmd:identifier>
             <gmd:MD_Identifier>
 				<gmd:code>
-					<gmx:Anchor xlink:href="http://www.my-organisation.eu/so/lu/land-use-map">http://www.my-organisation.eu/so/lu/land-use-map</gmx:Anchor>
+					<gmx:Anchor xlink:href="http://www.my-organisation.eu/so/lu/land-use-map">http://www.my-organisation.eu/so/lu/land-use-map</gmx:Anchor> <!-- if the identifier is not an HTTP URI, the use of <gco:CharacterString> is also possible -->
 				</gmd:code>
             </gmd:MD_Identifier>
           </gmd:identifier>
@@ -343,14 +337,11 @@ If the version of the encoding is unknown or if the encoding is not versioned, t
       <gmd:distributionFormat>
         <gmd:MD_Format>
           <gmd:name>
-            <gco:CharacterString>Existing Land Use GML application schema</gco:CharacterString>
+            <gmx:Anchor xlink:href="https://www.iana.org/assignments/media-types/application/gml+xml">gml+xml</gmx:Anchor>
           </gmd:name>
           <gmd:version>
-            <gco:CharacterString>3.0</gco:CharacterString>
+            <gco:CharacterString>3.2.1</gco:CharacterString>
           </gmd:version>
-          <gmd:specification>
-            <gco:CharacterString>D2.8.III.4 Data Specification on Land Use – Technical Guidelines</gco:CharacterString>
-          </gmd:specification>
         </gmd:MD_Format>
       </gmd:distributionFormat>
       

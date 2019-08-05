@@ -4,7 +4,8 @@
 
 ## v1.0.10
 
-**Status:** deployed in deployed in [production](http://inspire-sandbox.jrc.ec.europa.eu/etf-webapp/)
+
+**Status:** deployed in [production](http://inspire.ec.europa.eu/validator/)
 
 **Release date:** 30/07/2019
 
@@ -16,7 +17,7 @@ Relaxed the validation allowing xsd:date xsd:gYearMonth xsd:gYear
 
 ## v1.0.9
 
-**Status:** deployed in deployed in [production](http://inspire-sandbox.jrc.ec.europa.eu/etf-webapp/)
+**Status:** deployed in deployed in [production](http://inspire.ec.europa.eu/validator/)
 
 **Release date:** 30/07/2019
 
@@ -27,7 +28,7 @@ Updated links refering to metadata repository because of the rebuild of branches
 
 ## v1.0.8
 
-**Status:** deployed in deployed in [production](http://inspire-sandbox.jrc.ec.europa.eu/etf-webapp/)
+**Status:** deployed in deployed in [production](http://inspire.ec.europa.eu/validator/)
 
 **Release date:** 30/07/2019
 
@@ -41,7 +42,7 @@ Metadata Dataset has been updated relaxing the CodeList validation
 
 ## v1.0.7
 
-**Status:** deployed in deployed in [production](http://inspire-sandbox.jrc.ec.europa.eu/etf-webapp/)
+**Status:** deployed in deployed in [production](http://inspire.ec.europa.eu/validator/)
 
 **Release date:** 26/07/2019
 
@@ -53,7 +54,7 @@ A CodeList value has been added
 
 ## v1.0.6
 
-**Status:** deployed in deployed in [production](http://inspire-sandbox.jrc.ec.europa.eu/etf-webapp/)
+**Status:** deployed in deployed in [production](http://inspire.ec.europa.eu/validator/)
 
 **Release date:** 05/06/2019
 
@@ -65,7 +66,7 @@ The Croatian title of the Regulation 1089/2010 has been added.
 
 ## v1.0.5
 
-**Status:** deployed in deployed in [production](http://inspire-sandbox.jrc.ec.europa.eu/etf-webapp/)
+**Status:** deployed in deployed in [production](http://inspire.ec.europa.eu/validator/)
 
 **Release date:** 04/06/2019
 
@@ -79,7 +80,7 @@ The XPath of Coordinate Reference System and Spatial Representation Type have be
 
 ## v1.0.4
 
-**Status:** deployed in deployed in [production](http://inspire-sandbox.jrc.ec.europa.eu/etf-webapp/)
+**Status:** deployed in deployed in [production](http://inspire.ec.europa.eu/validator/)
 
 **Release date:** 13/05/2019
 
@@ -91,7 +92,7 @@ The validation checks that the 'zoning' properties references a resource 'Cadast
 
 ## v1.0.3
 
-**Status:** deployed in deployed in [production](http://inspire-sandbox.jrc.ec.europa.eu/etf-webapp/)
+**Status:** deployed in deployed in [production](http://inspire.ec.europa.eu/validator/)
 
 **Release date:** 15/04/2019
 
@@ -103,7 +104,7 @@ The assertion checks that there is a non-empty value of the element CI_DateTypeC
 
 ## v1.0.2
 
-**Status:** deployed in deployed in [production](http://inspire-sandbox.jrc.ec.europa.eu/etf-webapp/)
+**Status:** deployed in deployed in [production](http://inspire.ec.europa.eu/validator/)
 
 **Release date:** 07/03/2019
 
@@ -117,7 +118,7 @@ Some modifications are needed in the ETS code. The validations have been divided
 
 ## v1.0.1
 
-**Status:** deployed in deployed in [production](http://inspire-sandbox.jrc.ec.europa.eu/etf-webapp/)
+**Status:** deployed in deployed in [production](http://inspire.ec.europa.eu/validator/)
 
 **Release date:** 01/02/2019
 
@@ -149,7 +150,7 @@ Modifications in the code to correct the Spanish and French titles of GEMET cont
 
 ## v1.0.0 
 
-**Status:** deployed in [production](http://inspire-sandbox.jrc.ec.europa.eu/etf-webapp/)
+**Status:** deployed in [production](http://inspire.ec.europa.eu/validator/)
 
 **Release date:** 09/09/2018
 
