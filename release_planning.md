@@ -3,7 +3,7 @@
 ## Production
 These changes are already present on the Staging instance to be tested, and will be incorporated on the Production instance eventually.
 
-*Planned release date: 09/08/2019*
+*Planned release date: 02/09/2019*
 
 ### ATS/ETS
 
@@ -16,17 +16,15 @@ These changes are already present on the Staging instance to be tested, and will
 * ETS WCS v1.0
     * https://github.com/inspire-eu-validation/ets-repository/tree/wcs-tg-1.0
 
+### ETF
+* Test types integrations
+    * SOS
+    * WCS
 
 ## Staging
 These features are under development and will be deployed on the staging environment to be validated.
 
-*Planned release date: 25/07/2019*
-
-### ATS/ETS
-* ATS CSW v3.1
-    * https://github.com/inspire-eu-validation/discovery-service/tree/review-ats-csw-3.1
-* ETS CSW v3.1
-    * https://github.com/inspire-eu-validation/ets-repository/tree/csw-tg-3.1
+*Planned release date: 01/10/2019*
 
 ### ETF
 * Improve test reports with an statistics summary
@@ -34,6 +32,7 @@ These features are under development and will be deployed on the staging environ
 * Memory consumption improvement and shorter test run execution times
 * Manual tests checklist on test report
 
+____________
 
 # Past releases
 
@@ -69,3 +68,14 @@ These features are under development and will be deployed on the staging environ
 * Test Run log opened in separated tab
 * Cancel button on delete report action works properly
 * Show ETS dependencies on Conformance Classes selection
+
+## Staging
+
+*Released on 20/08/2019*
+
+### ATS/ETS
+* ATS CSW v3.1
+    * https://github.com/inspire-eu-validation/discovery-service/tree/review-ats-csw-3.1
+* ETS CSW v3.1
+    * https://github.com/inspire-eu-validation/ets-repository/tree/csw-tg-3.1
+
