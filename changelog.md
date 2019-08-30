@@ -2,12 +2,13 @@
 
 # Production
 
-## v1.0.10
+## v1.0.7
 
 
 **Status:** deployed in [production](http://inspire.ec.europa.eu/validator/)
 
-**Release date:** 30/07/2019
+**Release date:** 23/07/2019
+
 
 ### Modifications in ETS for the issue [#89](https://github.com/inspire-eu-validation/community/issues/89)
 Relaxed the validation allowing xsd:date xsd:gYearMonth xsd:gYear
@@ -15,22 +16,12 @@ Relaxed the validation allowing xsd:date xsd:gYearMonth xsd:gYear
 * ETS: [md-iso.h.1](https://github.com/inspire-eu-validation/ets-repository/commit/ece63911fd528907540f30a422efc28257905e65)
 * ETS Version: v0.3.0
 
-## v1.0.9
-
-**Status:** deployed in deployed in [production](http://inspire.ec.europa.eu/validator/)
-
-**Release date:** 30/07/2019
 
 ### Modifications in ETS for some links
 Updated links refering to metadata repository because of the rebuild of branches
 * ETS Repository: [metadata/](https://github.com/inspire-eu-validation/metadata/tree/master/)
 * ETS: [links updated](https://github.com/inspire-eu-validation/ets-repository/commit/4d74b0c69a6621fbdbc6945e3140bcb6afe063a2)
 
-## v1.0.8
-
-**Status:** deployed in deployed in [production](http://inspire.ec.europa.eu/validator/)
-
-**Release date:** 30/07/2019
 
 ### Modifications in ETS for the issues [#69](https://github.com/inspire-eu-validation/community/issues/69), [#70](https://github.com/inspire-eu-validation/community/issues/70), [#71](https://github.com/inspire-eu-validation/community/issues/71), [#72](https://github.com/inspire-eu-validation/community/issues/72), [#73](https://github.com/inspire-eu-validation/community/issues/73)
 Metadata Dataset has been updated relaxing the CodeList validation
@@ -40,17 +31,13 @@ Metadata Dataset has been updated relaxing the CodeList validation
 * ETS: [md common req C.18: Language Code](https://github.com/inspire-eu-validation/ets-repository/commit/5b75bc7931f9d4f4f58d2505b05f463b306c1de7)
 * ETS Version: v0.3.0
 
-## v1.0.7
-
-**Status:** deployed in deployed in [production](http://inspire.ec.europa.eu/validator/)
-
-**Release date:** 26/07/2019
 
 ### Modifications in ETS for the issue [#52](https://github.com/inspire-eu-validation/community/issues/52)
 A CodeList value has been added
 * ETS Repository: [metadata/2.0/common](https://github.com/inspire-eu-validation/ets-repository/tree/master/metadata/2.0/common/)
 * ETS: [md common req C.5: Language Code](https://github.com/inspire-eu-validation/ets-repository/commit/ece63911fd528907540f30a422efc28257905e65)
 * ETS Version: v0.3.0
+
 
 ## v1.0.6
 
@@ -207,4 +194,24 @@ The DQ_ConformanceResult has an element gmd:pass that must contain a value of ty
 * ATS: [ds-specification.md](https://github.com/inspire-eu-validation/metadata/blob/master/iso-19115-19119/ds-specification.md)
 
 # Staging
+
+##v1.0.8
+
+**Status:** deployed in [staging](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp/)
+
+
+### Modifications in ETS for the issue [#101](https://github.com/inspire-eu-validation/community/issues/101) 
+The validator was looking for `/Capabilities/ServiceProvider/Role` instead of `/Capabilities/ServiceProvider/ServiceContact/Role`. 
+The corresponding file was modified.
+* ETS Repository:  [dis-csw-core-soapui-project.xml](https://github.com/inspire-eu-validation/ets-repository/blob/master/service/ds-wfs-direct-soapui-project.xml)
+
+### Modifications in ETS for the requirement on [#94](https://github.com/inspire-eu-validation/community/issues/94) 
+The test was checking that the value follow `let $regex_float := '^-?\d+\.\d{2,}'` which means 100 is not valid but 100.00 is.
+The corresponding file was modified.
+* ETS Repository:  [ets-md-datasets-and-series-bsxets.xml](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/datasets-and-series/ets-md-datasets-and-series-bsxets.xml)
+
+### Modifications in ETS for the requirement on [#93](https://github.com/inspire-eu-validation/community/issues/93) 
+The test was checking that the value follow `let $regex_float := '^-?\d+\.\d{2,}'` which means 100 is not valid but 100.00 is.
+The corresponding file was modified.
+* ETS Repository:  [ets-md-datasets-and-series-bsxets.xml](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/datasets-and-series/ets-md-datasets-and-series-bsxets.xml)
 
