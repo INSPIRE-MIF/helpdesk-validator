@@ -205,11 +205,6 @@ The validator was looking for `/Capabilities/ServiceProvider/Role` instead of `/
 The corresponding file was modified.
 * ETS Repository:  [dis-csw-core-soapui-project.xml](https://github.com/inspire-eu-validation/ets-repository/blob/master/service/ds-wfs-direct-soapui-project.xml)
 
-### Modifications in ETS for the requirement on [#94](https://github.com/inspire-eu-validation/community/issues/94) 
-The test was checking that the value follow `let $regex_float := '^-?\d+\.\d{2,}'` which means 100 is not valid but 100.00 is.
-The corresponding file was modified.
-* ETS Repository:  [ets-md-datasets-and-series-bsxets.xml](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/datasets-and-series/ets-md-datasets-and-series-bsxets.xml)
-
 ### Modifications in ETS for the requirement on [#93](https://github.com/inspire-eu-validation/community/issues/93) 
 The test was checking that the value follow `let $regex_float := '^-?\d+\.\d{2,}'` which means 100 is not valid but 100.00 is.
 The corresponding file was modified.
