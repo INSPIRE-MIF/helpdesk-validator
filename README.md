@@ -5,9 +5,9 @@ _____________
 
 
 # INSPIRE Validation Community
-This space is used for discussions and announcements around INSPIRE validation & conformity testing. To report a problem or to make a publication, please, read the [contribution guidelines](contribution_guidelines.md)
+This space is used for discussions and announcements around INSPIRE validation & conformity testing. To report a problem or to make a publication, please, read the [contribution guidelines](contribution_guidelines.md).
 
-Use the issue tracker to
+Use the issue tracker to:
 - [report a problem](https://github.com/inspire-eu-validation/community/issues/new?template=problem.md) with the INSPIRE validator or test results,
 - [propose a new feature or an improvement](https://github.com/inspire-eu-validation/community/issues/new?template=improvement-proposal.md) to the existing functionality of the INSPIRE validator, or
 - [start a discussion or raise a question](https://github.com/inspire-eu-validation/community/issues/new?template=discussion.md)  on the INSPIRE validator
