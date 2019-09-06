@@ -101,24 +101,24 @@ These labels are assigned to the helpdesk issues by the helpdesk team. They will
 
 
 
-* bug: Something is not working.
+* **bug**: Something is not working.
 
-* enhancement: New feature or request.
+* **enhancement**: New feature or request.
 
-* for-2017.4-discussion: This issue will be discussed with the sub-group 2017.4.
+* **for-2017.4-discussion**: This issue will be discussed with the sub-group 2017.4.
 
-* under analysis: A possible solution is under analysis.
+* **under analysis**: A possible solution is under analysis.
 
-* question: Further information is requested to the issue reporter.
+* **question**: Further information is requested to the issue reporter.
 
-* planned: A solution will be developed, the task has been scheduled.
+* **planned**: A solution will be developed, the task has been scheduled.
 
-* under development: The solution is under development.
+* **under development**: The solution is under development.
 
-* ready for testing: The solution was developed, deployed in the staging enviroment and waiting for testing and acceptance by the issue reporter.
+* **ready for testing**: The solution was developed, deployed in the staging enviroment and waiting for testing and acceptance by the issue reporter.
 
-* solved: The solution was tested and accepted by the issue reporter, but not yet deployed in the production instance.
+* **solved**: The solution was tested and accepted by the issue reporter, but not yet deployed in the production instance.
 
-* deployed in reference validator: The solution was deployed in the production enviroment.
+* **deployed in reference validator**: The solution was deployed in the production enviroment.
 
-* Wontfix: This issue will not be worked on.
+* **Wontfix**: This issue will not be worked on.
