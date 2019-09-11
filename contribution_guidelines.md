@@ -17,7 +17,7 @@ First, please check that the following conditions apply:
 
 * The improvement you would like to add has not been already developed nor is under current development (please refer to the changelog and release planning documents as well as the open issues in the helpdesk).
 
-* The improvement is not already available in the staging enviroment.
+* The improvement is not already available in the staging environment.
 
 
 
@@ -31,9 +31,9 @@ Afterwards, please follow these instructions:
 
 4. An expert from the JRC will also review the pull request and check that the changes are beneficial for the INSPIRE community.
 
-5. You will be notified as soon as your contribution is published in the staging enviroment of the Validator.
+5. You will be notified as soon as your contribution is published in the staging environment of the Validator.
 
-6. Give us your feedback based on the implementation of the changes of your pull request in the staging enviroment. We would like to be sure that everything is working fine also for you.
+6. Give us your feedback based on the implementation of the changes of your pull request in the staging environment. We would like to be sure that everything is working fine also for you.
 
 
 
