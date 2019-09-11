@@ -95,7 +95,7 @@ Please, make a short description about the topic you would like to discuss.
 
 
 
-### Labeling conventions for helpdesk issues
+### Labeling conventions for [helpdesk issues](https://github.com/inspire-eu-validation/community/issues/)
 
 These labels are assigned to the helpdesk issues by the helpdesk team. They will add the label as soon as one of them applies. Here is the list of available labels:
 
