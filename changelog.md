@@ -195,7 +195,17 @@ The DQ_ConformanceResult has an element gmd:pass that must contain a value of ty
 
 # Staging
 
-##v1.0.8
+
+## v1.0.9
+
+**Status:** deployed in [staging](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp/)
+
+## Modifications in ETS for issue [#118](https://github.com/inspire-eu-validation/community/issues/118)
+There was some typo errors on Metadata 2.0 Conformance Class source.
+The corresponding typo errors were fixed
+* Corresponding pull: [Typo-fixed ](https://github.com/inspire-eu-validation/ets-repository/pull/336/commits/1fa74d8da6e3b3acb7c845700b550f103e9d0fa6)
+
+## v1.0.8
 
 **Status:** deployed in [staging](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp/)
 
