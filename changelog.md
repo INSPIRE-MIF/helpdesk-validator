@@ -201,6 +201,11 @@ The DQ_ConformanceResult has an element gmd:pass that must contain a value of ty
 ### Modifications in ETS for the issue [#111](https://github.com/inspire-eu-validation/community/issues/111) 
 The user detected a false validation that passed the test even if it should not pass. The corrections where applied on the corresponding file.
 * ETS Repository: [ets-md-common-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/common/ets-md-common-bsxets.xml)
+
+### Modifications in ETS for the issue [#74](https://github.com/inspire-eu-validation/community/issues/74) 
+The test has been relaxed. 
+* ETS Repository: [ets-md-sds-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/sds/ets-md-sds-bsxets.xml)
+
 ## v1.0.9
 
 **Status:** deployed in [staging](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp/)
