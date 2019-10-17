@@ -195,6 +195,13 @@ The DQ_ConformanceResult has an element gmd:pass that must contain a value of ty
 
 # Staging
 
+## v1.0.11
+**Status:** deployed in [staging](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp/)
+
+### Modifications in ETS for the issue [#106](https://github.com/inspire-eu-validation/community/issues/106) 
+Relaxed md-iso.f.1: Dataset keyword test
+* ETS Repository: [ets-md-common-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/1.3/iso/ets-md-iso-bsxets.xml)
+
 ## v1.0.10
 **Status:** deployed in [staging](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp/)
 
