@@ -1,3 +1,7 @@
+# Step-by-step exercise on validation using the API
+
+*Workshop on the INSPIRE Reference Validator - October 1-2, 2019, Ispra, Italy*
+
 # Steps for API usage
 
 We will be using cURL code as examples for the usage of the API. This can be translated to any programming language to automatize API calls. All the documentation on the API can be found at http://inspire.ec.europa.eu/validator/swagger-ui.html.
