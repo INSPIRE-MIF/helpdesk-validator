@@ -1,6 +1,6 @@
-# Step-by-step exercise for a metadata 2.0 validation procedure
+# Step-by-step exercise on validation using the webapp
 
-*INSPIRE Workshop - October 1-2, 2019, Ispra, Italy*
+*Workshop on the INSPIRE Reference Validator - October 1-2, 2019, Ispra, Italy*
 
 ## Introduction
 This exercise is an example of the procedure to follow in order to make a metadata record valid against the "Common Requirements Conformance Class" from Technical Guidance 2.0.
