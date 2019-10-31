@@ -195,15 +195,12 @@ The DQ_ConformanceResult has an element gmd:pass that must contain a value of ty
 
 # Staging
 
-## v1.0.11
+## v1.0.8
 **Status:** deployed in [staging](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp/)
 
 ### Modifications in ETS for the issue [#106](https://github.com/inspire-eu-validation/community/issues/106) 
 Relaxed md-iso.f.1: Dataset keyword test
 * ETS Repository: [ets-md-common-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/1.3/iso/ets-md-iso-bsxets.xml)
-
-## v1.0.10
-**Status:** deployed in [staging](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp/)
 
 ### Modifications in ETS for the issue [#111](https://github.com/inspire-eu-validation/community/issues/111) 
 The user detected a false validation that passed the test even if it should not pass. The corrections where applied on the corresponding file.
@@ -213,18 +210,10 @@ The user detected a false validation that passed the test even if it should not 
 The test has been relaxed. 
 * ETS Repository: [ets-md-sds-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/sds/ets-md-sds-bsxets.xml)
 
-## v1.0.9
-
-**Status:** deployed in [staging](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp/)
-
 ## Modifications in ETS for issue [#118](https://github.com/inspire-eu-validation/community/issues/118)
 There was some typo errors on Metadata 2.0 Conformance Class source.
 The corresponding typo errors were fixed.
 * Corresponding pull: [Typo-fixed ](https://github.com/inspire-eu-validation/ets-repository/pull/336/commits/1fa74d8da6e3b3acb7c845700b550f103e9d0fa6)
-
-## v1.0.8
-
-**Status:** deployed in [staging](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp/)
 
 ### Modifications in ETS for the issue [#101](https://github.com/inspire-eu-validation/community/issues/101) 
 The validator was looking for `/Capabilities/ServiceProvider/Role` instead of `/Capabilities/ServiceProvider/ServiceContact/Role`. 
