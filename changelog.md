@@ -210,7 +210,7 @@ The user detected a false validation that passed the test even if it should not 
 The test has been relaxed. 
 * ETS Repository: [ets-md-sds-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/sds/ets-md-sds-bsxets.xml)
 
-## Modifications in ETS for issue [#118](https://github.com/inspire-eu-validation/community/issues/118)
+### Modifications in ETS for issue [#118](https://github.com/inspire-eu-validation/community/issues/118)
 There was some typo errors on Metadata 2.0 Conformance Class source.
 The corresponding typo errors were fixed.
 * Corresponding pull: [Typo-fixed ](https://github.com/inspire-eu-validation/ets-repository/pull/336/commits/1fa74d8da6e3b3acb7c845700b550f103e9d0fa6)
