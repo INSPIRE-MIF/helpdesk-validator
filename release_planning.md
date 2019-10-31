@@ -3,7 +3,7 @@
 ## Production
 These changes are already present on the Staging instance to be tested, and will be incorporated on the Production instance eventually.
 
-*Planned release date: 14/10/2019*
+*Planned release date: 30/11/2019*
 
 ### ATS/ETS
 
