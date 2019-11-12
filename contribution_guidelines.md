@@ -49,7 +49,7 @@ To help us investigate the issue, please include:
 
 1. The full name of the test (conformance class) that generated the issue.
 
-2. The resource or the link to the resource that you tested. If this has credentials, please send the credentials to inspire-helpdesk@bilbomatica.com.
+2. The resource or the link to the resource that you tested. If this has credentials of sensitive content, please send this to inspire-helpdesk@bilbomatica.com.
 
 3. A short description of the steps to reproduce your issue.
 
