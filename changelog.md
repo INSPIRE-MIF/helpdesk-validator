@@ -198,6 +198,14 @@ The DQ_ConformanceResult has an element gmd:pass that must contain a value of ty
 ## v1.0.8
 **Status:** deployed in [staging](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp/)
 
+### Modifications in ETS for missing message 
+Added TR.invalidLegendFormat message
+* ETS Repository: [TranslationTemplateBundle-EIDfadd4929](https://github.com/inspire-eu-validation/ets-repository/blob/master/include-metadata/TranslationTemplateBundle-EIDfadd4929-fa60-4781-b658-703bbfe3f4eb.xml)
+
+### Modifications in ETS for the issue [#150](https://github.com/inspire-eu-validation/community/issues/150) 
+Allowed redirections at md-iso.d.3: Coupled resource
+* ETS Repository: [ets-md-common-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/1.3/iso/ets-md-iso-bsxets.xml)
+
 ### Modifications in ETS for the issue [#106](https://github.com/inspire-eu-validation/community/issues/106) 
 Relaxed md-iso.f.1: Dataset keyword test
 * ETS Repository: [ets-md-common-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/1.3/iso/ets-md-iso-bsxets.xml)
@@ -205,6 +213,8 @@ Relaxed md-iso.f.1: Dataset keyword test
 ### Modifications in ETS for the issue [#111](https://github.com/inspire-eu-validation/community/issues/111) 
 The user detected a false validation that passed the test even if it should not pass. The corrections where applied on the corresponding file.
 * ETS Repository: [ets-md-common-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/common/ets-md-common-bsxets.xml)
+* ETS Repository: [ets-md-isdss-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/datasets-and-series/ets-md-isdss-bsxets.xml)
+* ETS Repository: [ets-md-datasets-and-series-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/datasets-and-series/ets-md-datasets-and-series-bsxets.xml)
 
 ### Modifications in ETS for the issue [#74](https://github.com/inspire-eu-validation/community/issues/74) 
 The test has been relaxed. 
