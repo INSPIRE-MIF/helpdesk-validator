@@ -208,6 +208,11 @@ Allowed redirections at md-iso.d.3: Coupled resource
 * ETS Repository: [ets-md-common-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/1.3/iso/ets-md-iso-bsxets.xml)
 * Pull Request: [#359](https://github.com/inspire-eu-validation/ets-repository/pull/359)
 
+### Modifications in ETS for the issue [#148](https://github.com/inspire-eu-validation/community/issues/148) 
+Allowed to insert more than one Company Mail for C.10
+* ETS Repository: [ets-md-common-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/common/ets-md-common-bsxets.xml)
+* Pull Request: [#362](https://github.com/inspire-eu-validation/ets-repository/pull/362)
+
 ### Modifications in ETS for the issue [#106](https://github.com/inspire-eu-validation/community/issues/106) 
 Relaxed md-iso.f.1: Dataset keyword test
 * ETS Repository: [ets-md-common-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/1.3/iso/ets-md-iso-bsxets.xml)
