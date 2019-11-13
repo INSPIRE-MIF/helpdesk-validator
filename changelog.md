@@ -201,42 +201,50 @@ The DQ_ConformanceResult has an element gmd:pass that must contain a value of ty
 ### Modifications in ETS for missing message 
 Added TR.invalidLegendFormat message
 * ETS Repository: [TranslationTemplateBundle-EIDfadd4929](https://github.com/inspire-eu-validation/ets-repository/blob/master/include-metadata/TranslationTemplateBundle-EIDfadd4929-fa60-4781-b658-703bbfe3f4eb.xml)
+* Pull Request: [#344](https://github.com/inspire-eu-validation/ets-repository/pull/344)
 
 ### Modifications in ETS for the issue [#150](https://github.com/inspire-eu-validation/community/issues/150) 
 Allowed redirections at md-iso.d.3: Coupled resource
 * ETS Repository: [ets-md-common-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/1.3/iso/ets-md-iso-bsxets.xml)
+* Pull Request: [#359](https://github.com/inspire-eu-validation/ets-repository/pull/359)
 
 ### Modifications in ETS for the issue [#106](https://github.com/inspire-eu-validation/community/issues/106) 
 Relaxed md-iso.f.1: Dataset keyword test
 * ETS Repository: [ets-md-common-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/1.3/iso/ets-md-iso-bsxets.xml)
+* Pull Requests: [#345](https://github.com/inspire-eu-validation/ets-repository/pull/345), [#342](https://github.com/inspire-eu-validation/ets-repository/pull/342)
 
 ### Modifications in ETS for the issue [#111](https://github.com/inspire-eu-validation/community/issues/111) 
 The user detected a false validation that passed the test even if it should not pass. The corrections where applied on the corresponding file.
 * ETS Repository: [ets-md-common-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/common/ets-md-common-bsxets.xml)
 * ETS Repository: [ets-md-isdss-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/datasets-and-series/ets-md-isdss-bsxets.xml)
 * ETS Repository: [ets-md-datasets-and-series-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/datasets-and-series/ets-md-datasets-and-series-bsxets.xml)
+* Pull Requests: [#354](https://github.com/inspire-eu-validation/ets-repository/pull/354), [#353](https://github.com/inspire-eu-validation/ets-repository/pull/353), [#351](https://github.com/inspire-eu-validation/ets-repository/pull/351)
 
 ### Modifications in ETS for the issue [#74](https://github.com/inspire-eu-validation/community/issues/74) 
 The test has been relaxed. 
 * ETS Repository: [ets-md-sds-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/sds/ets-md-sds-bsxets.xml)
+* Pull Request: [#338](https://github.com/inspire-eu-validation/ets-repository/pull/338)
 
 ### Modifications in ETS for issue [#118](https://github.com/inspire-eu-validation/community/issues/118)
 There was some typo errors on Metadata 2.0 Conformance Class source.
 The corresponding typo errors were fixed.
-* Corresponding pull: [Typo-fixed ](https://github.com/inspire-eu-validation/ets-repository/pull/336/commits/1fa74d8da6e3b3acb7c845700b550f103e9d0fa6)
+* Pull Request: [#336](https://github.com/inspire-eu-validation/ets-repository/pull/336)
 
 ### Modifications in ETS for the issue [#101](https://github.com/inspire-eu-validation/community/issues/101) 
 The validator was looking for `/Capabilities/ServiceProvider/Role` instead of `/Capabilities/ServiceProvider/ServiceContact/Role`. 
 The corresponding file was modified.
 * ETS Repository:  [dis-csw-core-soapui-project](https://github.com/inspire-eu-validation/ets-repository/blob/master/service/ds-wfs-direct-soapui-project.xml)
+* Pull Request: [#323](https://github.com/inspire-eu-validation/ets-repository/pull/323)
 
 ### Modifications in ETS for the requirement on [#94](https://github.com/inspire-eu-validation/community/issues/94) 
 The URL error message was uncertain because it does not says which URL is wrong. The corresponding files were modified.
 * ETS Repository:  [TranslationTemplateBundle-EID70a263c0-0ad7-42f2-9d4d-0d8a4ca71b52](https://github.com/inspire-eu-validation/ets-repository/blob/master/include-metadata/TranslationTemplateBundle-EID70a263c0-0ad7-42f2-9d4d-0d8a4ca71b52.xml)
 * ETS Repository:  [datasets-and-series/ets-md-datasets-and-series-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/datasets-and-series/ets-md-datasets-and-series-bsxets.xml)
+* Pull Request: [#325](https://github.com/inspire-eu-validation/ets-repository/pull/325)
 
 ### Modifications in ETS for the requirement on [#93](https://github.com/inspire-eu-validation/community/issues/93) 
 The test was checking that the value follow `let $regex_float := '^-?\d+\.\d{2,}'` which means 100 is not valid but 100.00 is.
 The corresponding file was modified.
 * ETS Repository:  [ets-md-datasets-and-series-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/datasets-and-series/ets-md-datasets-and-series-bsxets.xml)
+* Pull Request: [#319](https://github.com/inspire-eu-validation/ets-repository/pull/319)
 
