@@ -241,6 +241,31 @@ The corresponding file was modified.
 * ETS Repository:  [dis-csw-core-soapui-project](https://github.com/inspire-eu-validation/ets-repository/blob/master/service/ds-wfs-direct-soapui-project.xml)
 * Pull Request: [#323](https://github.com/inspire-eu-validation/ets-repository/pull/323)
 
+### Modifications in ETS for the issue [#128](https://github.com/inspire-eu-validation/community/issues/128) 
+Changes in schema validation for metadata 1.3
+* ETS Repository:  [ets-md-xml-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/1.3/xml/ets-md-xml-bsxets.xml)
+
+### Modifications in ETS for the issue [#131](https://github.com/inspire-eu-validation/community/issues/131) 
+The validation of the codeList attribute has been changed. Now, the metadata 2.0 only checks the codeList value in the language related tests, i.e., 'C.5 Language Code' and '1.6 Resource Language'.
+* ETS Repository:  [ets-md-common-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/common/ets-md-common-bsxets.xml)
+* ETS Repository:  [datasets-and-series/ets-md-datasets-and-series-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/datasets-and-series/ets-md-datasets-and-series-bsxets.xml)
+* ETS Repository:  [datasets-and-series/ets-md-isdss-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/datasets-and-series/ets-md-isdss-bsxets.xml)
+* ETS Repository:  [ets-md-sds-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/sds/ets-md-sds-bsxets.xml)
+* ETS Repository:  [ets-md-sdsinteroperable-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/sds/ets-md-sdsinteroperable-bsxets.xml)
+
+### Modifications in ETS for the issue [#144](https://github.com/inspire-eu-validation/community/issues/144) 
+The validation of the codeList attribute has been changed. Now, the metadata 2.0 only checks the codeList value in the language related tests, i.e., 'C.5 Language Code' and '1.6 Resource Language'.
+* ETS Repository:  [ets-md-common-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/common/ets-md-common-bsxets.xml)
+* ETS Repository:  [datasets-and-series/ets-md-datasets-and-series-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/datasets-and-series/ets-md-datasets-and-series-bsxets.xml)
+* ETS Repository:  [datasets-and-series/ets-md-isdss-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/datasets-and-series/ets-md-isdss-bsxets.xml)
+* ETS Repository:  [ets-md-sds-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/sds/ets-md-sds-bsxets.xml)
+* ETS Repository:  [ets-md-sdsharmonised-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/sds/ets-md-sdsharmonised-bsxets.xml)
+* ETS Repository:  [ets-md-sdsinteroperable-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/sds/ets-md-sdsinteroperable-bsxets.xml)
+
+### Modifications in ETS for the issue [#138](https://github.com/inspire-eu-validation/community/issues/138) 
+Metadata 1.3 XML Schema Validation changes to deal with redirection problems.
+* ETS Repository:  [ets-md-xml-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/1.3/xml/ets-md-xml-bsxets.xml)
+
 ### Modifications in ETS for the requirement on [#94](https://github.com/inspire-eu-validation/community/issues/94) 
 The URL error message was uncertain because it does not says which URL is wrong. The corresponding files were modified.
 * ETS Repository:  [TranslationTemplateBundle-EID70a263c0-0ad7-42f2-9d4d-0d8a4ca71b52](https://github.com/inspire-eu-validation/ets-repository/blob/master/include-metadata/TranslationTemplateBundle-EID70a263c0-0ad7-42f2-9d4d-0d8a4ca71b52.xml)
