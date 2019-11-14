@@ -278,3 +278,9 @@ The corresponding file was modified.
 * ETS Repository:  [ets-md-datasets-and-series-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/datasets-and-series/ets-md-datasets-and-series-bsxets.xml)
 * Pull Request: [#319](https://github.com/inspire-eu-validation/ets-repository/pull/319)
 
+### Modifications in ETS for issue [#154](https://github.com/inspire-eu-validation/community/issues/154) 
+There was an error that blocks the execution of MD 2.0 CC3 tests.
+* ETS Repository:  [ets-md-sds-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/sds/ets-md-sds-bsxets.xml)
+* Pull Request: [#365](https://github.com/inspire-eu-validation/ets-repository/pull/365)
+
+
