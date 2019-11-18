@@ -2,6 +2,74 @@
 
 # Production
 
+# Releases
+
+## v1.0.8
+
+**Status:** to be deployed in [production](http://inspire.ec.europa.eu/validator/)
+
+**Release date:** 18/11/2019
+
+#### 🚀 New Features
+ATS: 
+* Add [ATS for SOS v1.0](https://github.com/inspire-eu-validation/download-sos)
+* Add [ATS for WCS v1.0](https://github.com/inspire-eu-validation/download-wcs)
+* Add [ATS for CSW v3.1](https://github.com/inspire-eu-validation/discovery-service/tree/review-ats-csw-3.1)
+
+
+ETS:
+* Add [ETS for SOS v1.0](https://github.com/inspire-eu-validation/ets-repository/tree/sos-tg-1.0) - [#226](https://github.com/inspire-eu-validation/ets-repository/pull/226)
+* Add [ETS for WCS v1.0](https://github.com/inspire-eu-validation/ets-repository/tree/wcs-tg-1.0) - [#225](https://github.com/inspire-eu-validation/ets-repository/pull/225)
+* Add [ETS for CSW v3.1](https://github.com/inspire-eu-validation/ets-repository/tree/csw-tg-3.1) - [#297](https://github.com/inspire-eu-validation/ets-repository/pull/297)
+
+
+ETF:
+* Add [test for SOS v1.0](http://inspire.ec.europa.eu/validator) - [#5](https://github.com/etf-validator/etf-sui-ae/pull/5)
+* Add [test for WCS v1.0](http://inspire.ec.europa.eu/validator) - [#5](https://github.com/etf-validator/etf-sui-ae/pull/5)
+* Add [test for CSW v3.1](http://inspire.ec.europa.eu/validator) - [#253](https://github.com/inspire-eu-validation/ets-repository/pull/253)
+
+
+#### 🐛 Bugfixes
+* [#52](https://github.com/inspire-eu-validation/community/issues/52) Relax test on MD 2.0 C.5 - [#318](https://github.com/inspire-eu-validation/ets-repository/pull/318)
+* [#55](https://github.com/inspire-eu-validation/community/issues/55) Rename at06 to at06-mandatory-metadata-elements - [#293](https://github.com/inspire-eu-validation/ets-repository/pull/293)
+* [#63](https://github.com/inspire-eu-validation/community/issues/63) Relax test on MD 2.0 - [#308](https://github.com/inspire-eu-validation/ets-repository/pull/308)
+* [#67](https://github.com/inspire-eu-validation/community/issues/67) Fix test on MD 1.3 - [#307](https://github.com/inspire-eu-validation/ets-repository/pull/307)
+* [#69](https://github.com/inspire-eu-validation/community/issues/69) Relax test on MD 2.0 C.3 - [#132](https://github.com/inspire-eu-validation/ets-repository/pull/132)
+* [#70](https://github.com/inspire-eu-validation/community/issues/70) Relax test on MD 2.0 C.15 - [#132](https://github.com/inspire-eu-validation/ets-repository/pull/132)
+* [#71](https://github.com/inspire-eu-validation/community/issues/71) Relax test on MD 2.0 C.17 - [#132](https://github.com/inspire-eu-validation/ets-repository/pull/132)
+* [#73](https://github.com/inspire-eu-validation/community/issues/73) Relax test on MD 2.0 Comon Requirements - [#313](https://github.com/inspire-eu-validation/ets-repository/pull/313)
+* [#74](https://github.com/inspire-eu-validation/community/issues/74) Relax test on MD 2.0 CC 3.5 - [#338](https://github.com/inspire-eu-validation/ets-repository/pull/338)
+* [#87](https://github.com/inspire-eu-validation/community/issues/87) Update HTTP/HTTPS convertion - [#341](https://github.com/inspire-eu-validation/ets-repository/pull/341)
+* [#89](https://github.com/inspire-eu-validation/community/issues/89) Relax validation on testquery-md - [#314](https://github.com/inspire-eu-validation/ets-repository/pull/314)
+* [#93](https://github.com/inspire-eu-validation/community/issues/93) Add support for a double number on MD 2.0 CC 1.5 - [#319](https://github.com/inspire-eu-validation/ets-repository/pull/319) / @fxprunayre
+* [#101](https://github.com/inspire-eu-validation/community/issues/101) Add correction for attribute Role on CSW - [#323](https://github.com/inspire-eu-validation/ets-repository/pull/323)
+* [#106](https://github.com/inspire-eu-validation/community/issues/106) Relax test on Dataset keyword on MD 1.3 - [#345](https://github.com/inspire-eu-validation/ets-repository/pull/345), [#342](https://github.com/inspire-eu-validation/ets-repository/pull/342)
+* [#108](https://github.com/inspire-eu-validation/community/issues/108) Relax test on Dataset keyword on MD CSW Core Discovery Service - [#360](https://github.com/inspire-eu-validation/ets-repository/pull/360), [#342](https://github.com/inspire-eu-validation/ets-repository/pull/342)
+* [#111](https://github.com/inspire-eu-validation/community/issues/111) Add support for correct validation on MD 2.0 Common Requirements C.17 & C.18 - [#354](https://github.com/inspire-eu-validation/ets-repository/pull/354), [#353](https://github.com/inspire-eu-validation/ets-repository/pull/353), [#351](https://github.com/inspire-eu-validation/ets-repository/pull/351)
+* [#115](https://github.com/inspire-eu-validation/community/issues/115) Relax test on MD 1.3 - [#341](https://github.com/inspire-eu-validation/ets-repository/pull/341)
+* [#118](https://github.com/inspire-eu-validation/community/issues/118) Fix typo errors on MD 2.0 all Conformance Classes - [#336](https://github.com/inspire-eu-validation/ets-repository/pull/336)
+* [#134](https://github.com/inspire-eu-validation/community/issues/134) Update test for MD 1.3 Validate XML documents - [#346](https://github.com/inspire-eu-validation/ets-repository/pull/346)
+* [#139](https://github.com/inspire-eu-validation/community/issues/139) Use of text() instead of node() - [#350](https://github.com/inspire-eu-validation/ets-repository/pull/350)
+* [#144](https://github.com/inspire-eu-validation/community/issues/144) Update from node() to text() on MD 2.0 - [#352](https://github.com/inspire-eu-validation/ets-repository/pull/352)
+* [#148](https://github.com/inspire-eu-validation/community/issues/148) Add support for multiple email address on MD 2.0 Common Requirements C.10 - [#364](https://github.com/inspire-eu-validation/ets-repository/pull/364)
+* [#150](https://github.com/inspire-eu-validation/community/issues/150) Add support for redirections on MD 1.3 - [#359](https://github.com/inspire-eu-validation/ets-repository/pull/359)
+* [#154](https://github.com/inspire-eu-validation/community/issues/154) Fix missing "(" - [#365](https://github.com/inspire-eu-validation/ets-repository/pull/365)
+
+#### 💅 Enhancements
+* Add TR.invalidLegendFormat message. - [#344](https://github.com/inspire-eu-validation/ets-repository/pull/344)
+* [#7](https://github.com/inspire-eu-validation/community/issues/7) Add label to test execution to search them easily
+* [#68](https://github.com/inspire-eu-validation/community/issues/68) Update maximum size of file to 20MB on ETF-webapp
+* [#94](https://github.com/inspire-eu-validation/community/issues/94) Update error message for invalid URL on MD 2.0 - [#325](https://github.com/inspire-eu-validation/ets-repository/pull/325) / @fxprunayre
+* [#128](https://github.com/inspire-eu-validation/community/issues/128) Update schema on MD 1.3 - [#341](https://github.com/inspire-eu-validation/ets-repository/pull/341)
+* [#131](https://github.com/inspire-eu-validation/community/issues/131) Relax test on MD 2.0 & CC1.6 - [#343](https://github.com/inspire-eu-validation/ets-repository/pull/343)
+* [#138](https://github.com/inspire-eu-validation/community/issues/138) Improve schemaLocation on MD 1.3 - [#346](https://github.com/inspire-eu-validation/ets-repository/pull/346)
+
+#### 📝 Documentation
+* [Training Material](https://github.com/inspire-eu-validation/community/tree/master/training%20material)
+* [Contribution Guidelines](https://github.com/inspire-eu-validation/community/blob/master/contribution_guidelines.md)
+* [Code of Conduct](https://github.com/inspire-eu-validation/community/blob/master/code_of_conduct.adoc)
+
+
 ## v1.0.7
 
 
@@ -10,38 +78,9 @@
 **Release date:** 23/07/2019
 
 
-### Modifications in ETS for the issue [#89](https://github.com/inspire-eu-validation/community/issues/89)
-Relaxed the validation allowing xsd:date xsd:gYearMonth xsd:gYear
-* ETS Repository: [testquery-md.xq](https://github.com/inspire-eu-validation/ets-repository/tree/master/)
-* ETS: [md-iso.h.1](https://github.com/inspire-eu-validation/ets-repository/commit/ece63911fd528907540f30a422efc28257905e65)
-* ETS Version: v0.3.0
-
-
-### Modifications in ETS for some links
-Updated links refering to metadata repository because of the rebuild of branches
-* ETS Repository: [metadata/](https://github.com/inspire-eu-validation/metadata/tree/master/)
-* ETS: [links updated](https://github.com/inspire-eu-validation/ets-repository/commit/4d74b0c69a6621fbdbc6945e3140bcb6afe063a2)
-
-
-### Modifications in ETS for the issues [#69](https://github.com/inspire-eu-validation/community/issues/69), [#70](https://github.com/inspire-eu-validation/community/issues/70), [#71](https://github.com/inspire-eu-validation/community/issues/71), [#72](https://github.com/inspire-eu-validation/community/issues/72), [#73](https://github.com/inspire-eu-validation/community/issues/73)
-Metadata Dataset has been updated relaxing the CodeList validation
-* ETS Repository: [metadata/2.0/common](https://github.com/inspire-eu-validation/ets-repository/tree/master/metadata/2.0/common/)
-* ETS: [md common req C.15: Language Code](https://github.com/inspire-eu-validation/ets-repository/commit/5b75bc7931f9d4f4f58d2505b05f463b306c1de7)
-* ETS: [md common req C.17: Language Code](https://github.com/inspire-eu-validation/ets-repository/commit/5b75bc7931f9d4f4f58d2505b05f463b306c1de7)
-* ETS: [md common req C.18: Language Code](https://github.com/inspire-eu-validation/ets-repository/commit/5b75bc7931f9d4f4f58d2505b05f463b306c1de7)
-* ETS Version: v0.3.0
-
-
-### Modifications in ETS for the issue [#52](https://github.com/inspire-eu-validation/community/issues/52)
-A CodeList value has been added
-* ETS Repository: [metadata/2.0/common](https://github.com/inspire-eu-validation/ets-repository/tree/master/metadata/2.0/common/)
-* ETS: [md common req C.5: Language Code](https://github.com/inspire-eu-validation/ets-repository/commit/ece63911fd528907540f30a422efc28257905e65)
-* ETS Version: v0.3.0
-
-
 ## v1.0.6
 
-**Status:** deployed in deployed in [production](http://inspire.ec.europa.eu/validator/)
+**Status:** deployed in [production](http://inspire.ec.europa.eu/validator/)
 
 **Release date:** 05/06/2019
 
@@ -53,7 +92,7 @@ The Croatian title of the Regulation 1089/2010 has been added.
 
 ## v1.0.5
 
-**Status:** deployed in deployed in [production](http://inspire.ec.europa.eu/validator/)
+**Status:** deployed in [production](http://inspire.ec.europa.eu/validator/)
 
 **Release date:** 04/06/2019
 
@@ -79,7 +118,7 @@ The validation checks that the 'zoning' properties references a resource 'Cadast
 
 ## v1.0.3
 
-**Status:** deployed in deployed in [production](http://inspire.ec.europa.eu/validator/)
+**Status:** deployed in [production](http://inspire.ec.europa.eu/validator/)
 
 **Release date:** 15/04/2019
 
@@ -91,7 +130,7 @@ The assertion checks that there is a non-empty value of the element CI_DateTypeC
 
 ## v1.0.2
 
-**Status:** deployed in deployed in [production](http://inspire.ec.europa.eu/validator/)
+**Status:** deployed in [production](http://inspire.ec.europa.eu/validator/)
 
 **Release date:** 07/03/2019
 
@@ -105,7 +144,7 @@ Some modifications are needed in the ETS code. The validations have been divided
 
 ## v1.0.1
 
-**Status:** deployed in deployed in [production](http://inspire.ec.europa.eu/validator/)
+**Status:** deployed in [production](http://inspire.ec.europa.eu/validator/)
 
 **Release date:** 01/02/2019
 
@@ -195,92 +234,5 @@ The DQ_ConformanceResult has an element gmd:pass that must contain a value of ty
 
 # Staging
 
-## v1.0.8
+## v1.0.9
 **Status:** deployed in [staging](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp/)
-
-### Modifications in ETS for missing message 
-Added TR.invalidLegendFormat message
-* ETS Repository: [TranslationTemplateBundle-EIDfadd4929](https://github.com/inspire-eu-validation/ets-repository/blob/master/include-metadata/TranslationTemplateBundle-EIDfadd4929-fa60-4781-b658-703bbfe3f4eb.xml)
-* Pull Request: [#344](https://github.com/inspire-eu-validation/ets-repository/pull/344)
-
-### Modifications in ETS for the issue [#150](https://github.com/inspire-eu-validation/community/issues/150) 
-Allowed redirections at md-iso.d.3: Coupled resource
-* ETS Repository: [ets-md-common-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/1.3/iso/ets-md-iso-bsxets.xml)
-* Pull Request: [#359](https://github.com/inspire-eu-validation/ets-repository/pull/359)
-
-### Modifications in ETS for the issue [#148](https://github.com/inspire-eu-validation/community/issues/148) 
-Allowed to insert more than one Company Mail for C.10
-* ETS Repository: [ets-md-common-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/common/ets-md-common-bsxets.xml)
-* Pull Request: [#364](https://github.com/inspire-eu-validation/ets-repository/pull/364)
-
-### Modifications in ETS for the issue [#106](https://github.com/inspire-eu-validation/community/issues/106) 
-Relaxed md-iso.f.1: Dataset keyword test
-* ETS Repository: [ets-md-common-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/1.3/iso/ets-md-iso-bsxets.xml)
-* Pull Requests: [#345](https://github.com/inspire-eu-validation/ets-repository/pull/345), [#342](https://github.com/inspire-eu-validation/ets-repository/pull/342)
-
-### Modifications in ETS for the issue [#111](https://github.com/inspire-eu-validation/community/issues/111) 
-The user detected a false validation that passed the test even if it should not pass. The corrections where applied on the corresponding file.
-* ETS Repository: [ets-md-common-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/common/ets-md-common-bsxets.xml)
-* ETS Repository: [ets-md-isdss-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/datasets-and-series/ets-md-isdss-bsxets.xml)
-* ETS Repository: [ets-md-datasets-and-series-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/datasets-and-series/ets-md-datasets-and-series-bsxets.xml)
-* Pull Requests: [#354](https://github.com/inspire-eu-validation/ets-repository/pull/354), [#353](https://github.com/inspire-eu-validation/ets-repository/pull/353), [#351](https://github.com/inspire-eu-validation/ets-repository/pull/351)
-
-### Modifications in ETS for the issue [#74](https://github.com/inspire-eu-validation/community/issues/74) 
-The test has been relaxed. 
-* ETS Repository: [ets-md-sds-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/sds/ets-md-sds-bsxets.xml)
-* Pull Request: [#338](https://github.com/inspire-eu-validation/ets-repository/pull/338)
-
-### Modifications in ETS for issue [#118](https://github.com/inspire-eu-validation/community/issues/118)
-There was some typo errors on Metadata 2.0 Conformance Class source.
-The corresponding typo errors were fixed.
-* Pull Request: [#336](https://github.com/inspire-eu-validation/ets-repository/pull/336)
-
-### Modifications in ETS for the issue [#101](https://github.com/inspire-eu-validation/community/issues/101) 
-The validator was looking for `/Capabilities/ServiceProvider/Role` instead of `/Capabilities/ServiceProvider/ServiceContact/Role`. 
-The corresponding file was modified.
-* ETS Repository:  [dis-csw-core-soapui-project](https://github.com/inspire-eu-validation/ets-repository/blob/master/service/ds-wfs-direct-soapui-project.xml)
-* Pull Request: [#323](https://github.com/inspire-eu-validation/ets-repository/pull/323)
-
-### Modifications in ETS for the issue [#128](https://github.com/inspire-eu-validation/community/issues/128) 
-Changes in schema validation for metadata 1.3
-* ETS Repository:  [ets-md-xml-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/1.3/xml/ets-md-xml-bsxets.xml)
-
-### Modifications in ETS for the issue [#131](https://github.com/inspire-eu-validation/community/issues/131) 
-The validation of the codeList attribute has been changed. Now, the metadata 2.0 only checks the codeList value in the language related tests, i.e., 'C.5 Language Code' and '1.6 Resource Language'.
-* ETS Repository:  [ets-md-common-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/common/ets-md-common-bsxets.xml)
-* ETS Repository:  [datasets-and-series/ets-md-datasets-and-series-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/datasets-and-series/ets-md-datasets-and-series-bsxets.xml)
-* ETS Repository:  [datasets-and-series/ets-md-isdss-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/datasets-and-series/ets-md-isdss-bsxets.xml)
-* ETS Repository:  [ets-md-sds-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/sds/ets-md-sds-bsxets.xml)
-* ETS Repository:  [ets-md-sdsinteroperable-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/sds/ets-md-sdsinteroperable-bsxets.xml)
-
-### Modifications in ETS for the issue [#144](https://github.com/inspire-eu-validation/community/issues/144) 
-The validation of the codeList attribute has been changed. Now, the metadata 2.0 only checks the codeList value in the language related tests, i.e., 'C.5 Language Code' and '1.6 Resource Language'.
-* ETS Repository:  [ets-md-common-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/common/ets-md-common-bsxets.xml)
-* ETS Repository:  [datasets-and-series/ets-md-datasets-and-series-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/datasets-and-series/ets-md-datasets-and-series-bsxets.xml)
-* ETS Repository:  [datasets-and-series/ets-md-isdss-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/datasets-and-series/ets-md-isdss-bsxets.xml)
-* ETS Repository:  [ets-md-sds-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/sds/ets-md-sds-bsxets.xml)
-* ETS Repository:  [ets-md-sdsharmonised-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/sds/ets-md-sdsharmonised-bsxets.xml)
-* ETS Repository:  [ets-md-sdsinteroperable-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/sds/ets-md-sdsinteroperable-bsxets.xml)
-
-### Modifications in ETS for the issue [#138](https://github.com/inspire-eu-validation/community/issues/138) 
-Metadata 1.3 XML Schema Validation changes to deal with redirection problems.
-* ETS Repository:  [ets-md-xml-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/1.3/xml/ets-md-xml-bsxets.xml)
-
-### Modifications in ETS for the requirement on [#94](https://github.com/inspire-eu-validation/community/issues/94) 
-The URL error message was uncertain because it does not says which URL is wrong. The corresponding files were modified.
-* ETS Repository:  [TranslationTemplateBundle-EID70a263c0-0ad7-42f2-9d4d-0d8a4ca71b52](https://github.com/inspire-eu-validation/ets-repository/blob/master/include-metadata/TranslationTemplateBundle-EID70a263c0-0ad7-42f2-9d4d-0d8a4ca71b52.xml)
-* ETS Repository:  [datasets-and-series/ets-md-datasets-and-series-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/datasets-and-series/ets-md-datasets-and-series-bsxets.xml)
-* Pull Request: [#325](https://github.com/inspire-eu-validation/ets-repository/pull/325)
-
-### Modifications in ETS for the requirement on [#93](https://github.com/inspire-eu-validation/community/issues/93) 
-The test was checking that the value follow `let $regex_float := '^-?\d+\.\d{2,}'` which means 100 is not valid but 100.00 is.
-The corresponding file was modified.
-* ETS Repository:  [ets-md-datasets-and-series-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/datasets-and-series/ets-md-datasets-and-series-bsxets.xml)
-* Pull Request: [#319](https://github.com/inspire-eu-validation/ets-repository/pull/319)
-
-### Modifications in ETS for issue [#154](https://github.com/inspire-eu-validation/community/issues/154) 
-There was an error that blocks the execution of MD 2.0 CC3 tests.
-* ETS Repository:  [ets-md-sds-bsxets](https://github.com/inspire-eu-validation/ets-repository/blob/master/metadata/2.0/sds/ets-md-sds-bsxets.xml)
-* Pull Request: [#365](https://github.com/inspire-eu-validation/ets-repository/pull/365)
-
-
