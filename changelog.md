@@ -41,7 +41,7 @@ ETF:
 * [#74](https://github.com/inspire-eu-validation/community/issues/74) Relax test on MD 2.0 CC 3.5 - [#338](https://github.com/inspire-eu-validation/ets-repository/pull/338)
 * [#87](https://github.com/inspire-eu-validation/community/issues/87) Update HTTP/HTTPS convertion - [#341](https://github.com/inspire-eu-validation/ets-repository/pull/341)
 * [#89](https://github.com/inspire-eu-validation/community/issues/89) Relax validation on testquery-md - [#314](https://github.com/inspire-eu-validation/ets-repository/pull/314)
-* [#93](https://github.com/inspire-eu-validation/community/issues/93) Add support for a double number on MD 2.0 CC 1.5 - [#319](https://github.com/inspire-eu-validation/ets-repository/pull/319) / @fxprunayre
+* [#93](https://github.com/inspire-eu-validation/community/issues/93) Add support for a double number on MD 2.0 CC 1.5 - [#319](https://github.com/inspire-eu-validation/ets-repository/pull/319) / [@fxprunayre](https://github.com/fxprunayre)
 * [#101](https://github.com/inspire-eu-validation/community/issues/101) Add correction for attribute Role on CSW - [#323](https://github.com/inspire-eu-validation/ets-repository/pull/323)
 * [#106](https://github.com/inspire-eu-validation/community/issues/106) Relax test on Dataset keyword on MD 1.3 - [#345](https://github.com/inspire-eu-validation/ets-repository/pull/345), [#342](https://github.com/inspire-eu-validation/ets-repository/pull/342)
 * [#108](https://github.com/inspire-eu-validation/community/issues/108) Relax test on Dataset keyword on MD CSW Core Discovery Service - [#360](https://github.com/inspire-eu-validation/ets-repository/pull/360), [#342](https://github.com/inspire-eu-validation/ets-repository/pull/342)
@@ -59,7 +59,7 @@ ETF:
 * Add TR.invalidLegendFormat message. - [#344](https://github.com/inspire-eu-validation/ets-repository/pull/344)
 * [#7](https://github.com/inspire-eu-validation/community/issues/7) Add label to test execution to search them easily
 * [#68](https://github.com/inspire-eu-validation/community/issues/68) Update maximum size of file to 20MB on ETF-webapp
-* [#94](https://github.com/inspire-eu-validation/community/issues/94) Update error message for invalid URL on MD 2.0 - [#325](https://github.com/inspire-eu-validation/ets-repository/pull/325) / @fxprunayre
+* [#94](https://github.com/inspire-eu-validation/community/issues/94) Update error message for invalid URL on MD 2.0 - [#325](https://github.com/inspire-eu-validation/ets-repository/pull/325) / [@fxprunayre](https://github.com/fxprunayre)
 * [#128](https://github.com/inspire-eu-validation/community/issues/128) Update schema on MD 1.3 - [#341](https://github.com/inspire-eu-validation/ets-repository/pull/341)
 * [#131](https://github.com/inspire-eu-validation/community/issues/131) Relax test on MD 2.0 & CC1.6 - [#343](https://github.com/inspire-eu-validation/ets-repository/pull/343)
 * [#138](https://github.com/inspire-eu-validation/community/issues/138) Improve schemaLocation on MD 1.3 - [#346](https://github.com/inspire-eu-validation/ets-repository/pull/346)
