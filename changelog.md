@@ -6,7 +6,7 @@
 
 ## v1.0.8
 
-**Status:** to be deployed in [production](http://inspire.ec.europa.eu/validator/)
+**Status:** deployed in [production](http://inspire.ec.europa.eu/validator/)
 
 **Release date:** 18/11/2019
 
@@ -236,3 +236,16 @@ The DQ_ConformanceResult has an element gmd:pass that must contain a value of ty
 
 ## v1.0.9
 **Status:** deployed in [staging](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp/)
+
+
+#### 🚀 New Features
+
+
+#### 🐛 Bugfixes
+* [#161](https://github.com/inspire-eu-validation/community/issues/161) Add support for new schemaLocation links on MD 1.3 - [#367](https://github.com/inspire-eu-validation/ets-repository/pull/367)
+
+
+#### 💅 Enhancements
+
+
+#### 📝 Documentation
