@@ -1,5 +1,23 @@
 # Changelog
 
+# Staging
+
+## v1.0.9
+**Status:** deployed in [staging](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp/)
+
+
+#### 🚀 New Features
+
+
+#### 🐛 Bugfixes
+* [#161](https://github.com/inspire-eu-validation/community/issues/161) Add support for new schemaLocation links on MD 1.3 - [#368](https://github.com/inspire-eu-validation/ets-repository/pull/368)
+
+
+#### 💅 Enhancements
+
+
+#### 📝 Documentation
+
 # Production
 
 # Releases
@@ -231,21 +249,3 @@ The DQ_ConformanceResult has an element gmd:pass that must contain a value of ty
 * ETS Version: v0.2.6
 * ATS Repository: [metadata/iso](https://github.com/inspire-eu-validation/metadata/tree/master/iso-19115-19119)
 * ATS: [ds-specification.md](https://github.com/inspire-eu-validation/metadata/blob/master/iso-19115-19119/ds-specification.md)
-
-# Staging
-
-## v1.0.9
-**Status:** deployed in [staging](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp/)
-
-
-#### 🚀 New Features
-
-
-#### 🐛 Bugfixes
-* [#161](https://github.com/inspire-eu-validation/community/issues/161) Add support for new schemaLocation links on MD 1.3 - [#367](https://github.com/inspire-eu-validation/ets-repository/pull/367)
-
-
-#### 💅 Enhancements
-
-
-#### 📝 Documentation
