@@ -12,6 +12,7 @@
 #### 🐛 Bugfixes
 * [#161](https://github.com/inspire-eu-validation/community/issues/161) Add support for new schemaLocation links on MD 1.3 - [#368](https://github.com/inspire-eu-validation/ets-repository/pull/368)
 * [#165](https://github.com/inspire-eu-validation/community/issues/165) Fix typo error on Download Service WCS Core - [#369](https://github.com/inspire-eu-validation/ets-repository/pull/369)
+* [#100](https://github.com/inspire-eu-validation/community/issues/100) Relax test for md sds 3.1: Resource Type - [#370](https://github.com/inspire-eu-validation/ets-repository/pull/370)
 
 #### 💅 Enhancements
 
