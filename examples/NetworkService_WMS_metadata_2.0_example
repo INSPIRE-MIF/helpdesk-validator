@@ -18,7 +18,7 @@ The multiplicity of both of these elements is 1.-->
 		<gmd:MD_ScopeCode codeList="http://standards.iso.org/iso/19139/resources/gmxCodelists.xml#MD_ScopeCode" codeListValue="service"/>
 	</gmd:hierarchyLevel>
 	<gmd:hierarchyLevelName>
-		<gco:CharacterString>Service</gco:CharacterString>
+		<gco:CharacterString>service</gco:CharacterString>
 	</gmd:hierarchyLevelName>
 	<!--TG Requirement C.6: metadata/2.0/req/common/md-point-of-contact: Point of contact for the responsible party for the provided metadata shall be given using element gmd:MD_metadata/gmd:contact/gmd:CI_ResponsibleParty. The multiplicity of this element is 1..*. The gmd:CI_ResponsibleParty element shall contain the following child elements: The name of the responsible organisation shall be provided as the value of gmd:organisationName element with a Non-empty Free Text Element content. The email address of the organisation shall be provided as the value of gmd:contactInfo/gmd:CI_Contact/gmd:address/gmd:CI_Address/gmd:electronicMailAddress element with a Non-empty Free Text Element containing a functioning email address of the responsible party. The value of gmd:role/gmd:CI_RoleCode shall point to the value "pointOfContact" of [ISO 19139] code list CI_RoleCode.-->
 	<gmd:contact>
@@ -340,7 +340,7 @@ There shall be exactly one gmd:dataQualityInfo/gmd:DQ_DataQuality element scoped
 					<gmd:levelDescription>
 						<gmd:MD_ScopeDescription>
 							<gmd:other>
-								<gco:CharacterString>Service</gco:CharacterString>
+								<gco:CharacterString>service</gco:CharacterString>
 							</gmd:other>
 						</gmd:MD_ScopeDescription>
 					</gmd:levelDescription>
