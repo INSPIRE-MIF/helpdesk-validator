@@ -15,9 +15,10 @@
 * [#100](https://github.com/inspire-eu-validation/community/issues/100) Relax test for md sds 3.1: Resource Type - [#372](https://github.com/inspire-eu-validation/ets-repository/pull/372)
 
 #### 💅 Enhancements
-
+* [#96](https://github.com/inspire-eu-validation/community/issues/96) Stronger test for md sds 3.1 and md sds 3.8- [#373](https://github.com/inspire-eu-validation/ets-repository/pull/373)
 
 #### 📝 Documentation
+Updated [NetworkService_WMS_metadata_2.0_example](https://github.com/inspire-eu-validation/community/blob/master/examples/NetworkService_WMS_metadata_2.0_example)
 
 # Production
 
