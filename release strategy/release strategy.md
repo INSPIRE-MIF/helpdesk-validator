@@ -16,8 +16,8 @@ At the core of the release planning strategy is the annual major release. This i
 
 In order to provide users with an environment where developments can be adequately tested, different test environments are offered, where the ATS/ETS developed will be tested on a specific instance of the ETF.
 There will be different instances of the ETF deploying different branches of the ATS/ETS/ETF set, with different purposes
-* Production instance: stable deployment with official and proven ATS/ETS for the current year's report
-* Staging instance: which will contain a pre-publication version of the production
+* [Production instance](http://inspire.ec.europa.eu/validator/): stable deployment with official and proven ATS/ETS for the current year's report
+* [Staging instance](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp/): which will contain a pre-publication version of the production
 * Beta instance (this instance is not available yet): this environment will contain a version corresponding to the following year's compliance requirements, so users can choose to validate against the current year's version or the following year's version
 
 The different versions incorporated into these environments may contain different developments, both at the ATS/ETS and ETF levels.
