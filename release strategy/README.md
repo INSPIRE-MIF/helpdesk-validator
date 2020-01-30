@@ -100,3 +100,25 @@ Version 2021.0 is the first release of the year and is established as the basis 
 
 Thus, by means of the presentation of these diagrams, the schedule in terms of versions and branches for the next year is shown, always having as a priority the establishment of a version as a baseline by the middle of the year to be able to consolidate the report with enough time in advance.
 
+# Release delivery
+The release of a version involves the generation of certain artifacts so that the community has access to all the assets generated and can clearly identify the elements that are released.
+Thus, the release of a new version implies acting on the following elements.
+* Github release. A release v202x.y.z (dd/mm/yyyy) is generated, including:
+  * New Features, listed and grouped by ATS, ETS and ETF
+  * Bugfixes, listed and identified by issue, description and pull request
+  * Enhancements, listed and identified by issue, description and pull request
+  * Documentation, pointing to the various documents produced for the generated version
+  * Assets, code packages are generated to facilitate the deployment to users, containing
+	  * ets-repository, zip file containing the ets-repository corresponding to the created branch
+   * etf-release-v202x.y.z, containing ETF deployment instructions and artifacts
+	  * source code, zip file containing the community repository for the delivered version  
+* GitHub packages. A GitHub package is generated including the instructions and elements for the ETF deployment corresponding to the version released through the use of Docker.
+* Branches management. The following branches should be managed, according to the specific purpose of the version, depending on the time of year and the changes it incorporates (breaking changes, non-breaking changes or HotFixes).
+  * branch v202x.y.z , this branch is created from the next branch, which includes all the developments made according to the criteria established for the specific version
+  * master is synchronized with the branch generated for the specific version
+  * next, is the branch that generates the version and is only merged by another branch in version v202x.0 where it is overwritten by the beta branch
+  * beta, is created from version v202x.2 and updated with breaking changes, non-breaking changes and HotFixes
+* Issues management. Issues related to the release must be properly managed according to the following actions: 
+  * Assign the corresponding milestone: v202x.y.z
+  * Update the corresponding label: deployed in reference validator
+  
