@@ -1,3 +1,15 @@
+# Table of contents
+- [Release Planning Schedule](#release-planning-schedule)
+- [Overview](#overview)
+  * [Current Situation](#current-situation)
+  * [Desired Situation](#desired-situation)
+- [Release Planning](#release-planning)
+  * [v2020.1 - 18/03/2020](#v20201---18-03-2020)
+  * [v2020.2 - 17/06/2020](#v20202---17-06-2020)
+  * [v2020.3 - 18/09/2020](#v20203---18-09-2020)
+  * [v2021.0 - 20/01/2021](#v20210---20-01-2021)
+- [Release delivery](#release-delivery)
+
 # Release Planning Schedule
 The core of the release planning strategy is the annual major release. This is the release that encompasses the rules that will be applied in the end-of-year reporting. To give tool developers and INSPIRE implementers sufficient time to adjust, this release will be made with significant lead time to the monitoring period.
 Thus, a work schedule is established for the annual report in which the focus is mainly on concentrating the breaking-changes in the first half of the year, so that by June of each year, there is a stable version on which to test the data and where the changes introduced up to the end of the year do not impact more restrictively on the validations to be made on the reporting information.
