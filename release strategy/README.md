@@ -8,7 +8,7 @@
   * [v2020.2 - 17/06/2020](#v20202---17-06-2020)
   * [v2020.3 - 18/09/2020](#v20203---18-09-2020)
   * [v2021.0 - 20/01/2021](#v20210---20-01-2021)
-- [Release delivery](#release-delivery)
+- [Release Delivery](#release-delivery)
 
 # Release Planning Summary
 The core of the release planning strategy is the annual major release. This is the release that encompasses the rules that will be applied in the end-of-year reporting. To give tool developers and INSPIRE implementers sufficient time to adjust, this release will be made with significant lead time to the monitoring period.
@@ -112,7 +112,7 @@ Version 2021.0 is the first release of the year and is established as the basis 
 
 Thus, by means of the presentation of these diagrams, the schedule in terms of versions and branches for the next year is shown, always having as a priority the establishment of a version as a baseline by the middle of the year to be able to consolidate the report with enough time in advance.
 
-# Release delivery
+# Release Delivery
 The release of a version involves the generation of certain artifacts so that the community has access to all the assets generated and can clearly identify the elements that are released.
 Thus, the release of a new version implies acting on the following elements.
 * Github release. A release v202x.y.z (dd/mm/yyyy) is generated, including:
