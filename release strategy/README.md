@@ -17,7 +17,7 @@ This document includes ... it is useful for ...
 # Release Planning Summary
 The core of the release planning strategy is the annual major release. This is the release that encompasses the rules that will be applied in the end-of-year reporting. To give tool developers and INSPIRE implementers sufficient time to adjust, this release will be made with significant lead time to the monitoring period.
 Thus, a work schedule is established for the annual report in which the focus is mainly on concentrating the breaking-changes in the first half of the year, so that by June of each year, there is a stable version on which to test the data and where the changes introduced up to the end of the year do not impact more restrictively on the validations to be made on the reporting information.
-Thus, the following schedule of versions can be conceived in accordance with the objective of offering the version used in the annual report at mid-year that can be used from that moment for the preparation of data aligned with the requirements to be met at the end of the year.
+Thus, the following schedule of versions can be conceived in accordance with the objective of offering the version used in the annual report at mid-year that can be used from that moment for the preparation of data aligned with the requirements to be met at the end of the year. The following schedule refers to the remaining part of year 2020 and the beginning of year 2021, however the plan has to be seen as a generic plan that will also apply for the next years.
 * **v2020.1 - 18/03/2020.** It includes a first batch of binding developments to the end-2020 report, as well as improvements to the ETF tool.
   * Breaking changes
   * Non-breaking changes
