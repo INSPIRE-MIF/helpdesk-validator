@@ -1,4 +1,5 @@
 # Table of contents
+- [Introduction](#introduction)
 - [Release Planning Summary](#release-planning-summary)
 - [Overview](#overview)
   * [Current Situation](#current-situation)
@@ -9,6 +10,9 @@
   * [v2020.3 - 18/09/2020](#v20203---18-09-2020)
   * [v2021.0 - 20/01/2021](#v20210---20-01-2021)
 - [Release Delivery](#release-delivery)
+
+# Introduction
+This document includes ... it is useful for ...
 
 # Release Planning Summary
 The core of the release planning strategy is the annual major release. This is the release that encompasses the rules that will be applied in the end-of-year reporting. To give tool developers and INSPIRE implementers sufficient time to adjust, this release will be made with significant lead time to the monitoring period.
