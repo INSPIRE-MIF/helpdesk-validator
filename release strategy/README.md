@@ -12,7 +12,7 @@
 - [Release Delivery](#release-delivery)
 
 # Introduction
-This document includes ... it is useful for ...
+This document aims to give an overview of the different releases to be released of the ATS/ETS and ETF over time, so that it is useful for the community to be able to plan and manage their resources for the annual report consistently as far in advance as possible. Thus, this document includes the main release dates, along with the expected changes and the elements that will be made available to the community for each of them.
 
 # Release Planning Summary
 The core of the release planning strategy is the annual major release. This is the release that encompasses the rules that will be applied in the end-of-year reporting. To give tool developers and INSPIRE implementers sufficient time to adjust, this release will be made with significant lead time to the monitoring period.
@@ -52,6 +52,8 @@ When reviewing the current situation, there are some aspects that would help to 
 * Provide stable conformity criteria with enough lead time before the monitoring period
 * Communicate changes and their impact to the community on a regular basis
 
+In this way, this document sets out a transparent proposal for planning the various releases of the INSPIRE Reference Validator.
+
 # Release Planning
 At the core of the release planning strategy is the annual major release. This is the release that encompasses the rules that will be applied in the end-of-year reporting. To give tool developers and INSPIRE implementers sufficient time to adjust, this release will be made with significant lead time to the monitoring period.
 
@@ -88,9 +90,9 @@ Thus, in order to clarify the operation between the different branches and the d
 
 ## v2020.1 - 15/03/2020
 This first version v2020.1 to be deployed in the production instance on 15/03/2020 includes breaking-changes, i.e. new requirements and developments that directly impact in the report to be made. 
-As it can be seen, it is based on the current release v1.0.8, which is deployed in production environment.
+As it can be seen, it is based on the master branch, which is deployed in production environment.
 All issues that come in the period prior to the release, whether they are breaking changes, non-breaking changes or HotFixes will be deployed as soon as they have been developed in the staging environment, as usual. 
-If a hotfix needs to be incorporated in the production instance before the release date, the corresponding branch v1.0.8.1 will be created and the production deployment will be updated.
+If a hotfix needs to be incorporated in the production instance before the release date, the production deployment will be updated.
 Finally, according to the planned date, the validated developments will be taken from the staging branch, creating the branch v2020.1 that will be merged in the master branch and deployed in the production environment. 
 This way, the reference version from this moment becomes v2020.1.
 
@@ -115,6 +117,8 @@ Version 2021.0 is the first release of the year and is established as the basis 
 ![v2021.0](./img/v2021.0.png "v2021.1")
 
 Thus, by means of the presentation of these diagrams, the schedule in terms of versions and branches for the next year is shown, always having as a priority the establishment of a version as a baseline by the middle of the year to be able to consolidate the report with enough time in advance.
+
+As mentioned above, this release schedule has been made to cover an annual cycle as an example, but this release schedule is intended to be established consistently over time.
 
 # Release Delivery
 The release of a version involves the generation of certain artifacts so that the community has access to all the assets generated and can clearly identify the elements that are released.
