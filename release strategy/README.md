@@ -15,30 +15,43 @@
 This document aims to give an overview of the different releases to be released of the ATS/ETS and ETF over time, so that it is useful for the community to be able to plan and manage their resources for the annual report consistently as far in advance as possible. Thus, this document includes the main release dates, along with the expected changes and the elements that will be made available to the community for each of them.
 
 # Release Planning Summary
-The core of the release planning strategy is the annual major release. This is the release that encompasses the rules that will be applied in the end-of-year reporting. To give tool developers and INSPIRE implementers sufficient time to adjust, this release will be made with significant lead time to the monitoring period.
+The core of the release planning strategy is the annual major release. 
+This is the release that encompasses the rules that will be applied in the end-of-year reporting. To give tool developers and INSPIRE implementers sufficient time to adjust, this release will be made with significant lead time to the monitoring period.
 Thus, a work schedule is established for the annual report in which the focus is mainly on concentrating the breaking-changes in the first half of the year, so that by June of each year, there is a stable version on which to test the data and where the changes introduced up to the end of the year do not impact more restrictively on the validations to be made on the reporting information.
-Thus, the following schedule of versions can be conceived in accordance with the objective of offering the version used in the annual report at mid-year that can be used from that moment for the preparation of data aligned with the requirements to be met at the end of the year. The following schedule refers to the remaining part of year 2020 and the beginning of year 2021, however the plan has to be seen as a generic plan that will also apply for the next years.
+
+The different versions to be released may contain different developments, both at the ATS/ETS and ETF level. The following classification of functionalities to be incorporated is established according to the relevance of the changes introduced in each development, as well as to the impact they have on the validations to be carried out.
+* Breaking changes:
+  * Corresponding to an implementation that makes the compliance more restrictive and difficult to pass
+  * New tests
+* Non-Breaking changes:
+  * Implementation reducing restriction for the correct compliance in a requirement
+  * Minor changes to the interface that add new functionalities to the interface but it has no effect on the tests
+* Hotfix:
+  * Detected bug that needs to be implemented and extended as soon as possible to the different instances
+
+The following schedule of versions is conceived in accordance with the objective of offering the version used in the annual report at mid-year, that can be used from that moment for the preparation of data aligned with the requirements to be met at the end of the year. This schedule refers to the remaining part of year 2020 and the beginning of year 2021, however the plan has to be seen as a generic plan that will also apply for the next years.
 * **v2020.1 - 15/03/2020.** It includes a first batch of binding developments to the end-2020 report, as well as improvements to the ETF tool.
   * Breaking changes
   * Non-breaking changes
-  * HotFixes
-* **v2020.2 - 15/06/2020.** This version includes all the requirements and restrictions to incorporate the annual report, so that users can use it from this moment on to appropriately adapt their data until the end of the year
+  * Hotfixes
+* **v2020.2 - 15/06/2020.** This **v2020.2 release contains all the validations to be considered for the evaluation of the annual report.**
+This version includes all the requirements and restrictions to incorporate the annual report, so that users can use it from this moment on to appropriately adapt their data until the end of the year. 
   * Breaking changes
   * Non-breaking changes
-  * HotFixes
-* **v2020.3 - 15/09/2020.** The version published at this time contains all the restrictions and possible non-breaking changes or HotFixes, that is to say developments that do not imply additional work for the report but that can lower the degree of restriction of the requirements or correct existing bugs.
-This version will be used for the evaluation of the annual report.
+  * Hotfixes
+* **v2020.3 - 15/09/2020.** This **v2020.3 version will be used for the evaluation of the annual report.**
+The version published at this time contains all the restrictions and possible non-breaking changes or Hotfixes, that is to say developments that do not imply additional work for the report but that can lower the degree of restriction of the requirements or correct existing bugs.
   * Non-breaking changes
-  * HotFixes
+  * Hotfixes
 * **v2021.b - 15/09/2020.** In addition, a version will be published that incorporates the changes to be evaluated in the following year's report, so that those community members who want to test them will have it at their disposal.
   * Breaking changes
   * Non-breaking changes
-  * HotFixes
+  * Hotfixes
 * **v2021.0 - 15/01/2021.** After the conclusion of the reporting cycle, a first version of the ATS/ETS and the ETF to be used in the 2021 reporting cycle will be published in the production environment.
 From this version onwards, the same release philosophy will be followed, so that the community has a clear understanding of what is to be released, the functionalities offered and the scope of these developments.
   * Breaking changes
   * Non-breaking changes
-  * HotFixes
+  * Hotfixes
 
 # Overview
 ## Current Situation
@@ -63,24 +76,27 @@ There will be different instances of the ETF deploying different branches of the
 * [Staging instance](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp/): which will contain a pre-publication version of the production
 * Beta instance (this instance is not available yet): this environment will contain a version corresponding to the following year's compliance requirements, so users can choose to validate against the current year's version or the following year's version
 
-The different versions incorporated into these environments may contain different developments, both at the ATS/ETS and ETF levels.
-The following types of functionalities to be incorporated are established according to the relevance of the changes introduced in each development, as well as to the impact they have on the validations to be carried out.
+The different versions to be released may contain different developments, both at the ATS/ETS and ETF level. The following classification of functionalities to be incorporated is established according to the relevance of the changes introduced in each development, as well as to the impact they have on the validations to be carried out.
 * Breaking changes:
   * Corresponding to an implementation that makes the compliance more restrictive and difficult to pass
   * New tests
 * Non-Breaking changes:
   * Implementation reducing restriction for the correct compliance in a requirement
   * Minor changes to the interface that add new functionalities to the interface but it has no effect on the tests
-* Hotfix: 
+* Hotfix:
   * Detected bug that needs to be implemented and extended as soon as possible to the different instances
 
 In order to facilitate reporting at the end of the year, a fundamental aspect is that the community is adequately informed of the versions to be released, as well as being given enough time to accommodate the data to be reported on a stable, unvarying and reliable version.
 Globally, a work schedule is established for the annual report in which the focus is mainly on concentrating the breaking-changes in the first half of the year, so that by June of each year, there is a stable version on which to test the data and where the changes introduced up to the end of the year do not impact more restrictively on the validations to be made on the reporting information.
 Thus, the following schedule of versions can be conceived in accordance with the objective of offering the version used in the annual report at mid-year that can be used from that moment for the preparation of data aligned with the requirements to be met at the end of the year.
 * **v2020.1 - 15/03/2020.** It includes a first batch of binding developments to the end-2020 report, as well as improvements to the ETF tool.
-* **v2020.2 - 15/06/2020.** This version includes all the requirements and restrictions to incorporate the annual report, so that users can use it from this moment on to adapt their data appropriately until the end of the year
-* **v2020.3 - 15/09/2020.** The version published at this time contains all the restrictions and possible non-breaking changes or HotFixes, that is to say developments that do not imply additional work for the report but that can lower the degree of restriction of the requirements or correct existing bugs.
-This version will be used for the evaluation of the annual report.
+* **v2020.2 - 15/06/2020.** This **v2020.2 release contains all the validations to be considered for the evaluation of the annual report.**
+This version includes all the requirements and restrictions to incorporate the annual report, so that users can use it from this moment on to appropriately adapt their data until the end of the year. 
+  * Breaking changes
+  * Non-breaking changes
+  * Hotfixes
+* **v2020.3 - 15/09/2020.** This **v2020.3 version will be used for the evaluation of the annual report.**
+The version published at this time contains all the restrictions and possible non-breaking changes or Hotfixes, that is to say developments that do not imply additional work for the report but that can lower the degree of restriction of the requirements or correct existing bugs.
 * **v2021.b - 15/09/2020.** In addition, a version will be published that incorporates the changes to be evaluated in the following year's report, so that those community members who want to test them will have it at their disposal.
 * **v2021.0 - 15/01/2021.** After the conclusion of the reporting cycle, a first version of the ATS/ETS and the ETF to be used in the 2021 reporting cycle will be published in the production environment.
 From this version onwards, the same release philosophy will be followed, so that the community has a clear understanding of what is to be released, the functionalities offered and the scope of these developments.
@@ -91,8 +107,8 @@ Thus, in order to clarify the operation between the different branches and the d
 ## v2020.1 - 15/03/2020
 This first version v2020.1 to be deployed in the production instance on 15/03/2020 includes breaking-changes, i.e. new requirements and developments that directly impact in the report to be made. 
 As it can be seen, it is based on the master branch, which is deployed in production environment.
-All issues that come in the period prior to the release, whether they are breaking changes, non-breaking changes or HotFixes will be deployed as soon as they have been developed in the staging environment, as usual. 
-If a hotfix needs to be incorporated in the production instance before the release date, the production deployment will be updated.
+All issues that come in the period prior to the release, whether they are breaking changes, non-breaking changes or Hotfixes will be deployed as soon as they have been developed in the staging environment, as usual. 
+If a Hotfix needs to be incorporated in the production instance before the release date, the production deployment will be updated.
 Finally, according to the planned date, the validated developments will be taken from the staging branch, creating the branch v2020.1 that will be merged in the master branch and deployed in the production environment. 
 This way, the reference version from this moment becomes v2020.1.
 
@@ -100,19 +116,19 @@ This way, the reference version from this moment becomes v2020.1.
 
 ## v2020.2 - 15/06/2020
 As mentioned above, the first part of the year will focus on developing and consolidating the requirements for the annual report.
-Thus, version v2020.2 contains all the breaking changes, non-breaking changes and HotFixes needed to generate a version on which to test the annual report. This version guarantees that, if the validations are successfully passed, the report will also be successful, since the final version to be used for the evaluation of the report (v2020.3) will not incorporate changes that imply more requirements or greater restrictions to the reported data.
+Thus, version v2020.2 contains all the breaking changes, non-breaking changes and Hotfixes needed to generate a version on which to test the annual report. This version guarantees that, if the validations are successfully passed, the report will also be successful, since the final version to be used for the evaluation of the report (v2020.3) will not incorporate changes that imply more requirements or greater restrictions to the reported data.
 
 ![v2020.2](./img/v2020.2.png "v2020.2")
 
 ## v2020.3 - 15/09/2020
-This v2020.3 version will be used for the 2020 report. Version v2020.3 will include non-breaking changes and HotFixes, which guarantees that the data tested with version v2020.2 will successfully pass the validations contained in v2020.3. Furthermore, in any case, version v2020.3 will only incorporate developments that facilitate the report, thus benefiting users from all the work done since version v2020.2.
+This v2020.3 version will be used for the 2020 report. Version v2020.3 will include non-breaking changes and Hotfixes, which guarantees that the data tested with version v2020.2 will successfully pass the validations contained in v2020.3. Furthermore, in any case, version v2020.3 will only incorporate developments that facilitate the report, thus benefiting users from all the work done since version v2020.2.
 Additionally,  version 2021.b will also be released in the beta instance, which will incorporate the first breaking changes for the 2021 report. 
 This version will be available to be used in advance by the community for the preparation of the 2021 report.
 
 ![v2020.3](./img/v2020.3.png "v2020.3")
 
 ## v2021.0 - 15/01/2021
-Version 2021.0 is the first release of the year and is established as the basis for the 2021 report. It incorporates breaking changes, non-breaking changes and HotFixes as a baseline for the following developments to be made in the 2021 report.
+Version 2021.0 is the first release of the year and is established as the basis for the 2021 report. It incorporates breaking changes, non-breaking changes and Hotfixes as a baseline for the following developments to be made in the 2021 report.
 
 ![v2021.0](./img/v2021.0.png "v2021.1")
 
@@ -133,11 +149,11 @@ Thus, the release of a new version implies acting on the following elements.
    * etf-release-v202x.y.z, containing ETF deployment instructions and artifacts
 	  * source code, zip file containing the community repository for the delivered version  
 * GitHub packages. A GitHub package is generated including the instructions and elements for the ETF deployment corresponding to the version released through the use of Docker.
-* Branches management. The following branches should be managed, according to the specific purpose of the version, depending on the time of year and the changes it incorporates (breaking changes, non-breaking changes or HotFixes).
+* Branches management. The following branches should be managed, according to the specific purpose of the version, depending on the time of year and the changes it incorporates (breaking changes, non-breaking changes or Hotfixes).
   * branch v202x.y.z , this branch is created from the next branch, which includes all the developments made according to the criteria established for the specific version
   * master is synchronized with the branch generated for the specific version
   * next, is the branch that generates the version and is only merged by another branch in version v202x.0 where it is overwritten by the beta branch
-  * beta, is created from version v202x.2 and updated with breaking changes, non-breaking changes and HotFixes
+  * beta, is created from version v202x.2 and updated with breaking changes, non-breaking changes and Hotfixes
 * Issues management. Issues related to the release must be properly managed according to the following actions: 
   * Assign the corresponding milestone: v202x.y.z
   * Update the corresponding label: deployed in reference validator
