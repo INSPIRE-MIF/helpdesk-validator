@@ -12,7 +12,7 @@
 - [Release Delivery](#release-delivery)
 
 # Introduction
-This document aims to give an overview of the different releases to be released of the ATS/ETS and ETF over time, so that it is useful for the community to be able to plan and manage their resources for the annual report consistently as far in advance as possible. Thus, this document includes the main release dates, along with the expected changes and the elements that will be made available to the community for each of them.
+This document illustrates the release planning strategy for the INSPIRE Reference Validator, including all its components (ATS, ETS and ETF). The document explains the rationale behind the plan and details the release dates foreseen together with their main expected changes. The release is beneficial to the whole INSPIRE community, in particular to the Member States data providers in preparation to the Monitoring process that will take place each year in December.
 
 # Release Planning Summary
 The core of the release planning strategy is the annual major release. 
