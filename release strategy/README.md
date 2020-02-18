@@ -1,6 +1,6 @@
 # Table of contents
 - [Introduction](#introduction)
-- [Release Planning Summary](#release-planning-summary)
+- [Release Plan Objective and Summary](#release-planning-summary)
 - [Overview](#overview)
   * [Current Situation](#current-situation)
   * [Desired Situation](#desired-situation)
@@ -12,9 +12,12 @@
 - [Release Delivery](#release-delivery)
 
 # Introduction
-This document illustrates the release planning strategy for the INSPIRE Reference Validator, including all its components (ATS, ETS and ETF). The document explains the rationale behind the plan and details the release dates foreseen together with their main expected changes. The release is beneficial to the whole INSPIRE community, in particular to the Member States data providers in preparation to the Monitoring process that will take place each year in December.
+This document illustrates the release planning strategy for the INSPIRE Reference Validator, including all its components (ATS, ETS and ETF). The document explains the rationale behind the plan and details the foreseen release dates throughout the year together with their main expected changes. It also lists a number of resources to inform users on the future expected changes in the INSPIRE Reference Validator and to check in detail the content of each release.
 
-# Release Planning Summary
+
+# Release Plan Objective and Summary
+The objective of this document is to explain the release planning process for the INSPIRE Reference Validator in an open, clear and transparent way to the INSPIRE community in order to ensure that stable validation criteria are provided and communicated efficiently. The release plan is beneficial to the whole INSPIRE community, in particular to the Member States data providers and implementers in preparation to the Monitoring process that will take place each year in December. 
+
 The core of the release plan is the annual major release of the INSPIRE Reference Validator. This release includes the validation rules applied in the end-of-year Monitoring process, i.e. the tests against which the conformity of the INSPIRE resources published by Member States will be measured. In order to give INSPIRE data providers and implementers sufficient time to prepare their resources for the Monitoring deadline in December, each year the major release of the INSPIRE Reference Validator is published several months in advance (in June).
 
 Therefore, the main idea of the release plan is to include all the _breaking-changes_ (i.e. changes which make tests more restrictive as well as new tests) in the versions of the INSPIRE Reference Validator released during the first half of the year (in January, March and June) and the _non-breaking-changes_ (i.e. changes which make tests less restrictive and changes to the interface, which do not impact the tests) in any version of the INSPIRE Reference Validator, including the one released during the second half of the year (in September). In addition, _hotfixes_ (i.e. fixes to major bugs or faults) are released as quickly as possible, even outside the planned releases.
