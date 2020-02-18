@@ -1,6 +1,6 @@
 # Table of contents
 - [Introduction](#introduction)
-- [Release Plan Objective and Summary](#release-planning-summary)
+- [Release Plan Objective and Summary](#release-planning-objective-summary)
 - [Overview](#overview)
   * [Current Situation](#current-situation)
   * [Desired Situation](#desired-situation)
