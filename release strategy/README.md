@@ -25,7 +25,9 @@ In particular, all the **_breaking changes_** (i.e. changes which make tests mor
 
 _______________________________
 
-The following schedule of versions is conceived in accordance with the objective of offering the version used in the annual report at mid-year, that can be used from that moment for the preparation of data aligned with the requirements to be met at the end of the year. This schedule refers to the remaining part of year 2020 and the beginning of year 2021, however the plan has to be seen as a generic plan that will also apply for the next years.
+**REMOVE THIS PART (it is already mentioned below)**
+
+The following schedule of versions is conceived in accordance with the objective of offering the version used in the annual report at mid-year, that can be used from that moment for the preparation of data aligned with the requirements to be met at the end of the year. For simplicity, this schedule refers to the remaining part of year 2020 and the beginning of year 2021, however the plan has to be seen as a generic plan that will also apply for the next years.
 * **v2020.1 - 15/03/2020.** It includes a first batch of binding developments to the end-2020 report, as well as improvements to the ETF tool.
   * Breaking changes
   * Non-breaking changes
@@ -49,6 +51,10 @@ From this version onwards, the same release philosophy will be followed, so that
   * Non-breaking changes
   * Hotfixes
 
+______________________________
+
+**REMOVE THIS PART**
+
 # Overview
 ## Current Situation
 The INSPIRE Validation & conformity testing framework consists of Abstract and Executable Testsuites, of the ETF framework and User Interface and of additional tools such as the Linkage Checker. It helps INSPIRE implementers to understand whether their data sets and network services are compliant to the technical guidance. Resources need to fulfill a wide set of requirements to qualify as fully compliant.
@@ -65,6 +71,16 @@ In this way, this document sets out a transparent proposal for planning the vari
 
 # Release Planning
 At the core of the release planning strategy is the annual major release. This is the release that encompasses the rules that will be applied in the end-of-year reporting. To give tool developers and INSPIRE implementers sufficient time to adjust, this release will be made with significant lead time to the monitoring period.
+
+______________________________
+
+# Available instances of the INSPIRE Reference Validator
+
+Multiple instances of the INSPIRE Reference Validator are currently available (or will be made available) which have different purposes:
+
+* [Production instance](http://inspire.ec.europa.eu/validator/): this is the ...
+
+
 
 In order to provide users with an environment where developments can be adequately tested, different test environments are offered, where the ATS/ETS developed will be tested on a specific instance of the ETF.
 There will be different instances of the ETF deploying different branches of the ATS/ETS/ETF set, with different purposes
