@@ -80,6 +80,7 @@ Multiple instances of the INSPIRE Reference Validator are currently available (o
 
 * [Production instance](http://inspire.ec.europa.eu/validator/): this is the ...
 
+* [Staging instance](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp/): this is the ...
 
 
 In order to provide users with an environment where developments can be adequately tested, different test environments are offered, where the ATS/ETS developed will be tested on a specific instance of the ETF.
