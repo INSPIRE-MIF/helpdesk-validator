@@ -20,8 +20,13 @@ Below is a diagram describing the workflow of an issue, along with the states in
 ![Helpdesk Management Workflow](./img/HelpdeskWorkflowPublic.png "Helpdesk Management Workflow")
 
 In the diagram above, the workflow is triggered by the submission of an issue in GitHub by a community user.
+
 In the first instance, the Validation Team contacts the user and sets a tag "under analysis" to proceed to collect the necessary information to solve the issue. At this point, it is possible to iterate with the user to request more detail about the submitted issue.
+
 Once there is enough information, the issue is classified either as "discussion", in case it is not directly related to the Validator for its resolution in other forums, or as "under development", so the tasks associated to its resolution are carried out.
+
 After the development of the tasks for the resolution of the issue and its integration in the INSPIRE Reference Validator Staging environment, the issue is marked as "ready for testing". At this stage, the explicit validation of the user is requested to ensure that the resolution of the issue provides, in fact, enough coverage to the needs initially requested. 
+
 If the resolution of the issue covers the needs raised, it is incorporated into the INSPIRE Reference Validator roadmap and, once this issue is deployed in the production environment, the issue is marked as "closed". Otherwise, the workflow may go back in order to iterate until the issue is finally closed.
+
 In this way, the workflow for attending to incidents related to the INSPIRE Reference Validator is completed.
