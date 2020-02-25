@@ -1,5 +1,5 @@
 # Introduction
-One of the most important objectives for the provision of the INSPIRE Reference Validator environment service is to establish an adequate communication channel with the community.
+An important objective for the provision of the INSPIRE Reference Validator environment service is to establish an adequate communication channel with the community.
 For this, the issue management functionalities offered by GitHub are being used, providing assistance to the users' requests, as well as offering detailed information of the changes and hotfixes that will be included in the different versions.
 In this way, a workflow is established for the Helpdesk Management that allows to carry out in a systematic and organized way the management of the different issues that are incorporated to the Community repository.
 So, the aim of this document is to explain in detail the procedure established for the issues management in order to have a proper understanding in the defined process for its management.
@@ -13,7 +13,7 @@ In summary, the tags that an issue can be assigned with are the following:
 * ready for testing: the development associated with the issue has been carried out and is available to the user for validation in the INSPIRE Reference Validator Staging environment
 * solved: once the user has confirmed that the development carried out is adequate, the issue is marked as solved
 * closed: an issue is tagged as "closed" when it has been deployed in the INSPIRE Reference Validator environment
-discussion: if the issue does not occur in the INSPIRE Reference Validator, the issue is flagged for discussion in a different forum
+* discussion: if the issue does not occur in the INSPIRE Reference Validator, the issue is flagged for discussion
 
 Below is a diagram describing the workflow of an issue, along with the states in which it can be found and which actor takes action on it.
 
@@ -23,7 +23,7 @@ In the diagram above, the workflow is triggered by the submission of an issue in
 
 In the first instance, the Validation Team contacts the user and sets a tag "under analysis" to proceed to collect the necessary information to solve the issue. At this point, it is possible to iterate with the user to request more detail about the submitted issue.
 
-Once there is enough information, the issue is classified either as "discussion", in case it is not directly related to the Validator for its resolution in other forums, or as "under development", so the tasks associated to its resolution are carried out.
+Once there is enough information, the issue is classified either as "discussion", in case it is not directly related to the Validator, or as "under development", so the tasks associated to its resolution are carried out.
 
 After the development of the tasks for the resolution of the issue and its integration in the INSPIRE Reference Validator Staging environment, the issue is marked as "ready for testing". At this stage, the explicit validation of the user is requested to ensure that the resolution of the issue provides, in fact, enough coverage to the needs initially requested. 
 
