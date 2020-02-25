@@ -1,5 +1,5 @@
 # Introduction
-An important objective for the provision of the INSPIRE Reference Validator environment service is to establish an adequate communication channel with the community.
+The establishment of an adequate communication channel with the community is an important objective for the provision of the INSPIRE Reference Validator environment service.
 For this, the issue management functionalities offered by GitHub are being used, providing assistance to the users' requests, as well as offering detailed information of the changes and hotfixes that will be included in the different versions.
 In this way, a workflow is established for the Helpdesk Management that allows to carry out in a systematic and organized way the management of the different issues that are incorporated to the Community repository.
 So, the aim of this document is to explain in detail the procedure established for the issues management in order to have a proper understanding in the defined process for its management.
