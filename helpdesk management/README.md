@@ -6,7 +6,7 @@ So, the aim of this document is to explain in detail the procedure established f
 
 # Helpdesk Management Workflow
 In order to establish a proper issues management procedure, it has been created a workflow that allows to know at any moment the state of an issue. This workflow defines a set of actions for the resolution of issues in which both the users and the Validation Team will participate.
-In this Helpdesk Managment Workflow, issues go through a series of status that are marked by means of the use of labels that identify in a simple way the actions taken until the moment and the next actions to take.
+In this Helpdesk Management Workflow, issues go through a series of status that are marked by means of the use of labels that identify in a simple way the actions taken until the moment and the next actions to take.
 In summary, the tags that an issue can be assigned with are the following:
 * under analysis: indicates that the Validation Team is performing an analysis of the scope of the issue
 * under development: shows that the Validation Team is running a development according to the analysis of the issue
