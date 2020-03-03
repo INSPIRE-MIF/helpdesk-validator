@@ -31,7 +31,7 @@ In particular, all the **_breaking changes_** (i.e. changes which make tests mor
 
 Multiple instances of the INSPIRE Reference Validator are currently available (or will be made available) which have different purposes:
 
-* [Production instance](http://inspire.ec.europa.eu/validator/): this is the reference instance used for validating INSPIRE resources in the end-of-year Monitoring process. It only includes the consolidated changes, i.e. changes which have been already tested and approved by the INSPIRE community. Releases of the INSPIRE Reference Validator always refer to releases of the production instance.
+* [Production instance](http://inspire.ec.europa.eu/validator/): this is the reference instance used for validating INSPIRE resources in the end-of-year Monitoring process. It only includes the consolidated changes, i.e. changes which have been already tested and approved by the INSPIRE community. Releases of the INSPIRE Reference Validator (with the exception of beta releases) always refer to releases of the production instance.
 
 * [Staging instance](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp/): this instance includes all the latest changes to the INSPIRE Reference Validator, including new tests and new functionality, before these are also moved to the Production instance within a release. The Staging instance is only used for testing purposes by the INSPIRE community.
 
@@ -45,30 +45,22 @@ For simplicity, the descriptions make explicit reference to releases in the year
 
 * **v2020.1 - 15/03/2020**: it includes both breaking and non-breaking changes.
 * **v2020.2 - 15/06/2020**: it includes both breaking and non-breaking changes.
-* **v2020.3 - 15/09/2020**: it only includes non-breaking changes and it is the release used for the end-of-year Monitoring process.
+* **v2020.3 - 15/09/2020**: it only includes non-breaking changes, so that any INSPIRE resource passing the test in the previous release automatically passes the same test in this release. This release is the one used for the end-of-year Monitoring process.
 * **v2021.b - 15/09/2020**: it includes both breaking and non-breaking changes which are planned to become effective (for Monitoring purposes) in the following year.
 * **v2021.0 - 15/01/2021**: it includes both breaking and non-breaking changes, including those available in the beta instance of the previous year.
 
 ### v2020.1 - 15/03/2020
-This first version v2020.1 to be deployed in the production instance on 15/03/2020 includes breaking-changes, i.e. new requirements and developments that directly impact in the report to be made. 
-As it can be seen, it is based on the master branch, which is deployed in production environment.
-All issues that come in the period prior to the release, whether they are breaking changes, non-breaking changes or Hotfixes will be deployed as soon as they have been developed in the staging environment, as usual. 
-If a Hotfix needs to be incorporated in the production instance before the release date, the production deployment will be updated.
-Finally, according to the planned date, the validated developments will be taken from the staging branch, creating the branch v2020.1 that will be merged in the master branch and deployed in the production environment. 
-This way, the reference version from this moment becomes v2020.1.
+This release is planned on 15/03/2020 and includes breaking and non-breaking changes. All these changes (each managed in a dedicated branch) are first incorporated in the _staging_ branch, i.e. they are made available in the Staging instance, and afterwards also in the _v2020.1_ branch. This branch is finally merged into the _master_ branch, which will make all changes available in the Production instance. Should hotfixes be needed at any time, they are immediately incorporated both in the _staging_ and the _master_ branches.
 
 ![v2020.1](./img/v2020.1.png "v2020.1")
 
 ### v2020.2 - 15/06/2020
-As mentioned above, the first part of the year will focus on developing and consolidating the requirements for the annual report.
-Thus, version v2020.2 contains all the breaking changes, non-breaking changes and Hotfixes needed to generate a version on which to test the annual report. This version guarantees that, if the validations are successfully passed, the report will also be successful, since the final version to be used for the evaluation of the report (v2020.3) will not incorporate changes that imply more requirements or greater restrictions to the reported data.
+This release is planned on 15/06/2020 and includes breaking and non-breaking changes. All these changes (each managed in a dedicated branch) are first incorporated in the _staging_ branch, i.e. they are made available in the Staging instance, and afterwards also in the _v2020.2_ branch. This branch is finally merged into the _master_ branch, which will make all changes available in the Production instance, and also in the _beta_ branch. Should hotfixes be needed at any time, they are immediately incorporated both in the _staging_ and the _master_ branches. <!-- check how hotfixes are addressed: is there a need to create a v.2020.1.1 branch? If yes, update description. -->
 
 ![v2020.2](./img/v2020.2.png "v2020.2")
 
 ### v2020.3 - 15/09/2020
-This v2020.3 version will be used for the 2020 report. Version v2020.3 will include non-breaking changes and Hotfixes, which guarantees that the data tested with version v2020.2 will successfully pass the validations contained in v2020.3. Furthermore, in any case, version v2020.3 will only incorporate developments that facilitate the report, thus benefiting users from all the work done since version v2020.2.
-Additionally,  version 2021.b will also be released in the beta instance, which will incorporate the first breaking changes for the 2021 report. 
-This version will be available to be used in advance by the community for the preparation of the 2021 report.
+This release is planned on 15/09/2020 and only includes non-breaking changes. All these changes (each managed in a dedicated branch) are first incorporated in the _staging_ branch, i.e. they are made available in the Staging instance, and afterwards also in the _v2020.3_ branch. This branch is finally merged into the _master_ branch, which will make all changes available in the Production instance. Conversely, in addition to the non-breaking changes, breaking changes (each managed in a dedicated branch) are also incorporated in the _beta_ branch. Should hotfixes be needed at any time, they are immediately incorporated both in the _staging_, the _master_ and the _beta_ branches. <!-- check how hotfixes are addressed: is there a need to create a v.2020.1.1 branch? If yes, update description. -->
 
 ![v2020.3](./img/v2020.3.png "v2020.3")
 
