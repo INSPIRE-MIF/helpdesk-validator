@@ -39,7 +39,7 @@ Multiple instances of the INSPIRE Reference Validator are currently available (o
 
 ## Annual releases
 
-As mentioned above, several releases of the INSPIRE Reference Validator are scheduled each year with the main goal of concentrating breaking changes in the first half of the year in order to produce the major release used for the end-of-year Monitoring process already in June. The scheduled annual releases are described in detail in the next sub-sections. In addition to the different infrastructure and deployment environments, the different releases are managed using different branches of the [ETS repository](https://github.com/inspire-eu-validation/ets-repository).
+As mentioned above, several releases of the INSPIRE Reference Validator are scheduled each year with the main goal of concentrating breaking changes in the first half of the year in order to produce the major release used for the end-of-year Monitoring process already in June. The scheduled annual releases are described in detail in the next sub-sections. In addition to the different infrastructure and deployment environments, the different releases are managed using different branches of the [_ets-repository_ repository](https://github.com/inspire-eu-validation/ets-repository).
 
 For simplicity, the descriptions make explicit reference to releases in the years 2020/2021, but the same release schedule will be applied consistently over the following years:
 
@@ -74,24 +74,22 @@ This release is scheduled for 15/01/2021 and includes breaking and non-breaking 
 As mentioned above, this release schedule has been made to cover an annual cycle as an example, but this release schedule is intended to be established consistently over time.
 
 # Release Delivery
-The release of a version involves the generation of certain artifacts so that the community has access to all the assets generated and can clearly identify the elements that are released.
-Thus, the release of a new version implies acting on the following elements.
-* Github release. A release v202x.y.z (dd/mm/yyyy) is generated, including:
-  * New Features, listed and grouped by ATS, ETS and ETF
-  * Bugfixes, listed and identified by issue, description and pull request
-  * Enhancements, listed and identified by issue, description and pull request
-  * Documentation, pointing to the various documents produced for the generated version
-  * Assets, code packages are generated to facilitate the deployment to users, containing
-	  * ets-repository, zip file containing the ets-repository corresponding to the created branch
-   * etf-release-v202x.y.z, containing ETF deployment instructions and artifacts
-	  * source code, zip file containing the community repository for the delivered version  
-* GitHub packages. A GitHub package is generated including the instructions and elements for the ETF deployment corresponding to the version released through the use of Docker.
-* Branches management. The following branches should be managed, according to the specific purpose of the version, depending on the time of year and the changes it incorporates (breaking changes, non-breaking changes or Hotfixes).
-  * branch v202x.y.z , this branch is created from the next branch, which includes all the developments made according to the criteria established for the specific version
-  * master is synchronized with the branch generated for the specific version
-  * next, is the branch that generates the version and is only merged by another branch in version v202x.0 where it is overwritten by the beta branch
-  * beta, is created from version v202x.2 and updated with breaking changes, non-breaking changes and Hotfixes
-* Issues management. Issues related to the release must be properly managed according to the following actions: 
-  * Assign the corresponding milestone: v202x.y.z
-  * Update the corresponding label: deployed in reference validator
-  
+Each release of the INSPIRE Reference Validator is fully managed and made available to the INSPIRE community through the folowing set of GitHub artifacts: 
+
+* a **GitHub milestone**, named _v202x.y (dd/mm/yyyy)_ and published on the [Milestones section of the _community_ repository](https://github.com/inspire-eu-validation/community/milestones); the milestone lists the issues whose solutions are included in the current release;
+
+* a **GitHub release**, named _v202x.y (dd/mm/yyyy)_ and published on the [Release section of the _community_ repository](https://github.com/inspire-eu-validation/community/releases). The release notes include:
+  * a list of new features to the ATS, ETS and ETF
+  * a list of bugfixes, each with the corresponding issue and pull request
+  * a list of the enhancements, each with the corresponding issue and pull request
+  * the new documentation produced, if any
+  * assets, i.e. code packages required for deployment:
+	  * _ets-repository-v202x.y.zip_, containing the _ets-repository_ repository corresponding to the release branch;
+          * _etf-release-v202x.y.zip_, containing ETF deployment instructions and artifacts;
+	  * _Source code.zip_ and _Source code.tar.gz_, including the content of the _community_ repository for the current release;
+	  
+* a **GitHub package**, published on the [Packages section of the _community_ repository](https://github.com/inspire-eu-validation/community/packages), including the instructions and resources needed to deploy the current release of the INSPIRE Reference Validator through the use of Docker.
+
+* update of the **[GitHub issue tracker](https://github.com/inspire-eu-validation/community/issues)** by changing the label of the issues solved within the current release from _solved_ to _deployed in reference validator_ and by closing them;
+
+* update of the **[Validator issues project board](https://github.com/inspire-eu-validation/community/projects/1)** by moving all the issues labeled as _deployed in reference validator_ to the column _Production: latest release_.
