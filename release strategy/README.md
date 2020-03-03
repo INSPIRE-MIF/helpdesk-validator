@@ -1,6 +1,6 @@
 # Table of contents
 - [Introduction](#introduction)
-- [Release Plan Objective and Summary](#release-plan-objective-and-summary)
+- [Objective and Summary](#objective-and-summary)
 - [Overview](#overview)
   * [Current Situation](#current-situation)
   * [Desired Situation](#desired-situation)
@@ -15,13 +15,13 @@
 
 This document illustrates the release planning strategy for the INSPIRE Reference Validator, including all its components (ATS, ETS and ETF). The document explains the rationale behind the plan and details the foreseen release dates throughout the year together with their main expected changes. It also lists a number of resources for users to get informed on the future expected changes (future releases) in the INSPIRE Reference Validator and to check in detail the content of each released version (past releases).
 
-# Release Plan Objective and Summary
+# Objective and Summary
 
-The objective of this document is to explain the release planning process for the INSPIRE Reference Validator in an open, clear and transparent way to the INSPIRE community in order to ensure that stable validation criteria are provided and communicated efficiently. The release plan is beneficial to the whole INSPIRE community, in particular to Member States data providers and implementers in preparation to the Monitoring process that will take place each year in December and will make use of the INSPIRE Reference Validator.
+The objective of this document is to explain the release planning process for the INSPIRE Reference Validator in an open, clear and transparent way to the INSPIRE community in order to ensure that stable validation criteria are provided and communicated efficiently. The release plan is beneficial to the whole INSPIRE community, in particular to Member States data providers and implementers in preparation to the Monitoring process that takes place each year in December and makes use of the INSPIRE Reference Validator.
 
-The core of the release plan is the annual major release of the INSPIRE Reference Validator. This release includes the validation rules applied in the end-of-year Monitoring process, i.e. the reference tests against which the conformity of the INSPIRE resources published by Member States will be measured. In order to give INSPIRE data providers and implementers sufficient time to prepare their resources for the Monitoring deadline in December, each year the major release of the INSPIRE Reference Validator is published several months in advance (in June). In addition to this major release, every year a number of minor releases will be also published (in January, March and September).
+The core of the release plan is **the annual major release** of the INSPIRE Reference Validator. This release includes the validation rules applied in the end-of-year Monitoring process, i.e. the reference tests against which the conformity of the INSPIRE resources published by Member States are measured. In order to give INSPIRE data providers and implementers sufficient time to prepare their resources for the Monitoring deadline in December, each year the major release of the INSPIRE Reference Validator is published several months in advance (in June). In addition to this major release, every year **a number of minor releases** are also published (in January, March and September).
 
-In particular, all the **_breaking changes_** (i.e. changes which make tests more restrictive as well as new tests) will be only included in the versions of the INSPIRE Reference Validator released during the first half of the year (in January, March and June), while the **_non-breaking changes_** (i.e. changes which make tests less restrictive as well as changes to the interface, which do not impact the tests) will be included in any version of the INSPIRE Reference Validator (in January, March, June and September). In addition, **_hotfixes_** (i.e. fixes to major bugs or faults) will be released as quickly as possible, even outside the planned releases.
+In particular, all the **_breaking changes_** (i.e. changes which make tests more restrictive as well as new tests) are only included in the versions of the INSPIRE Reference Validator released during the first half of the year (in January, March and June), while the **_non-breaking changes_** (i.e. changes which make tests less restrictive as well as changes to the interface, which do not impact the tests) are included in any version of the INSPIRE Reference Validator (in January, March, June and September). In addition, **_hotfixes_** (i.e. fixes to major bugs or faults) are released as quickly as possible, even outside the planned releases.
 
 _______________________________
 
@@ -74,30 +74,21 @@ At the core of the release planning strategy is the annual major release. This i
 
 ______________________________
 
-# Available instances of the INSPIRE Reference Validator
+# Release Planning
+
+## Instances of the INSPIRE Reference Validator
 
 Multiple instances of the INSPIRE Reference Validator are currently available (or will be made available) which have different purposes:
 
-* [Production instance](http://inspire.ec.europa.eu/validator/): this is the ...
+* [Production instance](http://inspire.ec.europa.eu/validator/): this is the reference instance used for validating INSPIRE resources in the end-of-year Monitoring process. It only includes the consolidated changes, i.e. changes which have been already tested and approved by the INSPIRE community. Releases of the INSPIRE Reference Validator always refer to releases of the production instance.
 
-* [Staging instance](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp/): this is the ...
+* [Staging instance](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp/): this instance includes all the latest changes to the INSPIRE Reference Validator, including new tests and new functionality, before these are also moved to the Production instance within a release. The Staging instance is only used for testing purposes by the INSPIRE community.
+
+* Beta instance (available from Q3-2020): this instance, developed independently of the Production and Staging instances, includes the changes foreseen for the following year. It provides INSPIRE users with the possibility to test validation requirements foreseen for the following year already before the Monitoring deadline of the current year.
 
 
-In order to provide users with an environment where developments can be adequately tested, different test environments are offered, where the ATS/ETS developed will be tested on a specific instance of the ETF.
-There will be different instances of the ETF deploying different branches of the ATS/ETS/ETF set, with different purposes
-* [Production instance](http://inspire.ec.europa.eu/validator/): stable deployment with official and proven ATS/ETS for the current year's report
-* [Staging instance](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp/): which will contain a pre-publication version of the production
-* Beta instance (this instance is not available yet): this environment will contain a version corresponding to the following year's compliance requirements, so users can choose to validate against the current year's version or the following year's version
 
-The different versions to be released may contain different developments, both at the ATS/ETS and ETF level. The following classification of functionalities to be incorporated is established according to the relevance of the changes introduced in each development, as well as to the impact they have on the validations to be carried out.
-* Breaking changes:
-  * Corresponding to an implementation that makes the compliance more restrictive and difficult to pass
-  * New tests
-* Non-Breaking changes:
-  * Implementation reducing restriction for the correct compliance in a requirement
-  * Minor changes to the interface that add new functionalities to the interface but it has no effect on the tests
-* Hotfix:
-  * Detected bug that needs to be implemented and extended as soon as possible to the different instances
+
 
 In order to facilitate reporting at the end of the year, a fundamental aspect is that the community is adequately informed of the versions to be released, as well as being given enough time to accommodate the data to be reported on a stable, unvarying and reliable version.
 Globally, a work schedule is established for the annual report in which the focus is mainly on concentrating the breaking-changes in the first half of the year, so that by June of each year, there is a stable version on which to test the data and where the changes introduced up to the end of the year do not impact more restrictively on the validations to be made on the reporting information.
