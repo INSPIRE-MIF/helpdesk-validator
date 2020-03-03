@@ -5,10 +5,12 @@
   * [Current Situation](#current-situation)
   * [Desired Situation](#desired-situation)
 - [Release Planning](#release-planning)
-  * [v2020.1 - 15/03/2020](#v20201---15-03-2020)
-  * [v2020.2 - 15/06/2020](#v20202---15-06-2020)
-  * [v2020.3 - 15/09/2020](#v20203---15-09-2020)
-  * [v2021.0 - 15/01/2021](#v20210---15-01-2021)
+  * [Instances of the INSPIRE Reference Validator](#instances-of-the-inspire-reference-validator)
+  * [Annual releases](#annual-releases)
+    * [v2020.1 - 15/03/2020](#v20201---15-03-2020)
+    * [v2020.2 - 15/06/2020](#v20202---15-06-2020)
+    * [v2020.3 - 15/09/2020](#v20203---15-09-2020)
+    * [v2021.0 - 15/01/2021](#v20210---15-01-2021)
 - [Release Delivery](#release-delivery)
 
 # Introduction
@@ -23,57 +25,6 @@ The core of the release plan is **the annual major release** of the INSPIRE Refe
 
 In particular, all the **_breaking changes_** (i.e. changes which make tests more restrictive as well as new tests) are only included in the versions of the INSPIRE Reference Validator released during the first half of the year (in January, March and June), while the **_non-breaking changes_** (i.e. changes which make tests less restrictive as well as changes to the interface, which do not impact the tests) are included in any version of the INSPIRE Reference Validator (in January, March, June and September). In addition, **_hotfixes_** (i.e. fixes to major bugs or faults) are released as quickly as possible, even outside the planned releases.
 
-_______________________________
-
-**REMOVE THIS PART (it is already mentioned below)**
-
-The following schedule of versions is conceived in accordance with the objective of offering the version used in the annual report at mid-year, that can be used from that moment for the preparation of data aligned with the requirements to be met at the end of the year. For simplicity, this schedule refers to the remaining part of year 2020 and the beginning of year 2021, however the plan has to be seen as a generic plan that will also apply for the next years.
-* **v2020.1 - 15/03/2020.** It includes a first batch of binding developments to the end-2020 report, as well as improvements to the ETF tool.
-  * Breaking changes
-  * Non-breaking changes
-  * Hotfixes
-* **v2020.2 - 15/06/2020.** This **v2020.2 release contains all the validations to be considered for the evaluation of the annual report.**
-This version includes all the requirements and restrictions to incorporate the annual report, so that users can use it from this moment on to appropriately adapt their data until the end of the year. 
-  * Breaking changes
-  * Non-breaking changes
-  * Hotfixes
-* **v2020.3 - 15/09/2020.** This **v2020.3 version will be used for the evaluation of the annual report.**
-The version published at this time contains all the restrictions and possible non-breaking changes or Hotfixes, that is to say developments that do not imply additional work for the report but that can lower the degree of restriction of the requirements or correct existing bugs.
-  * Non-breaking changes
-  * Hotfixes
-* **v2021.b - 15/09/2020.** In addition, a version will be published that incorporates the changes to be evaluated in the following year's report, so that those community members who want to test them will have it at their disposal.
-  * Breaking changes
-  * Non-breaking changes
-  * Hotfixes
-* **v2021.0 - 15/01/2021.** After the conclusion of the reporting cycle, a first version of the ATS/ETS and the ETF to be used in the 2021 reporting cycle will be published in the production environment.
-From this version onwards, the same release philosophy will be followed, so that the community has a clear understanding of what is to be released, the functionalities offered and the scope of these developments.
-  * Breaking changes
-  * Non-breaking changes
-  * Hotfixes
-
-______________________________
-
-**REMOVE THIS PART**
-
-# Overview
-## Current Situation
-The INSPIRE Validation & conformity testing framework consists of Abstract and Executable Testsuites, of the ETF framework and User Interface and of additional tools such as the Linkage Checker. It helps INSPIRE implementers to understand whether their data sets and network services are compliant to the technical guidance. Resources need to fulfill a wide set of requirements to qualify as fully compliant.
-The framework was initially made available in 2016 and has since given data providers feedback to implement the requirements correctly. Before the initial availability of the framework, there was often a lot of ambiguity in what exactly is compliant and what not, which reduced interoperability. In 2019, the INSPIRE monitoring was first based on direct harvesting and compliance testing of data sets, network services and metadata. This is a first step to continuous, data driven monitoring, with fewer manual steps and corrections applied by intermediate SDIs. 
-As of late 2019, the monitoring for 2019 has just been completed, and implementers have relied heavily on the framework and associated tools to make their resources fit for INSPIRE. 
-
-## Desired Situation
-When reviewing the current situation, there are some aspects that would help to make conformity testing a more straightforward task. To support both INSPIRE implementers and the central reporting optimally, it is proposed the following for the INSPIRE validation and conformity testing framework:
-* Create transparency into Release Planning process and into deployment states
-* Provide stable conformity criteria with enough lead time before the monitoring period
-* Communicate changes and their impact to the community on a regular basis
-
-In this way, this document sets out a transparent proposal for planning the various releases of the INSPIRE Reference Validator.
-
-# Release Planning
-At the core of the release planning strategy is the annual major release. This is the release that encompasses the rules that will be applied in the end-of-year reporting. To give tool developers and INSPIRE implementers sufficient time to adjust, this release will be made with significant lead time to the monitoring period.
-
-______________________________
-
 # Release Planning
 
 ## Instances of the INSPIRE Reference Validator
@@ -86,7 +37,7 @@ Multiple instances of the INSPIRE Reference Validator are currently available (o
 
 * Beta instance (available from Q3-2020): this instance, developed independently of the Production and Staging instances, includes the changes foreseen for the following year. It provides INSPIRE users with the possibility to test validation requirements foreseen for the following year already before the Monitoring deadline of the current year.
 
-
+## Annual releases
 
 
 
