@@ -87,6 +87,6 @@ Each release of the INSPIRE Reference Validator is fully managed and made availa
 	  
 * a **GitHub package**, published on the [Packages section of the _community_ repository](https://github.com/inspire-eu-validation/community/packages), including the instructions and resources needed to deploy the current release of the INSPIRE Reference Validator through the use of Docker.
 
-* update of the **[GitHub issue tracker](https://github.com/inspire-eu-validation/community/issues)** by changing the label of the issues solved within the current release from _solved_ to _deployed in reference validator_ and by closing them;
+* update of the **[GitHub issue tracker of the _community_ repository](https://github.com/inspire-eu-validation/community/issues)** by changing the label of the issues solved within the current release from _solved_ to _deployed in reference validator_ and by closing them;
 
 * update of the **[Validator issues project board](https://github.com/inspire-eu-validation/community/projects/1)** by moving all the issues labeled as _deployed in reference validator_ to the column _Production: latest release_.
