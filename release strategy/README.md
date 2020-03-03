@@ -39,11 +39,13 @@ Multiple instances of the INSPIRE Reference Validator are currently available (o
 
 ## Annual releases
 
+As mentioned above, several releases of the INSPIRE Reference Validator are scheduled each year with the main goal of concentrating breaking changes in the first half of the year in order to produce the major release used for the end-of-year Monitoring process already in June. The scheduled annual releases are described in detail in the next sub-sections. In addition to the different infrastructure and deployment environments, the different releases are managed using different branches of the [ETS repository](https://github.com/inspire-eu-validation/ets-repository).
+
+For simplicity, the descriptions make explicit reference to releases in the years 2020/2021, but the same release schedule is foreseen for the following years. 
 
 
-In order to facilitate reporting at the end of the year, a fundamental aspect is that the community is adequately informed of the versions to be released, as well as being given enough time to accommodate the data to be reported on a stable, unvarying and reliable version.
-Globally, a work schedule is established for the annual report in which the focus is mainly on concentrating the breaking-changes in the first half of the year, so that by June of each year, there is a stable version on which to test the data and where the changes introduced up to the end of the year do not impact more restrictively on the validations to be made on the reporting information.
-Thus, the following schedule of versions can be conceived in accordance with the objective of offering the version used in the annual report at mid-year that can be used from that moment for the preparation of data aligned with the requirements to be met at the end of the year.
+
+
 * **v2020.1 - 15/03/2020.** It includes a first batch of binding developments to the end-2020 report, as well as improvements to the ETF tool.
 * **v2020.2 - 15/06/2020.** This **v2020.2 release contains all the validations to be considered for the evaluation of the annual report.**
 This version includes all the requirements and restrictions to incorporate the annual report, so that users can use it from this moment on to appropriately adapt their data until the end of the year. 
