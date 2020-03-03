@@ -41,27 +41,15 @@ Multiple instances of the INSPIRE Reference Validator are currently available (o
 
 As mentioned above, several releases of the INSPIRE Reference Validator are scheduled each year with the main goal of concentrating breaking changes in the first half of the year in order to produce the major release used for the end-of-year Monitoring process already in June. The scheduled annual releases are described in detail in the next sub-sections. In addition to the different infrastructure and deployment environments, the different releases are managed using different branches of the [ETS repository](https://github.com/inspire-eu-validation/ets-repository).
 
-For simplicity, the descriptions make explicit reference to releases in the years 2020/2021, but the same release schedule is foreseen for the following years. 
+For simplicity, the descriptions make explicit reference to releases in the years 2020/2021, but the same release schedule is foreseen for the following years:
 
+* **v2020.1 - 15/03/2020**: it includes both breaking and non-breaking changes.
+* **v2020.2 - 15/06/2020**: it includes both breaking and non-breaking changes.
+* **v2020.3 - 15/09/2020**: it only includes non-breaking changes and it is the release used for the end-of-year Monitoring process.
+* **v2021.b - 15/09/2020**: it includes both breaking and non-breaking changes which are planned to become effective (for Monitoring purposes) in the following year.
+* **v2021.0 - 15/01/2021**: it includes both breaking and non-breaking changes, including those available in the beta instance of the previous year.
 
-
-
-* **v2020.1 - 15/03/2020.** It includes a first batch of binding developments to the end-2020 report, as well as improvements to the ETF tool.
-* **v2020.2 - 15/06/2020.** This **v2020.2 release contains all the validations to be considered for the evaluation of the annual report.**
-This version includes all the requirements and restrictions to incorporate the annual report, so that users can use it from this moment on to appropriately adapt their data until the end of the year. 
-  * Breaking changes
-  * Non-breaking changes
-  * Hotfixes
-* **v2020.3 - 15/09/2020.** This **v2020.3 version will be used for the evaluation of the annual report.**
-The version published at this time contains all the restrictions and possible non-breaking changes or Hotfixes, that is to say developments that do not imply additional work for the report but that can lower the degree of restriction of the requirements or correct existing bugs.
-* **v2021.b - 15/09/2020.** In addition, a version will be published that incorporates the changes to be evaluated in the following year's report, so that those community members who want to test them will have it at their disposal.
-* **v2021.0 - 15/01/2021.** After the conclusion of the reporting cycle, a first version of the ATS/ETS and the ETF to be used in the 2021 reporting cycle will be published in the production environment.
-From this version onwards, the same release philosophy will be followed, so that the community has a clear understanding of what is to be released, the functionalities offered and the scope of these developments.
-
-These announced versions must be orchestrated not only in terms of infrastructure and deployment environments, but also in terms of managing the various branches in the community repository.
-Thus, in order to clarify the operation between the different branches and the deployment environments where the ATS/ETS will be able to be run, the diagrams below are included:
-
-## v2020.1 - 15/03/2020
+### v2020.1 - 15/03/2020
 This first version v2020.1 to be deployed in the production instance on 15/03/2020 includes breaking-changes, i.e. new requirements and developments that directly impact in the report to be made. 
 As it can be seen, it is based on the master branch, which is deployed in production environment.
 All issues that come in the period prior to the release, whether they are breaking changes, non-breaking changes or Hotfixes will be deployed as soon as they have been developed in the staging environment, as usual. 
@@ -71,20 +59,20 @@ This way, the reference version from this moment becomes v2020.1.
 
 ![v2020.1](./img/v2020.1.png "v2020.1")
 
-## v2020.2 - 15/06/2020
+### v2020.2 - 15/06/2020
 As mentioned above, the first part of the year will focus on developing and consolidating the requirements for the annual report.
 Thus, version v2020.2 contains all the breaking changes, non-breaking changes and Hotfixes needed to generate a version on which to test the annual report. This version guarantees that, if the validations are successfully passed, the report will also be successful, since the final version to be used for the evaluation of the report (v2020.3) will not incorporate changes that imply more requirements or greater restrictions to the reported data.
 
 ![v2020.2](./img/v2020.2.png "v2020.2")
 
-## v2020.3 - 15/09/2020
+### v2020.3 - 15/09/2020
 This v2020.3 version will be used for the 2020 report. Version v2020.3 will include non-breaking changes and Hotfixes, which guarantees that the data tested with version v2020.2 will successfully pass the validations contained in v2020.3. Furthermore, in any case, version v2020.3 will only incorporate developments that facilitate the report, thus benefiting users from all the work done since version v2020.2.
 Additionally,  version 2021.b will also be released in the beta instance, which will incorporate the first breaking changes for the 2021 report. 
 This version will be available to be used in advance by the community for the preparation of the 2021 report.
 
 ![v2020.3](./img/v2020.3.png "v2020.3")
 
-## v2021.0 - 15/01/2021
+### v2021.0 - 15/01/2021
 Version 2021.0 is the first release of the year and is established as the basis for the 2021 report. It incorporates breaking changes, non-breaking changes and Hotfixes as a baseline for the following developments to be made in the 2021 report.
 
 ![v2021.0](./img/v2021.0.png "v2021.1")
