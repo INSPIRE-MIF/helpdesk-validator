@@ -1,9 +1,6 @@
 # Table of contents
 - [Introduction](#introduction)
 - [Objective and Summary](#objective-and-summary)
-- [Overview](#overview)
-  * [Current Situation](#current-situation)
-  * [Desired Situation](#desired-situation)
 - [Release Planning](#release-planning)
   * [Instances of the INSPIRE Reference Validator](#instances-of-the-inspire-reference-validator)
   * [Annual releases](#annual-releases)
