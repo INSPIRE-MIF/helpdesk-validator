@@ -1,16 +1,13 @@
 # Table of contents
 - [Introduction](#introduction)
 - [Objective and Summary](#objective-and-summary)
-- [Overview](#overview)
-  * [Current Situation](#current-situation)
-  * [Desired Situation](#desired-situation)
 - [Release Planning](#release-planning)
   * [Instances of the INSPIRE Reference Validator](#instances-of-the-inspire-reference-validator)
   * [Annual releases](#annual-releases)
-    * [v2020.1 - 15/03/2020](#v20201---15-03-2020)
-    * [v2020.2 - 15/06/2020](#v20202---15-06-2020)
-    * [v2020.3 - 15/09/2020](#v20203---15-09-2020)
-    * [v2021.0 - 15/01/2021](#v20210---15-01-2021)
+    * [v2020.1 - 15/03/2020](#v20201-15-03-2020)
+    * [v2020.2 - 15/06/2020](#v20202-15-06-2020)
+    * [v2020.3 - 15/09/2020](#v20203-15-09-2020)
+    * [v2021.0 - 15/01/2021](#v20210-15-01-2021)
 - [Release Delivery](#release-delivery)
 
 # Introduction
@@ -79,17 +76,17 @@ Each release of the INSPIRE Reference Validator is fully managed and made availa
 * a **GitHub milestone**, named _v202x.y (dd/mm/yyyy)_ and published on the [Milestones section of the _community_ repository](https://github.com/inspire-eu-validation/community/milestones); the milestone lists the issues whose solutions are included in the current release;
 
 * a **GitHub release**, named _v202x.y (dd/mm/yyyy)_ and published on the [Release section of the _community_ repository](https://github.com/inspire-eu-validation/community/releases). The release notes include:
-  * a list of new features to the ATS, ETS and ETF
-  * a list of bugfixes, each with the corresponding issue and pull request
-  * a list of the enhancements, each with the corresponding issue and pull request
-  * the new documentation produced, if any
-  * assets, i.e. code packages required for deployment:
-	  * _ets-repository-v202x.y.zip_, containing the _ets-repository_ repository corresponding to the release branch;
-          * _etf-release-v202x.y.zip_, containing ETF deployment instructions and artifacts;
-	  * _Source code.zip_ and _Source code.tar.gz_, including the content of the _community_ repository for the current release;
+  - a list of new features to the ATS, ETS and ETF
+  - a list of bugfixes, each with the corresponding issue and pull request
+  - a list of the enhancements, each with the corresponding issue and pull request
+  - the new documentation produced, if any
+  - assets, i.e. code packages required for deployment:
+    - _ets-repository-v202x.y.zip_, containing the _ets-repository_ repository corresponding to the release branch;
+    - _etf-release-v202x.y.zip_, containing ETF deployment instructions and artifacts;
+    - _Source code.zip_ and _Source code.tar.gz_, including the content of the _community_ repository for the current release;
 	  
 * a **GitHub package**, published on the [Packages section of the _community_ repository](https://github.com/inspire-eu-validation/community/packages), including the instructions and resources needed to deploy the current release of the INSPIRE Reference Validator through the use of Docker.
 
-* update of the **[GitHub issue tracker](https://github.com/inspire-eu-validation/community/issues)** by changing the label of the issues solved within the current release from _solved_ to _deployed in reference validator_ and by closing them;
+* update of the **[GitHub issue tracker of the _community_ repository](https://github.com/inspire-eu-validation/community/issues)** by changing the label of the issues solved within the current release from _solved_ to _deployed in reference validator_ and by closing them;
 
 * update of the **[Validator issues project board](https://github.com/inspire-eu-validation/community/projects/1)** by moving all the issues labeled as _deployed in reference validator_ to the column _Production: latest release_.
