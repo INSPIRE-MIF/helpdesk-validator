@@ -10,4 +10,4 @@ The status of the solutions to all the issues currently open in the helpdesk can
 
 Please note that the helpdesk should not be used to report generic issues with INSPIRE implementation, but only to report problems of the Validator (i.e. tests that are/might not be currently implemented or issues to the web application) and to collect improvement proposals.
 
-Please check [Releases](https://github.com/inspire-eu-validation/community/releases) for current features and the [Release Strategy](https://github.com/inspire-eu-validation/community/tree/master/release%20strategy) for future deployments of the INSPIRE Reference Validator. For the roadmap of the ETF software, refer to the [project board](https://github.com/orgs/etf-validator/projects/2) of the ETF-Validator project.
+Please check the [changelog of the current and past releases](https://github.com/inspire-eu-validation/community/releases) and the [release planning strategy](https://github.com/inspire-eu-validation/community/tree/master/release%20strategy) for the plan of future releases of the INSPIRE Reference Validator.
