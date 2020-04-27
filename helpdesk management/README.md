@@ -1,8 +1,9 @@
 # Introduction
-The establishment of an adequate communication channel with the community is an important objective for the provision of the INSPIRE Reference Validator environment service.
-For this, the issue management functionalities offered by GitHub are being used, providing assistance to the users' requests, as well as offering detailed information of the changes and hotfixes that will be included in the different versions.
+The establishment of a proper communication with the INSPIRE Validation community is a key asset for the operation, maintenance and update of the INSPIRE Reference Validator. The [helpdesk of the INSPIRE Reference Validator](https://github.com/inspire-eu-validation/community/issues) is the core of the communication strategy, since it is the platform where users can report bugs, propose new features and start discussions on the Validator. The objective of this document is to illustrate the systematic workflow setup by the INSPIRE Validation team to address and manage the issues reported by users in the Validator helpdesk.
+
+<!-- For this, the issue management functionalities offered by GitHub are being used, providing assistance to the users' requests, as well as offering detailed information of the changes and hotfixes that will be included in the different versions.
 In this way, a workflow is established for the Helpdesk Management that allows to carry out in a systematic and organized way the management of the different issues that are incorporated to the Community repository.
-So, the aim of this document is to explain in detail the procedure established for the issues management in order to have a proper understanding in the defined process for its management.
+So, the aim of this document is to explain in detail the procedure established for the issues management in order to have a proper understanding in the defined process for its management. -->
 
 # Helpdesk Management Workflow
 In order to establish a proper issues management procedure, it has been created a workflow that allows to know at any moment the state of an issue. This workflow defines a set of actions for the resolution of issues in which both the users and the Validation Team will participate.
