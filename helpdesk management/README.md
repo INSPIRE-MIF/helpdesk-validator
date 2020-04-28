@@ -9,11 +9,12 @@ So, the aim of this document is to explain in detail the procedure established f
 The helpdesk management workflow defines and organizes the set of actions performed by the INSPIRE Validation team as well as those expected from the users of the INSPIRE Validator. The workflow makes use of a number of GitHub artifacts: labels, milestones and the project board.
 
 ## GitHub labels <!-- could be removed, if not needed -->
-To be able to know the status of each issue reported in the helpdesk (from the initial assessment to the final implementation of a solution for it), a number of labels are used. These are included on [this page](https://github.com/inspire-eu-validation/community/labels) and are also described below in the chronological order in which they are used while managing each Validator issue:
+To be able to know the status of each issue reported in the helpdesk (from the initial assessment to the final implementation of a solution for it), a number of labels are used. These are included on [this page](https://github.com/inspire-eu-validation/community/labels) and are described in more detail below in the chronological order in which they are used while managing each Validator issue:
 
-* _under analysis_: this label is assigned after the issue has been opened, and indicates that the INSPIRE Validation Team is performing a first analysis to figure out what is the problem and how to address it;
-* _discussion_: this label is assigned to the issue, in case the initial analysis reveals that it is neither a bug of the INSPIRE Reference Validator nor a new requested feature; in other words, the issue remains open for community discussion but no further action is made by the INSPIRE Validation Team;
-* _under development_: shows that the Validation Team is running a development according to the analysis of the issue
+* **_under analysis_**: this label is assigned after the issue has been opened, and indicates that the INSPIRE Validation Team is performing a first analysis to figure out what is the problem and how to address it;
+* **_discussion_**: this label is assigned to the issue, in case the initial analysis reveals that it is neither a bug of the INSPIRE Reference Validator nor a new requested feature; in other words, the issue will remain open for community discussion but no further action will be made by the INSPIRE Validation Team;
+* **_under development_**: in case the initial analysis reveals that a change in the INSPIRE Reference Validator is needed, this label is assigned to the issue to indicate that the INSPIRE Validation team is developing a solution for the problem reported;
+
 * _ready for testing_: the development associated with the issue has been carried out and is available to the user for validation in the INSPIRE Reference Validator Staging environment
 * _solved_: once the user has confirmed that the development carried out is adequate, the issue is marked as solved. Please note that only the issues of which the developed solution is accepted by the users will be incorporated to the next release in the Production environment
 * _closed_: an issue is tagged as "closed" when it has been deployed in the INSPIRE Reference Validator environment
