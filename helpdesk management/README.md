@@ -14,9 +14,11 @@ To be able to know the status of each issue reported in the helpdesk (from the i
 * **_under analysis_**: this label is assigned after the issue has been opened, and indicates that the INSPIRE Validation Team is performing a first analysis to figure out what is the problem and how to address it;
 * **_discussion_**: this label is assigned to the issue, in case the initial analysis reveals that it is neither a bug of the INSPIRE Reference Validator nor a new requested feature; in other words, the issue will remain open for community discussion but no further action will be made by the INSPIRE Validation Team;
 * **_under development_**: in case the initial analysis reveals that a change in the INSPIRE Reference Validator is needed, this label is assigned to the issue to indicate that the INSPIRE Validation team is developing a solution for the problem reported;
+* **_ready for testing_**: this label is assigned to the issue, to indicate that a solution for the problem reported has been developed by the INSPIRE Validation team and is ready to be tested in the [Staging instance](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp/) of the INSPIRE Reference Validator; in the issue discussion, the user who originally reported the problem is invited to test the solution and provide feedback;
+* **_solved_**: 
 
-* _ready for testing_: the development associated with the issue has been carried out and is available to the user for validation in the INSPIRE Reference Validator Staging environment
-* _solved_: once the user has confirmed that the development carried out is adequate, the issue is marked as solved. Please note that only the issues of which the developed solution is accepted by the users will be incorporated to the next release in the Production environment
+
+once the user has confirmed that the development carried out is adequate, the issue is marked as solved. Please note that only the issues of which the developed solution is accepted by the users will be incorporated to the next release in the Production environment
 * _closed_: an issue is tagged as "closed" when it has been deployed in the INSPIRE Reference Validator environment
 * _deployed in reference validator_: XXX
 
