@@ -6,14 +6,14 @@
   * [GitHub project board](#github-project-board)
 
 # Introduction
-The establishment of a proper communication with the INSPIRE Validation community is a key asset for the operation, maintenance and update of the INSPIRE Reference Validator. The [helpdesk of the INSPIRE Reference Validator](https://github.com/inspire-eu-validation/community/issues) is the core of the communication strategy, since it is the platform where users can report bugs, propose new features and start discussions on the Validator. The objective of this document is to illustrate the systematic workflow setup by the INSPIRE Validation team to address and manage the issues reported by users in the Validator helpdesk.
+The establishment of a proper communication with the INSPIRE Validation community is a key asset for the operation, maintenance and update of the INSPIRE Reference Validator. The [helpdesk of the INSPIRE Reference Validator](https://github.com/inspire-eu-validation/community/issues) is the core of the communication strategy, since it is the platform where users can report bugs, propose new features and start discussions on the Validator. The objective of this document is to illustrate the systematic workflow adopted by the INSPIRE Validation team to organise, address and manage the issues reported by users in the Validator helpdesk.
 
 <!-- For this, the issue management functionalities offered by GitHub are being used, providing assistance to the users' requests, as well as offering detailed information of the changes and hotfixes that will be included in the different versions.
 In this way, a workflow is established for the Helpdesk Management that allows to carry out in a systematic and organized way the management of the different issues that are incorporated to the Community repository.
 So, the aim of this document is to explain in detail the procedure established for the issues management in order to have a proper understanding in the defined process for its management. -->
 
 # Helpdesk management workflow
-The helpdesk management workflow defines and organizes the set of actions performed by the INSPIRE Validation team as well as those expected from the users of the INSPIRE Validator. The workflow makes use of a number of GitHub artifacts: labels, milestones and the project board.
+The helpdesk management workflow defines the actions performed by the INSPIRE Validation team to address and solve the problems reported by the users of the INSPIRE Validator. The workflow makes use of a number of GitHub artifacts: labels, milestones and the project board.
 
 ## GitHub labels <!-- could be removed, if not needed -->
 To be able to know the status of each issue reported in the helpdesk (from the initial assessment to the final implementation of a solution for it), a number of labels are used. These are listed on [this page](https://github.com/inspire-eu-validation/community/labels) and are described in more detail below in the chronological order in which they are used while managing each Validator issue:
@@ -33,16 +33,16 @@ The diagram below shows the full helpdesk management cycle for each issue, from 
 To inform users in advance about when the solution to each issue will be included in the [Production instance](https://inspire.ec.europa.eu/validator/) of the INSPIRE Reference Validator, each issue is assigned to a specific milestone. Milestones are listed in [this page](https://github.com/inspire-eu-validation/community/milestones) and their names have a 1:1 correspondence with the release versions of the INSPIRE Reference Validator. The release schedule of the INSPIRE Reference Validator, which lists the expected release dates for each specific version, is available [here](https://github.com/inspire-eu-validation/community/tree/master/release%20strategy). Once a new version of the INSPIRE Reference Validator is released, the corresponding milestone is closed and moved to the [list of closed milestones](https://github.com/inspire-eu-validation/community/milestones?state=closed).
 
 ## GitHub project board
-A third way for users to know the status of each issue reported in the helpdesk is to check the project board, which is available [here](https://github.com/inspire-eu-validation/community/projects/1). Based on the label currently associated to each issue, the project board automatically classifies the open issues into 6 blocks corresponding to the status of development of the corresponding solution:
+A third way for users to know the status of each issue reported in the helpdesk is to check the project board, which is available [here](https://github.com/inspire-eu-validation/community/projects/1). Based on the label associated to each issue, the project board automatically classifies the issues into 6 blocks corresponding to the status of development of the corresponding solution:
 
-* **_For discussion_**, including issues labeled as _discussion_;
-* **_To do_**, including issues labeled as _under analysis_;
-* **_In progress_**, including issues labeled as _under development_;
-* **_Staging: for acceptance_**, including issues labeled as _ready for testing_;
-* **_Staging: in release planning_**, including issues labeled as _solved_;
-* **_Production: latest release_**, including issues labeled as _deployed in reference validator_.
+* **_For discussion_**, including the issues currently labeled as _discussion_;
+* **_To do_**, including the issues currently labeled as _under analysis_;
+* **_In progress_**, including the issues currently labeled as _under development_;
+* **_Staging: for acceptance_**, including the issues currently labeled as _ready for testing_;
+* **_Staging: in release planning_**, including the issues currently labeled as _solved_;
+* **_Production: latest release_**, including the issues currently labeled as _deployed in reference validator_.
 
-The issues are automatically moved from one block to the other as soon as its label changes as described above.
+The issues are automatically moved from one block to the other as soon as its label is changed as described above.
 
 <!-- Below is a diagram describing the workflow of an issue, along with the states in which it can be found and which actor takes action on it. 
 In the diagram above, the workflow is triggered by the submission of an issue in GitHub by a community user.
