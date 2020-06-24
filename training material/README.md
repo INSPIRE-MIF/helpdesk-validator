@@ -1,3 +1,3 @@
-This page includes training materials on the INSPIRE Reference Validator.
+# Training material
 
-They were developed for the workshop held at the JRC in Ispra on October 1-2, 2019.
+This section includes training material on the INSPIRE Reference Validator.
