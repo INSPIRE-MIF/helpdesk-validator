@@ -3,7 +3,7 @@
 ```CMD
 docker login docker.pkg.github.com 
 #Provide Github credentials
-docker run --name inspire-validator -d -p 8080:8080 -v ~/etf:/etf docker.pkg.github.com/inspire-eu-validation/community/inspire-validator:2020.3
+docker run --name inspire-validator -d -p 8080:8080 -v ~/etf:/etf docker.pkg.github.com/INSPIRE-MIF/helpdesk-validator/inspire-validator:2020.3
 #Launches a container with the image, exposing it port 8080 through the same port in the host machine, and uses a volume in the local file system, on the directory ~/etf
 ```
 ##### Modifying the Docker image
