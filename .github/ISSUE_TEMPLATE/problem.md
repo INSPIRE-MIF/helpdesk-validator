@@ -4,7 +4,7 @@ about: Open an issue to report a problem with the INSPIRE validator or test resu
 
 ---
 
-Before reporting an issue with the INSPIRE validator deployed at JRC, please check the [list of known limitations](https://github.com/inspire-eu-validation/community/wiki/Known-limitations).
+Before reporting an issue with the INSPIRE validator deployed at JRC, please check the [list of known limitations](https://github.com/INSPIRE-MIF/helpdesk-validator/wiki/Known-limitations).
 
 Please replace these lines with a brief summary of your issue and the expected
 behaviour.

@@ -37,9 +37,9 @@ Afterwards, please follow these instructions:
 
 
 
-### How to [report an issue](https://github.com/inspire-eu-validation/community/issues/new?template=problem.md)
+### How to [report an issue](https://github.com/INSPIRE-MIF/helpdesk-validator/issues/new?template=problem.md)
 
-Before reporting an issue in the [INSPIRE Validator helpdesk](https://github.com/inspire-eu-validation/community/issues/), please check the [list of known limitations](https://github.com/inspire-eu-validation/community/wiki/Known-limitations).
+Before reporting an issue in the [INSPIRE Validator helpdesk](https://github.com/INSPIRE-MIF/helpdesk-validator/issues/), please check the [list of known limitations](https://github.com/INSPIRE-MIF/helpdesk-validator/wiki/Known-limitations).
 
 
 
@@ -63,7 +63,7 @@ Please note that issues cannot be investigated for services/datasets that we can
 
 
 
-### How to [suggest an improvement](https://github.com/inspire-eu-validation/community/issues/new?template=improvement-proposal.md)
+### How to [suggest an improvement](https://github.com/INSPIRE-MIF/helpdesk-validator/issues/new?template=improvement-proposal.md)
 
 Please create a brief summary of your improvement proposal, including:
 
@@ -87,7 +87,7 @@ To help us understand the proposal, please include:
 
 
 
-### How to [start a discussion](https://github.com/inspire-eu-validation/community/issues/new?template=discussion.md)
+### How to [start a discussion](https://github.com/INSPIRE-MIF/helpdesk-validator/issues/new?template=discussion.md)
 
 Please, make a short description about the topic you would like to discuss.
 
@@ -95,7 +95,7 @@ Please, make a short description about the topic you would like to discuss.
 
 
 
-### Labeling conventions for [helpdesk issues](https://github.com/inspire-eu-validation/community/issues/)
+### Labeling conventions for [helpdesk issues](https://github.com/INSPIRE-MIF/helpdesk-validator/issues/)
 
 These labels are assigned to the helpdesk issues by the helpdesk team. They will add the label as soon as one of them applies. Here is the list of available labels:
 

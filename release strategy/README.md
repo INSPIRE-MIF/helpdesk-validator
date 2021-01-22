@@ -71,9 +71,9 @@ As mentioned above, this release schedule only covers the annual cycle 2020/2021
 # Release Delivery
 Each release of the INSPIRE Reference Validator is fully managed and made available to the INSPIRE community through the following set of GitHub artifacts: 
 
-* a **GitHub milestone**, named _v202x.y (dd/mm/yyyy)_ and published on the [Milestones section of the _community_ repository](https://github.com/inspire-eu-validation/community/milestones); the milestone lists the issues whose solutions are included in the corresponding _v202x.y (dd/mm/yyyy)_ release;
+* a **GitHub milestone**, named _v202x.y (dd/mm/yyyy)_ and published on the [Milestones section of the _community_ repository](https://github.com/INSPIRE-MIF/helpdesk-validator/milestones); the milestone lists the issues whose solutions are included in the corresponding _v202x.y (dd/mm/yyyy)_ release;
 
-* a **GitHub release**, named _v202x.y (dd/mm/yyyy)_ and published on the [Release section of the _community_ repository](https://github.com/inspire-eu-validation/community/releases). The release notes include:
+* a **GitHub release**, named _v202x.y (dd/mm/yyyy)_ and published on the [Release section of the _community_ repository](https://github.com/INSPIRE-MIF/helpdesk-validator/releases). The release notes include:
   - a list of new features to the ATS, ETS and ETF
   - a list of bugfixes, each with the corresponding issue and pull request
   - a list of the enhancements, each with the corresponding issue and pull request
@@ -83,10 +83,10 @@ Each release of the INSPIRE Reference Validator is fully managed and made availa
     - _etf-release-v202x.y.zip_, containing ETF deployment instructions and artifacts;
     - _Source code.zip_ and _Source code.tar.gz_, including the content of the _community_ repository for the current release;
 	  
-* a **GitHub package**, published on the [Packages section of the _community_ repository](https://github.com/inspire-eu-validation/community/packages), including the instructions and resources needed to deploy the corresponding release of the INSPIRE Reference Validator through the use of Docker.
+* a **GitHub package**, published on the [Packages section of the _community_ repository](https://github.com/INSPIRE-MIF/helpdesk-validator/packages), including the instructions and resources needed to deploy the corresponding release of the INSPIRE Reference Validator through the use of Docker.
 
 
-* update of the **[GitHub issue tracker of the _community_ repository](https://github.com/inspire-eu-validation/community/issues)** by changing the label of the issues solved within the corresponding release from _solved_ to _deployed in reference validator_ and by closing them;
+* update of the **[GitHub issue tracker of the _community_ repository](https://github.com/INSPIRE-MIF/helpdesk-validator/issues)** by changing the label of the issues solved within the corresponding release from _solved_ to _deployed in reference validator_ and by closing them;
 
 
-* update of the **[Validator issues project board](https://github.com/inspire-eu-validation/community/projects/1)** by moving all the issues labeled as _deployed in reference validator_ to the column _Production: latest release_.
+* update of the **[Validator issues project board](https://github.com/INSPIRE-MIF/helpdesk-validator/projects/1)** by moving all the issues labeled as _deployed in reference validator_ to the column _Production: latest release_.
