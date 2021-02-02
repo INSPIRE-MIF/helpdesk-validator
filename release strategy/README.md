@@ -4,10 +4,10 @@
 - [Release Planning](#release-planning)
   * [Instances of the INSPIRE Reference Validator](#instances-of-the-inspire-reference-validator)
   * [Annual releases](#annual-releases)
-    * [v2020.1 - 15/03/2020](#v2020-1-15-03-2020)
-    * [v2020.2 - 15/06/2020](#v20202-15-06-2020)
-    * [v2020.3 - 15/09/2020](#v20203-15-09-2020)
-    * [v2021.0 - 15/01/2021](#v20210-15-01-2021)
+    * [v2021.1 - 15/03/2021](#v20211-15-03-2021)
+    * [v2021.2 - 15/06/2021](#v20212-15-06-2021)
+    * [v2021.3 - 15/09/2021](#v20213-15-09-2021)
+    * [v2022.0 - 15/01/2022](#v20220-15-01-2022)
 - [Release Delivery](#release-delivery)
 
 # Introduction
@@ -32,41 +32,41 @@ Multiple instances of the INSPIRE Reference Validator are currently available (o
 
 * [Staging instance](http://staging-inspire-validator.eu-west-1.elasticbeanstalk.com/etf-webapp/): this instance includes all the latest changes to the INSPIRE Reference Validator, including new tests and new functionality, before these are also moved to the Production instance within a release. The Staging instance is only used for testing purposes by the INSPIRE community.
 
-* Beta instance (available from Q3-2020): this instance, developed independently of the Production and Staging instances, includes the changes foreseen for the following year. It provides INSPIRE users with the possibility to test validation requirements foreseen for the following year already before the Monitoring deadline of the current year.
+* Beta instance (available from Q3-2021): this instance, developed independently of the Production and Staging instances, includes the changes foreseen for the following year. It provides INSPIRE users with the possibility to test validation requirements foreseen for the following year already before the Monitoring deadline of the current year.
 
 ## Annual releases
 
 As mentioned above, several releases of the INSPIRE Reference Validator are scheduled each year with the main goal of concentrating breaking changes in the first half of the year in order to produce the major release used for the end-of-year Monitoring process already in June. The scheduled annual releases are described in detail in the next sub-sections. In addition to the different infrastructure and deployment environments, the different releases are managed using different branches of the [_ets-repository_](https://github.com/inspire-eu-validation/ets-repository) repository.
 
-For simplicity, the descriptions make explicit reference to releases in the years 2020/2021, but the same release schedule will be applied consistently over the following years:
+For simplicity, the descriptions make explicit reference to releases in the years 2021/2022, but the same release schedule will be applied consistently over the following years:
 
-* **v2020.1 - 15/03/2020**: it includes both breaking and non-breaking changes.
-* **v2020.2 - 15/06/2020**: it includes both breaking and non-breaking changes.
-* **v2020.3 - 15/09/2020**: it only includes non-breaking changes, so that any INSPIRE resource passing the test in the previous release automatically passes the same test in this release. This release is the one used for the end-of-year Monitoring process.
-* **v2021.b - 15/09/2020**: it includes both breaking and non-breaking changes which are planned to become effective (for Monitoring purposes) in the following year.
-* **v2021.0 - 15/01/2021**: it includes both breaking and non-breaking changes, including those available in the beta instance of the previous year.
+* **v2021.1 - 15/03/2021**: it includes both breaking and non-breaking changes.
+* **v2021.2 - 15/06/2021**: it includes both breaking and non-breaking changes.
+* **v2021.3 - 15/09/2021**: it only includes non-breaking changes, so that any INSPIRE resource passing the test in the previous release automatically passes the same test in this release. This release is the one used for the end-of-year Monitoring process.
+* **v2022.b - 15/09/2021**: it includes both breaking and non-breaking changes which are planned to become effective (for Monitoring purposes) in the following year.
+* **v2022.0 - 15/01/2022**: it includes both breaking and non-breaking changes, including those available in the beta instance of the previous year.
 
-### v2020.1 - 15/03/2020
-This release is scheduled for 15/03/2020 and includes breaking and non-breaking changes. All these changes (each managed in a dedicated branch) are first incorporated in the _staging_ branch, i.e. they are made available in the Staging instance; afterwards, each change which is also tested and accepted by the user who originally reported it, is also incorporated in the _v2020.1_ branch. This branch is finally merged into the _master_ branch, which will make all changes available in the Production instance. Should hotfixes be needed at any time, they are immediately incorporated both in the _staging_ and the _master_ branches.
+### v2021.1 - 15/03/2021
+This release is scheduled for 15/03/2021 and includes breaking and non-breaking changes. All these changes (each managed in a dedicated branch) are first incorporated in the _staging_ branch, i.e. they are made available in the Staging instance; afterwards, each change which is also tested and accepted by the user who originally reported it, is also incorporated in the _v2021.1_ branch. This branch is finally merged into the _master_ branch, which will make all changes available in the Production instance. Should hotfixes be needed at any time, they are immediately incorporated both in the _staging_ and the _master_ branches.
 
-![v2020.1](./img/v2020.1.png "v2020.1")
+![v2021.1](./img/v2021.1.png "v2021.1")
 
-### v2020.2 - 15/06/2020
-This release is scheduled for 15/06/2020 and includes breaking and non-breaking changes. All these changes (each managed in a dedicated branch) are first incorporated in the _staging_ branch, i.e. they are made available in the Staging instance; afterwards, each change which is also tested and accepted by the user who originally reported it, is also incorporated in the _v2020.2_ branch. This branch is finally merged into the _master_ branch, which will make all changes available in the Production instance, and also in the _beta_ branch. Should hotfixes be needed at any time, they are immediately incorporated both in the _staging_ and the _master_ branches.
+### v2021.2 - 15/06/2021
+This release is scheduled for 15/06/2021 and includes breaking and non-breaking changes. All these changes (each managed in a dedicated branch) are first incorporated in the _staging_ branch, i.e. they are made available in the Staging instance; afterwards, each change which is also tested and accepted by the user who originally reported it, is also incorporated in the _v2021.2_ branch. This branch is finally merged into the _master_ branch, which will make all changes available in the Production instance, and also in the _beta_ branch. Should hotfixes be needed at any time, they are immediately incorporated both in the _staging_ and the _master_ branches.
 
-![v2020.2](./img/v2020.2.png "v2020.2")
+![v2021.2](./img/v2021.2.png "v2021.2")
 
-### v2020.3 - 15/09/2020
-This release is scheduled for 15/09/2020 and only includes non-breaking changes. All these changes (each managed in a dedicated branch) are first incorporated in the _staging_ branch, i.e. they are made available in the Staging instance; afterwards, each change which is also tested and accepted by the user who originally reported it, is also incorporated in the _v2020.3_ branch. This branch is finally merged into the _master_ branch, which will make all changes available in the Production instance. Conversely, in addition to the non-breaking changes, breaking changes (each managed in a dedicated branch) are also incorporated in the _beta_ branch. Should hotfixes be needed at any time, they are immediately incorporated both in the _staging_, the _master_ and the _beta_ branches.
+### v2021.3 - 15/09/2021
+This release is scheduled for 15/09/2021 and only includes non-breaking changes. All these changes (each managed in a dedicated branch) are first incorporated in the _staging_ branch, i.e. they are made available in the Staging instance; afterwards, each change which is also tested and accepted by the user who originally reported it, is also incorporated in the _v2021.3_ branch. This branch is finally merged into the _master_ branch, which will make all changes available in the Production instance. Conversely, in addition to the non-breaking changes, breaking changes (each managed in a dedicated branch) are also incorporated in the _beta_ branch. Should hotfixes be needed at any time, they are immediately incorporated both in the _staging_, the _master_ and the _beta_ branches.
 
-![v2020.3](./img/v2020.3.png "v2020.3")
+![v2021.3](./img/v2021.3.png "v2021.3")
 
-### v2021.0 - 15/01/2021
-This release is scheduled for 15/01/2021 and includes breaking and non-breaking changes. All these changes (each managed in a dedicated branch) are progressively incorporated in the _beta_ branch, and finally also in the _v2021.0_ branch. This branch is finally merged into the _staging_ and the _master_ branches, which will make all changes available in both the Staging and the Production instances. Should hotfixes be needed at any time, they are immediately incorporated in both the _staging_ and the _master_ branches.
+### v2022.0 - 15/01/2022
+This release is scheduled for 15/01/2022 and includes breaking and non-breaking changes. All these changes (each managed in a dedicated branch) are progressively incorporated in the _beta_ branch, and finally also in the _v2022.0_ branch. This branch is finally merged into the _staging_ and the _master_ branches, which will make all changes available in both the Staging and the Production instances. Should hotfixes be needed at any time, they are immediately incorporated in both the _staging_ and the _master_ branches.
 
-![v2021.0](./img/v2021.0.png "v2021.1")
+![v2022.0](./img/v2022.0.png "v2022.1")
 
-As mentioned above, this release schedule only covers the annual cycle 2020/2021 as a reference example, but it will be also applied consistently in each of the following years.
+As mentioned above, this release schedule only covers the annual cycle 2021/2022 as a reference example, but it will be also applied consistently in each of the following years.
 
 # Release Delivery
 Each release of the INSPIRE Reference Validator is fully managed and made available to the INSPIRE community through the following set of GitHub artifacts: 
