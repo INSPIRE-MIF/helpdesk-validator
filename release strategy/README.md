@@ -4,7 +4,7 @@
 - [Release Planning](#release-planning)
   * [Instances of the INSPIRE Reference Validator](#instances-of-the-inspire-reference-validator)
   * [Annual releases](#annual-releases)
-    * [v2020.1 - 15/03/2020](#v20201-15-03-2020)
+    * [v2020.1 - 15/03/2020](#v2020-1-15-03-2020)
     * [v2020.2 - 15/06/2020](#v20202-15-06-2020)
     * [v2020.3 - 15/09/2020](#v20203-15-09-2020)
     * [v2021.0 - 15/01/2021](#v20210-15-01-2021)
