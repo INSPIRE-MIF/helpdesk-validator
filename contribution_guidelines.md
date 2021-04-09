@@ -5,7 +5,7 @@
 
 Thank you for your interest in contributing to the INSPIRE Validator. We would appreciate it if you read this information carefully so that we can propagate your changes as soon as possible.
 
-Please read and follow our [Code of Conduct](code_of_conduct.adoc) before you interact with the INSPIRE Validation community.
+Please read and follow our [Code of conduct](https://github.com/INSPIRE-MIF/helpdesk/blob/main/code-of-conduct.md) before you interact with the INSPIRE Validation community.
 
 The aim of these contribution guidelines is to help INSPIRE Validator contributors to verify that their pull requests to the ETS repository and their helpdesk issues are properly submitted. These guidelines are designed to save time and hassle caused by improperly created pull requests or issues that have to be rejected and re-submitted. 
 
