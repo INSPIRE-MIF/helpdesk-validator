@@ -57,12 +57,12 @@ This release is scheduled for 15/06/2021 and includes breaking and non-breaking 
 ![v2021.2](./img/v2021.2.png "v2021.2")
 
 ### v2021.3 - 15/09/2021
-This release is scheduled for 15/09/2021 and only includes non-breaking changes. All these changes (each managed in a dedicated branch) are first incorporated in the _staging_ branch, i.e. they are made available in the Staging instance; afterwards, each change which is also tested and accepted by the user who originally reported it, is also incorporated in the _v2021.3_ branch. This branch is finally merged into the _master_ branch, which will make all changes available in the Production instance. Conversely, in addition to the non-breaking changes, breaking changes (each managed in a dedicated branch) are also incorporated in the _beta_ branch. Should hotfixes be needed at any time, they are immediately incorporated both in the _staging_, the _master_ and the _beta_ branches.
+This release is scheduled for 15/09/2021 and only includes non-breaking changes. All these changes (each managed in a dedicated branch) are first incorporated in the _staging_ branch, i.e. they are made available in the Staging instance; afterwards, each change which is also tested and accepted by the user who originally reported it, is also incorporated in the _v2021.3_ branch. This branch is finally merged into the _master_ branch, which will make all changes available in the Production instance. Conversely, in addition to the non-breaking changes, breaking changes (each managed in a dedicated branch) are also incorporated in the _beta_ branch which is merged in the _staging_ branch, allowing the inclussion of breaking changes in the next v2022.0 release. Should hotfixes be needed at any time, they are immediately incorporated both in the _staging_, the _master_ and the _beta_ branches.
 
 ![v2021.3](./img/v2021.3.png "v2021.3")
 
 ### v2022.0 - 15/01/2022
-This release is scheduled for 15/01/2022 and includes breaking and non-breaking changes. All these changes (each managed in a dedicated branch) are progressively incorporated in the _beta_ branch, and finally also in the _v2022.0_ branch. This branch is finally merged into the _staging_ and the _master_ branches, which will make all changes available in both the Staging and the Production instances. Should hotfixes be needed at any time, they are immediately incorporated in both the _staging_ and the _master_ branches.
+This release is scheduled for 15/01/2022 and includes breaking and non-breaking changes. All these changes (each managed in a dedicated branch) are progressively incorporated in the _staging_ branch, and finally also in the _v2022.0_ branch. This branch is finally merged into the _master_ branches, which will make all changes available in the Production instance. Should hotfixes be needed at any time, they are immediately incorporated in both the _staging_ and the _master_ branches.
 
 ![v2022.0](./img/v2022.0.png "v2022.1")
 
