@@ -23,9 +23,9 @@ First, please check that the following conditions apply:
 
 Afterwards, please follow these instructions:
 
-1. Create a fork of the [staging branch](https://github.com/inspire-eu-validation/ets-repository/tree/staging) and write your code there.
+1. Create a fork of the [next branch](https://github.com/inspire-eu-validation/ets-repository/tree/next) and write your code there.
 
-2. Create a separate pull request to the [staging branch](https://github.com/inspire-eu-validation/ets-repository/tree/staging) for each single improvement made to the code.
+2. Create a separate pull request to the [staging branch](https://github.com/inspire-eu-validation/ets-repository/tree/staging)  and to the [next branch](https://github.com/inspire-eu-validation/ets-repository/tree/next) for each single improvement made to the code.
 
 3. Write a short description of the pull request. Please include the file (and/or the url) required to test the improvement made on the description of the pull request. This will help a lot to understand and test the changes made.
 
