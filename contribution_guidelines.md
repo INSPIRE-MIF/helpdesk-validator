@@ -63,9 +63,9 @@ Please note that issues cannot be investigated for services/datasets that we can
 
 
 
-### How to [suggest an improvement](https://github.com/INSPIRE-MIF/helpdesk-validator/discussions/new?category=ideas)
+### How to suggest an improvement
 
-Please open a new discussion in the "Ideas" category by providing a brief summary of your improvement proposal, including:
+Please [open a new discussion in the "Ideas" category](https://github.com/INSPIRE-MIF/helpdesk-validator/discussions/new?category=ideas) by providing a brief summary of your improvement proposal, including:
 
 
 
@@ -87,9 +87,9 @@ To help us understand the proposal, please include:
 
 
 
-### How to [start a discussion](https://github.com/INSPIRE-MIF/helpdesk-validator/discussions/new?category=general)
+### How to start a discussion
 
-Please open a new discussion in the "General" category by making a brief description about the topic you would like to discuss.
+Please [open a new discussion in the "General" category](https://github.com/INSPIRE-MIF/helpdesk-validator/discussions/new?category=general) by making a brief description about the topic you would like to discuss.
 
 
 
