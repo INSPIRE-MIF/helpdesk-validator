@@ -4,10 +4,10 @@
 - [Release Planning](#release-planning)
   * [Instances of the INSPIRE Reference Validator](#instances-of-the-inspire-reference-validator)
   * [Annual releases](#annual-releases)
-    * [v2022.1 - 15/03/2022](#v20221-15-03-2022)
-    * [v2022.2 - 15/06/2022](#v20222-15-06-2022)
-    * [v2022.3 - 15/09/2022](#v20223-15-09-2022)
-    * [v2023.0 - 15/01/2023](#v20230-15-01-2023)
+    * [v2022.1 - 15/03/2022](#v20221---15032022)
+    * [v2022.2 - 15/06/2022](#v20222---15062022)
+    * [v2022.3 - 15/09/2022](#v20223---15092022)
+    * [v2023.0 - 15/01/2023](#v20230---15012023)
 - [Release Delivery](#release-delivery)
 
 # Introduction
