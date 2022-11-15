@@ -363,6 +363,12 @@ If more than one character encoding is used within the described data set or dat
       </gmd:topicCategory>
       <gmd:extent>
         <gmd:EX_Extent>
+		
+	<!-- The metadata should contain the proper topic category related to the declared INSPIRE data theme (imageryBaseMapsEarthCover for LC in this example).
+		This second value leads to an error in the Validator until the related fix is made available. See issue #873 (https://github.com/INSPIRE-MIF/helpdesk-validator/issues/873) for more reference.
+	 <gmd:topicCategory>
+            <gmd:MD_TopicCategoryCode>imageryBaseMapsEarthCover</gmd:MD_TopicCategoryCode>
+         </gmd:topicCategory> -->
 
           <!--TG Requirement C.19: metadata/2.0/req/common/bounding-box: A minimal containing geographic bounding box of the data set or data set series shall be described. This bounding box shall be encoded using one or more gmd:extent/gmd:EX_Extent/gmd:geographicElement/gmd:EX_GeographicBoundingBox elements.
 The multiplicity of this element is 1..* for data sets and data set series, and 0..n for services.
