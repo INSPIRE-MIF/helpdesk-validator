@@ -6,11 +6,13 @@ on:
       - opened
 
 jobs:
-  add-to-project:
-    name: Add new issue to project
+  add-to-project-board:
+    name: Add new issue to project board
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/add-to-project@v0.4.1
+      - name: Add new issues to project board
+        uses: matmar10/add-issues-to-project@0.1.1
         with:
-          project-url: https://github.com/INSPIRE-MIF/helpdesk-validator/projects/1
-          github-token: ${{ secrets.PROJECT_AUTOMATION }}
+          gitub_token: ${{ secrets.PROJECT_AUTOMATION }}
+          github_project_title: Validator issues
+          github_org: INSPIRE-MIF
