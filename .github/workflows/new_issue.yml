@@ -1,0 +1,16 @@
+name: Adds all new issues to project board
+
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  add-to-project:
+    name: Add new issue to project
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@v0.4.1
+        with:
+          project-url: https://github.com/INSPIRE-MIF/helpdesk-validator/projects/1
+          github-token: ${{ secrets.PROJECT_AUTOMATION }}
