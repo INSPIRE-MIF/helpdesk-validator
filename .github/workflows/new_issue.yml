@@ -16,3 +16,12 @@ jobs:
           gitub_token: ${{ secrets.PROJECT_AUTOMATION }}
           github_project_title: Validator issues
           github_org: INSPIRE-MIF
+
+  add-to-project:
+    name: Add issue to project
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@v0.4.1
+        with:
+          project-url: https://github.com/orgs/INSPIRE-MIF/projects/4
+          github-token: ${{ secrets.PROJECT_AUTOMATION }}
