@@ -7,7 +7,7 @@ on:
 
 jobs:
   add-to-project-board:
-    name: Add new issue to project board
+    name: Add new issue to classic project board
     runs-on: ubuntu-latest
     steps:
       - name: Add new issues to project board
@@ -18,7 +18,7 @@ jobs:
           github_org: INSPIRE-MIF
 
   add-to-project:
-    name: Add issue to project
+    name: Add new issue to project board
     runs-on: ubuntu-latest
     steps:
       - uses: actions/add-to-project@v0.4.1
