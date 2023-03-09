@@ -27,6 +27,6 @@ jobs:
       uses: cb80/add2project@latest
       with:
         home: orgs/INSPIRE-MIF
-        project: Management of helpdesk-validator
+        project: 4
         column: Todo
         token: ${{ secrets.PROJECT_AUTOMATION }}
