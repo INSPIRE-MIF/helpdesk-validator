@@ -1,27 +1,32 @@
+---
 name: Adds all new issues to project board
 
 on:
   issues:
-    types:
-      - opened
-
+    types: [opened]
 jobs:
-  add-to-project-board:
-    name: Add new issue to classic project board
+  main:
     runs-on: ubuntu-latest
     steps:
-      - name: Add new issues to project board
-        uses: matmar10/add-issues-to-project@0.1.1
-        with:
-          gitub_token: ${{ secrets.PROJECT_AUTOMATION }}
-          github_project_title: Validator issues
-          github_org: INSPIRE-MIF
 
-  add-to-project:
-    name: Add new issue to project board
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/add-to-project@v0.4.1
-        with:
-          project-url: https://github.com/orgs/INSPIRE-MIF/projects/4
-          github-token: ${{ secrets.PROJECT_AUTOMATION }}
+    - name: Check out code
+      uses: actions/checkout@v3
+
+    - name: Set up node16
+      uses: actions/setup-node@v3
+      with:
+        node-version: 16
+
+    - name: Add new issue to classic project board
+      uses: cb80/add2project@latest
+      with:
+        project: Validator issues
+        column: To do
+
+    - name: Add new issue to project board
+      uses: cb80/add2project@latest
+      with:
+        home: orgs/INSPIRE-MIF
+        project: Management of helpdesk-validator
+        column: Todo
+        token: ${{ secrets.PROJECT_AUTOMATION }}
