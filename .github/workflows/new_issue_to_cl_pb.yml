@@ -22,11 +22,3 @@ jobs:
       with:
         project: Validator issues
         column: To do
-
-    - name: Add new issue to project board
-      uses: cb80/add2project@latest
-      with:
-        home: orgs/INSPIRE-MIF
-        project: 4
-        column: Todo
-        token: ${{ secrets.PROJECT_AUTOMATION }}
