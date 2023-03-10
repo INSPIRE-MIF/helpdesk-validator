@@ -1,5 +1,5 @@
 ---
-name: Adds all new issues to project board
+name: Add new issue to classic project board
 
 on:
   issues:
