@@ -4,18 +4,7 @@ on:
   issues:
     types: [labeled]
     
-jobs:
-  move_under_analysis_issues:
-    name: Move "under analysis" issues
-    runs-on: ubuntu-latest
-    steps:
-    - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
-      with:
-        action-token: "${{ secrets.PROJECT_AUTOMATION }}"
-        project-url: "https://github.com/INSPIRE-MIF/helpdesk-validator/projects/1"
-        column-name: "To do"
-        label-name: "under analysis"
-        
+jobs:     
   move_under_development_issues:
     name: Move "under development" issues
     runs-on: ubuntu-latest
@@ -26,3 +15,36 @@ jobs:
         project-url: "https://github.com/INSPIRE-MIF/helpdesk-validator/projects/1"
         column-name: "In progress"
         label-name: "under development"
+
+  move_ready_for_testing_issues:
+    name: Move "ready for testings" issues
+    runs-on: ubuntu-latest
+    steps:
+    - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
+      with:
+        action-token: "${{ secrets.PROJECT_AUTOMATION }}"
+        project-url: "https://github.com/INSPIRE-MIF/helpdesk-validator/projects/1"
+        column-name: "Staging: for acceptance"
+        label-name: "ready for testing"
+        
+  move_solved_issues:
+    name: Move "solved" issues
+    runs-on: ubuntu-latest
+    steps:
+    - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
+      with:
+        action-token: "${{ secrets.PROJECT_AUTOMATION }}"
+        project-url: "https://github.com/INSPIRE-MIF/helpdesk-validator/projects/1"
+        column-name: "Staging: in release planning"
+        label-name: "solved"
+        
+  move_deployed_in_reference_validator_issues:
+    name: Move "deployed in reference validator" issues
+    runs-on: ubuntu-latest
+    steps:
+    - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
+      with:
+        action-token: "${{ secrets.PROJECT_AUTOMATION }}"
+        project-url: "https://github.com/INSPIRE-MIF/helpdesk-validator/projects/1"
+        column-name: "Production: latest release"
+        label-name: "deployed in reference validator"
