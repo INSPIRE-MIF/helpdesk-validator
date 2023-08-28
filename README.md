@@ -5,7 +5,7 @@ Use the [*Issue tracker*](https://github.com/INSPIRE-MIF/helpdesk-validator/issu
 
 Use the [*Discussions tab*](https://github.com/INSPIRE-MIF/helpdesk-validator/discussions/) to start a discussion, raise a question or propose a new feature or an improvement on the INSPIRE Reference Validator, choosing the appropriate category. 
 
-Please **do not use the helpdesk to report security vulnerabilities** of the INSPIRE Reference Validator. To report these, please contact us at JRC-INSPIRE-SUPPORT AT ec.europa.eu.
+Please **do not use the helpdesk to report security vulnerabilities** of the INSPIRE Reference Validator. To report these, please contact us at JRC-INSPIRE-SUPPORT AT ec.europa.eu and inspire.jrc AT guadaltel.com
 
 Please note that the Issue tracker and the Discussions tab should not be used to report generic issues with INSPIRE implementation (for these, please use the [generic INSPIRE helpdesk](https://github.com/INSPIRE-MIF/helpdesk)), but only to report problems of the INSPIRE Reference Validator (i.e. tests that are/might not be currently implemented or issues to the web application) and to collect improvement proposals.
 
