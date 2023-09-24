@@ -40,7 +40,7 @@ This Code of Conduct applies both within project spaces and in public spaces whe
 [[enforcement]]
 == Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project Steering Group at etf-sg@jrc.ec.europa.eu. The Steering Group will review and investigate all complaints, and will respond in a way that it deems appropriate to the circumstances therefore you may not receive a direct response. The Steering Group will use their discretion in determining when and how to follow up on reported incidents, which may range from not taking action to permanent expulsion from the project and project-sponsored spaces. The Steering Group is obligated to maintain confidentiality with regard to the reporter of an incident.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the JRC INSPIRE team at JRC-INSPIRE-SUPPORT@ec.europa.eu. The JRC INSPIRE team will review and investigate all complaints, and will respond in a way that it deems appropriate to the circumstances therefore you may not receive a direct response. The JRC INSPIRE team will use their discretion in determining when and how to follow up on reported incidents, which may range from not taking action to permanent expulsion from the project and project-sponsored spaces. The JRC INSPIRE team is obligated to maintain confidentiality with regard to the reporter of an incident.
 
 Contributors who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
 
