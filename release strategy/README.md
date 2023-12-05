@@ -7,7 +7,7 @@
     * [v2023.1 - 15/03/2023](#v20231---15032023)
     * [v2023.2 - 15/06/2023](#v20232---15062023)
     * [v2023.3 - 15/09/2023](#v20233---15092023)
-    * [v2024.0 - 15/01/2024](#v20240---15012024)
+    * [v2024.0 - 05/02/2024](#v20240---05022024)
 - [Release Delivery](#release-delivery)
 
 # Introduction
@@ -44,7 +44,7 @@ For simplicity, the descriptions make explicit reference to releases in the year
 * **v2023.2 - 15/06/2023**: it includes both breaking and non-breaking changes.
 * **v2024.b - 15/06/2023**: it includes both breaking and non-breaking changes which are planned to become effective (for Monitoring purposes) in the following year.
 * **v2023.3 - 15/09/2023**: it only includes non-breaking changes, so that any INSPIRE resource passing the test in the previous release automatically passes the same test in this release. This release is the one used for the end-of-year Monitoring process.
-* **v2024.0 - 15/01/2024**: it includes both breaking and non-breaking changes, including those available in the beta instance of the previous year.
+* **v2024.0 - 05/02/2024**: it includes both breaking and non-breaking changes, including those available in the beta instance of the previous year.
 
 ### v2023.1 - 15/03/2023
 This release is scheduled for 15/03/2023 and includes the breaking and non-breaking changes occurred since the previous release (v2023.0). All these changes (each managed in a dedicated branch) are first incorporated in the _staging_ branch, i.e. they are made available in the Staging instance; afterwards, each change which is also tested and accepted by the user who originally reported it, is also incorporated in the _v2023.1_ branch. This branch is finally merged into the _master_ branch, which will make all changes available in the Production instance. Should hotfixes be needed at any time, they are immediately incorporated both in the _staging_ and the _master_ branches.
@@ -61,8 +61,8 @@ This release is scheduled for 15/09/2023 and only includes the non-breaking chan
 
 ![v2023.3](./img/v2023.3.png "v2023.3")
 
-### v2024.0 - 15/01/2024
-This release is scheduled for 15/01/2024 and includes the breaking and non-breaking changes occurred since the previous release (v2023.3) as well as the breaking changes occurred between the releases v2023.2 and v2023.3, which were not included in the v2023.3 release as they were only included in the _staging_ branch. All these changes (each managed in a dedicated branch) are first incorporated in the _staging_ branch, and finally also in the _v2024.0_ branch. This branch is finally merged into the _master_ branches, which will make all changes available in the Production instance. Should hotfixes be needed at any time, they are immediately incorporated in both the _staging_ and the _master_ branches.
+### v2024.0 - 05/02/2024
+This release is scheduled for 05/02/2024 and includes the breaking and non-breaking changes occurred since the previous release (v2023.3) as well as the breaking changes occurred between the releases v2023.2 and v2023.3, which were not included in the v2023.3 release as they were only included in the _staging_ branch. All these changes (each managed in a dedicated branch) are first incorporated in the _staging_ branch, and finally also in the _v2024.0_ branch. This branch is finally merged into the _master_ branches, which will make all changes available in the Production instance. Should hotfixes be needed at any time, they are immediately incorporated in both the _staging_ and the _master_ branches.
 
 ![v2024.0](./img/v2024.0.png "v2024.1")
 
