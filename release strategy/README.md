@@ -4,10 +4,10 @@
 - [Release Planning](#release-planning)
   * [Instances of the INSPIRE Reference Validator](#instances-of-the-inspire-reference-validator)
   * [Annual releases](#annual-releases)
-    * [v2023.1 - 15/03/2023](#v20231---15032023)
-    * [v2023.2 - 15/06/2023](#v20232---15062023)
-    * [v2023.3 - 15/09/2023](#v20233---15092023)
-    * [v2025.0 - 05/02/2025](#v20250---05022025)
+    * [v2024.1 - 30/04/2024](#v20241---15032024)
+    * [v2024.2 - 30/06/2024](#v20242---15062024)
+    * [v2024.3 - 15/09/2024](#v20243---15092024)
+    * [v2025.0 - 15/01/2025](#v20250---05022025)
 - [Release Delivery](#release-delivery)
 
 # Introduction
@@ -38,35 +38,35 @@ Multiple instances of the INSPIRE Reference Validator are currently available (o
 
 As mentioned above, several releases of the INSPIRE Reference Validator are scheduled each year with the main goal of concentrating breaking changes in the first half of the year in order to produce the major release used for the end-of-year Monitoring process already in June. The scheduled annual releases are described in detail in the next sub-sections. In addition to the different infrastructure and deployment environments, the different releases are managed using different branches of the [_ets-repository_](https://github.com/inspire-eu-validation/ets-repository) repository.
 
-For simplicity, the descriptions make explicit reference to releases in the years 2023/2025, but the same release schedule will be applied consistently over the following years:
+For simplicity, the descriptions make explicit reference to releases in the years 2024/2025, but the same release schedule will be applied consistently over the following years:
 
-* **v2023.1 - 15/03/2023**: it includes both breaking and non-breaking changes.
-* **v2023.2 - 15/06/2023**: it includes both breaking and non-breaking changes.
-* **v2025.b - 15/06/2023**: it includes both breaking and non-breaking changes which are planned to become effective (for Monitoring purposes) in the following year.
-* **v2023.3 - 15/09/2023**: it only includes non-breaking changes, so that any INSPIRE resource passing the test in the previous release automatically passes the same test in this release. This release is the one used for the end-of-year Monitoring process.
+* **v2024.1 - 30/04/2024**: it includes both breaking and non-breaking changes.
+* **v2024.2 - 30/06/2024**: it includes both breaking and non-breaking changes.
+* **v2025.b - 30/06/2024**: it includes both breaking and non-breaking changes which are planned to become effective (for Monitoring purposes) in the following year.
+* **v2024.3 - 15/09/2024**: it only includes non-breaking changes, so that any INSPIRE resource passing the test in the previous release automatically passes the same test in this release. This release is the one used for the end-of-year Monitoring process.
 * **v2025.0 - 05/02/2025**: it includes both breaking and non-breaking changes, including those available in the beta instance of the previous year.
 
-### v2023.1 - 15/03/2023
-This release is scheduled for 15/03/2023 and includes the breaking and non-breaking changes occurred since the previous release (v2023.0). All these changes (each managed in a dedicated branch) are first incorporated in the _staging_ branch, i.e. they are made available in the Staging instance; afterwards, each change which is also tested and accepted by the user who originally reported it, is also incorporated in the _v2023.1_ branch. This branch is finally merged into the _master_ branch, which will make all changes available in the Production instance. Should hotfixes be needed at any time, they are immediately incorporated both in the _staging_ and the _master_ branches.
+### v2024.1 - 30/04/2024
+This release is scheduled for 30/04/2024 and includes the breaking and non-breaking changes occurred since the previous release (v2024.0). All these changes (each managed in a dedicated branch) are first incorporated in the _staging_ branch, i.e. they are made available in the Staging instance; afterwards, each change which is also tested and accepted by the user who originally reported it, is also incorporated in the _v2024.1_ branch. This branch is finally merged into the _master_ branch, which will make all changes available in the Production instance. Should hotfixes be needed at any time, they are immediately incorporated both in the _staging_ and the _master_ branches.
 
-![v2023.1](./img/v2023.1.png "v2023.1")
+![v2024.1](./img/v2024.1.png "v2024.1")
 
-### v2023.2 - 15/06/2023
-This release is scheduled for 15/06/2023 and includes the breaking and non-breaking changes occurred since the previous release (v2023.1). All these changes (each managed in a dedicated branch) are first incorporated in the _staging_ branch, i.e. they are made available in the Staging instance; afterwards, each change which is also tested and accepted by the user who originally reported it, is also incorporated in the _v2023.2_ branch. This branch is finally merged into the _master_ branch, which will make all changes available in the Production instance, and also in the _beta_ branch that is now created. Should hotfixes be needed at any time, they are immediately incorporated both in the _staging_ and the _master_ branches.
+### v2024.2 - 30/06/2024
+This release is scheduled for 30/06/2024 and includes the breaking and non-breaking changes occurred since the previous release (v2024.1). All these changes (each managed in a dedicated branch) are first incorporated in the _staging_ branch, i.e. they are made available in the Staging instance; afterwards, each change which is also tested and accepted by the user who originally reported it, is also incorporated in the _v2024.2_ branch. This branch is finally merged into the _master_ branch, which will make all changes available in the Production instance, and also in the _beta_ branch that is now created. Should hotfixes be needed at any time, they are immediately incorporated both in the _staging_ and the _master_ branches.
 
-![v2023.2](./img/v2023.2.png "v2023.2")
+![v2024.2](./img/v2024.2.png "v2024.2")
 
-### v2023.3 - 15/09/2023
-This release is scheduled for 15/09/2023 and only includes the non-breaking changes occurred since the previous release (v2023.2). All these changes (each managed in a dedicated branch) are first incorporated in the _staging_ branch, i.e. they are made available in the Staging instance; afterwards, each change which is also tested and accepted by the user who originally reported it, is also incorporated in the _v2023.3_ branch. This branch is finally merged into the _master_ branch, which will make all changes available in the Production instance. Conversely, breaking changes (each managed in a dedicated branch) occurred since the previous release (v2023.2) are only incorporated in the _beta_ branch, which is finally merged in the _staging_ branch to allow their future inclusion in the release v2025.0 planned for the following year. Should hotfixes be needed at any time, they are immediately incorporated both in the _staging_, the _master_ and the _beta_ branches. After the release v2023.3 is published, the _beta_ branch is removed.
+### v2024.3 - 15/09/2024
+This release is scheduled for 15/09/2024 and only includes the non-breaking changes occurred since the previous release (v2024.2). All these changes (each managed in a dedicated branch) are first incorporated in the _staging_ branch, i.e. they are made available in the Staging instance; afterwards, each change which is also tested and accepted by the user who originally reported it, is also incorporated in the _v2024.3_ branch. This branch is finally merged into the _master_ branch, which will make all changes available in the Production instance. Conversely, breaking changes (each managed in a dedicated branch) occurred since the previous release (v2024.2) are only incorporated in the _beta_ branch, which is finally merged in the _staging_ branch to allow their future inclusion in the release v2025.0 planned for the following year. Should hotfixes be needed at any time, they are immediately incorporated both in the _staging_, the _master_ and the _beta_ branches. After the release v2024.3 is published, the _beta_ branch is removed.
 
-![v2023.3](./img/v2023.3.png "v2023.3")
+![v2024.3](./img/v2024.3.png "v2024.3")
 
 ### v2025.0 - 05/02/2025
-This release is scheduled for 05/02/2025 and includes the breaking and non-breaking changes occurred since the previous release (v2023.3) as well as the breaking changes occurred between the releases v2023.2 and v2023.3, which were not included in the v2023.3 release as they were only included in the _staging_ branch. All these changes (each managed in a dedicated branch) are first incorporated in the _staging_ branch, and finally also in the _v2025.0_ branch. This branch is finally merged into the _master_ branches, which will make all changes available in the Production instance. Should hotfixes be needed at any time, they are immediately incorporated in both the _staging_ and the _master_ branches.
+This release is scheduled for 05/02/2025 and includes the breaking and non-breaking changes occurred since the previous release (v2024.3) as well as the breaking changes occurred between the releases v2024.2 and v2024.3, which were not included in the v2024.3 release as they were only included in the _staging_ branch. All these changes (each managed in a dedicated branch) are first incorporated in the _staging_ branch, and finally also in the _v2025.0_ branch. This branch is finally merged into the _master_ branches, which will make all changes available in the Production instance. Should hotfixes be needed at any time, they are immediately incorporated in both the _staging_ and the _master_ branches.
 
 ![v2025.0](./img/v2025.0.png "v2025.1")
 
-As mentioned above, this release schedule only covers the annual cycle 2023/2025 as a reference example, but it will be also applied consistently in each of the following years.
+As mentioned above, this release schedule only covers the annual cycle 2024/2025 as a reference example, but it will be also applied consistently in each of the following years.
 
 # Release Delivery
 Each release of the INSPIRE Reference Validator is fully managed and made available to the INSPIRE community through the following set of GitHub artifacts: 
