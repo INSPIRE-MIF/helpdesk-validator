@@ -5,9 +5,9 @@
   * [Instances of the INSPIRE Reference Validator](#instances-of-the-inspire-reference-validator)
   * [Annual releases](#annual-releases)
     * [v2024.1 - 30/04/2024](#v20241---30042024)
-    * [v2024.2 - 30/06/2024](#v20242---15062024)
+    * [v2024.2 - 30/06/2024](#v20242---30062024)
     * [v2024.3 - 15/09/2024](#v20243---15092024)
-    * [v2025.0 - 15/01/2025](#v20250---05022025)
+    * [v2025.0 - 15/01/2025](#v20250---15012025)
 - [Release Delivery](#release-delivery)
 
 # Introduction
@@ -44,7 +44,7 @@ For simplicity, the descriptions make explicit reference to releases in the year
 * **v2024.2 - 30/06/2024**: it includes both breaking and non-breaking changes.
 * **v2025.b - 30/06/2024**: it includes both breaking and non-breaking changes which are planned to become effective (for Monitoring purposes) in the following year.
 * **v2024.3 - 15/09/2024**: it only includes non-breaking changes, so that any INSPIRE resource passing the test in the previous release automatically passes the same test in this release. This release is the one used for the end-of-year Monitoring process.
-* **v2025.0 - 05/02/2025**: it includes both breaking and non-breaking changes, including those available in the beta instance of the previous year.
+* **v2025.0 - 15/01/2025**: it includes both breaking and non-breaking changes, including those available in the beta instance of the previous year.
 
 ### v2024.1 - 30/04/2024
 This release is scheduled for 30/04/2024 and includes the breaking and non-breaking changes occurred since the previous release (v2024.0). All these changes (each managed in a dedicated branch) are first incorporated in the _staging_ branch, i.e. they are made available in the Staging instance; afterwards, each change which is also tested and accepted by the user who originally reported it, is also incorporated in the _v2024.1_ branch. This branch is finally merged into the _master_ branch, which will make all changes available in the Production instance. Should hotfixes be needed at any time, they are immediately incorporated both in the _staging_ and the _master_ branches.
@@ -61,10 +61,10 @@ This release is scheduled for 15/09/2024 and only includes the non-breaking chan
 
 ![v2024.3](./img/v2024.3.png "v2024.3")
 
-### v2025.0 - 05/02/2025
-This release is scheduled for 05/02/2025 and includes the breaking and non-breaking changes occurred since the previous release (v2024.3) as well as the breaking changes occurred between the releases v2024.2 and v2024.3, which were not included in the v2024.3 release as they were only included in the _staging_ branch. All these changes (each managed in a dedicated branch) are first incorporated in the _staging_ branch, and finally also in the _v2025.0_ branch. This branch is finally merged into the _master_ branches, which will make all changes available in the Production instance. Should hotfixes be needed at any time, they are immediately incorporated in both the _staging_ and the _master_ branches.
+### v2025.0 - 15/01/2025
+This release is scheduled for 15/01/2025 and includes the breaking and non-breaking changes occurred since the previous release (v2024.3) as well as the breaking changes occurred between the releases v2024.2 and v2024.3, which were not included in the v2024.3 release as they were only included in the _staging_ branch. All these changes (each managed in a dedicated branch) are first incorporated in the _staging_ branch, and finally also in the _v2025.0_ branch. This branch is finally merged into the _master_ branches, which will make all changes available in the Production instance. Should hotfixes be needed at any time, they are immediately incorporated in both the _staging_ and the _master_ branches.
 
-![v2025.0](./img/v2025.0.png "v2025.1")
+![v2025.0](./img/v2025.0.png "v2025.0")
 
 As mentioned above, this release schedule only covers the annual cycle 2024/2025 as a reference example, but it will be also applied consistently in each of the following years.
 
@@ -80,7 +80,8 @@ Each release of the INSPIRE Reference Validator is fully managed and made availa
   - the new documentation produced, if any
   - assets, i.e. code packages required for deployment:
     - _ets-repository-v202x.y.zip_, containing the _ets-repository_ repository corresponding to the release branch;
-    - _etf-release-v202x.y.zip_, containing ETF deployment instructions and artifacts;
+    - _inspire-registry-resources.zip_, containing the resources that the INSPIRE Reference Validator requests to the INSPIRE Registry to execute the validations defined in the Executable Test Suites (ETSs);
+    - _inspire-validator-v202x.y.zip_, containing the INSPIRE Reference Validator deployment instructions and artifacts;
     - _Source code.zip_ and _Source code.tar.gz_, including the content of the _community_ repository for the current release;
 	  
 * a **GitHub package**, published on the [Packages section of the _community_ repository](https://github.com/INSPIRE-MIF/helpdesk-validator/packages), including the instructions and resources needed to deploy the corresponding release of the INSPIRE Reference Validator through the use of Docker.
