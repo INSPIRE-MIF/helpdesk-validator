@@ -48,7 +48,7 @@
     </gmd:CI_ResponsibleParty>
   </gmd:contact>
 
-  <!--TG Requirement C.7: metadata/2.0/req/common/md-date: The latest update date of the metadata description shall be given for each metadata record. It shall be encoded using the gmd:MD_Metadata/gmd:dateStamp element. If no updates to the metadata have been made since publishing it, the creation date of the metadata shall be used instead. The multiplicity of this element is 1.-->
+  <!--TG Requirement C.7: metadata/2.0/req//md-date: The latest update date of the metadata description shall be given for each metadata record. It shall be encoded using the gmd:MD_Metadata/gmd:dateStamp element. If no updates to the metadata have been made since publishing it, the creation date of the metadata shall be used instead. The multiplicity of this element is 1.-->
   <gmd:dateStamp>
     <gco:DateTime>2019-05-15T09:00:00</gco:DateTime>
     <!-- To also specify the time zone (optional), the value would be e.g. 2019-05-15T09:00:00+02:00 -->
@@ -222,21 +222,21 @@ For each INSPIRE Spatial Data Theme, a gmd:keyword element shall be included wit
       <gmd:descriptiveKeywords>
         <gmd:MD_Keywords>
           <gmd:keyword>
-            <gmx:Anchor xlink:href="https://www.eionet.europa.eu/gemet/en/concept/1600">common agricultural policy</gmx:Anchor>
+            <gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet/concept/1600">common agricultural policy</gmx:Anchor>
           </gmd:keyword>
           <gmd:keyword>
-            <gmx:Anchor xlink:href="https://www.eionet.europa.eu/gemet/en/concept/232">agriculture</gmx:Anchor>
+            <gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet/concept/232">agriculture</gmx:Anchor>
           </gmd:keyword>
           <gmd:keyword>
-            <gmx:Anchor xlink:href="https://www.eionet.europa.eu/gemet/en/concept/202">agricultural land</gmx:Anchor>
+            <gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet/concept/202">agricultural land</gmx:Anchor>
           </gmd:keyword>
           <gmd:keyword>
-            <gmx:Anchor xlink:href="https://www.eionet.europa.eu/gemet/en/concept/4612">land cover</gmx:Anchor>
+            <gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet/concept/4612">land cover</gmx:Anchor>
           </gmd:keyword>
           <gmd:thesaurusName>
             <gmd:CI_Citation>
               <gmd:title>
-                <gmx:Anchor xlink:href="https://www.eionet.europa.eu/gemet/en/concept/13102">GEMET - Concepts, version 4.1.3</gmx:Anchor>
+                <gmx:Anchor xlink:href="http://www.eionet.europa.eu/gemet/concept/13102">GEMET - Concepts, version 4.1.3</gmx:Anchor>
               </gmd:title>
               <gmd:date>
                 <gmd:CI_Date>
