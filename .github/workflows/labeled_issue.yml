@@ -12,7 +12,7 @@ jobs:
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.PROJECT_AUTOMATION }}"
-        project-url: "https://github.com/INSPIRE-MIF/helpdesk-validator/projects/1"
+        project-url: "https://github.com/INSPIRE-MIF/helpdesk-validator/projects/9"
         column-name: "In progress"
         label-name: "under development"
 
@@ -23,7 +23,7 @@ jobs:
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.PROJECT_AUTOMATION }}"
-        project-url: "https://github.com/INSPIRE-MIF/helpdesk-validator/projects/1"
+        project-url: "https://github.com/INSPIRE-MIF/helpdesk-validator/projects/9"
         column-name: "Staging: for acceptance"
         label-name: "ready for testing"
         
@@ -34,7 +34,7 @@ jobs:
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.PROJECT_AUTOMATION }}"
-        project-url: "https://github.com/INSPIRE-MIF/helpdesk-validator/projects/1"
+        project-url: "https://github.com/INSPIRE-MIF/helpdesk-validator/projects/9"
         column-name: "Staging: in release planning"
         label-name: "solved"
         
@@ -45,6 +45,6 @@ jobs:
     - uses: konradpabjan/move-labeled-or-milestoned-issue@v2.0
       with:
         action-token: "${{ secrets.PROJECT_AUTOMATION }}"
-        project-url: "https://github.com/INSPIRE-MIF/helpdesk-validator/projects/1"
+        project-url: "https://github.com/INSPIRE-MIF/helpdesk-validator/projects/9"
         column-name: "Production: latest release"
         label-name: "deployed in reference validator"
