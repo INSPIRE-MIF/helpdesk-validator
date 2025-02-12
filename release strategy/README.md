@@ -39,6 +39,7 @@ For simplicity, the descriptions make explicit reference to the release in the y
 
 ### v2025.1 - 15/06/2025
 This release is scheduled on 15/06/2025 and includes the breaking and non-breaking changes occurred since the previous release (v2024.3). All these changes (each managed in a dedicated branch) are first incorporated in the _staging_ branch, i.e. they are made available in the Staging instance; afterwards, each change which is also tested and accepted by the user who originally reported it, is also incorporated in the _v2025.1_ branch. This branch is finally merged into the _master_ branch, which will make all changes available in the Production instance. Should hotfixes be needed at any time, they are immediately incorporated both in the _staging_ and the _master_ branches.
+![v2025.1](./img/v2025.1.png "v2025.1")
 
 # Release Delivery
 Each release of the INSPIRE Reference Validator is fully managed and made available to the INSPIRE community through the following set of GitHub artifacts: 
