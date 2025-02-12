@@ -9,7 +9,7 @@
 
 # Introduction
 
-This document illustrates the release planning strategy for the [INSPIRE Reference Validator](https://inspire.ec.europa.eu/validator/), including all its components (ATS, ETS and ETF). The document explains the rationale behind the plan and details the foreseen release dates throughout the year together with their main expected changes. It also lists a number of resources for users to get informed on the future expected changes (future releases) in the INSPIRE Reference Validator and to check in detail the content of each released version (past releases).
+This document illustrates the release planning strategy for the [INSPIRE Reference Validator](https://inspire.ec.europa.eu/validator/), including all its components (ATS, ETS and ETF). The document explains the rationale behind the plan and details the annual release together with its main expected changes. It also lists a number of resources for users to get informed on the future expected changes (future releases) in the INSPIRE Reference Validator and to check in detail the content of each released version (past releases).
 
 # Objective and Summary
 
@@ -29,7 +29,7 @@ Two instances of the INSPIRE Reference Validator are currently available, which 
 
 * [Staging instance](https://inspire.ec.europa.eu/validator-staging): this instance includes all the latest changes to the INSPIRE Reference Validator, including new tests and new functionality, before these are also moved to the Production instance within a release. The Staging instance is only used for testing purposes by the INSPIRE community.
 
-## Annual releases
+## Annual release
 
 As mentioned above, as of 2025 a single release of the INSPIRE Reference Validator is scheduled each year, which includes all breaking and non breaking changes used for the end-of-year Monitoring process. The scheduled annual release is described in detail in the next sub-section. In addition to the different infrastructure and deployment environments, the different releases are managed using different branches of the [_ets-repository_](https://github.com/inspire-eu-validation/ets-repository) repository.
 
@@ -40,6 +40,7 @@ For simplicity, the descriptions make explicit reference to the release in the y
 ### v2025.1 - 15/06/2025
 This release is scheduled on 15/06/2025 and includes the breaking and non-breaking changes occurred since the previous release (v2024.3). All these changes (each managed in a dedicated branch) are first incorporated in the _staging_ branch, i.e. they are made available in the Staging instance; afterwards, each change which is also tested and accepted by the user who originally reported it, is also incorporated in the _v2025.1_ branch. This branch is finally merged into the _master_ branch, which will make all changes available in the Production instance. Should hotfixes be needed at any time, they are immediately incorporated both in the _staging_ and the _master_ branches.
 ![v2025.1](./img/v2025.1.png "v2025.1")
+
 # Release Delivery
 Each release of the INSPIRE Reference Validator is fully managed and made available to the INSPIRE community through the following set of GitHub artifacts: 
 
