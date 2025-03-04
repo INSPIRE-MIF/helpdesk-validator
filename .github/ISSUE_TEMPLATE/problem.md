@@ -6,7 +6,7 @@ about: Open an issue to report a problem with the INSPIRE validator or test resu
 
 Before reporting an issue with the INSPIRE Reference Validator deployed at JRC, please:
 - check whether a similar issue has already been opened
-- try to validate your resource after cleaning the browser cache (in case of error during the upload of the resource) 
+- re-validate your resource after cleaning the browser cache (in case of error during the upload of the resource) and after waiting a reasonable amount of time to address possible temporary unavailabilities of the Validator
 - check the [list of known limitations](https://github.com/INSPIRE-MIF/helpdesk-validator/wiki/Known-limitations).
 
 To report an issue, please replace these lines with a brief summary of your issue and the expected behaviour.
