@@ -296,7 +296,7 @@ Individual dates and time periods may be combined to form a complex temporal ext
 				</srv:SV_OperationMetadata>
 			</srv:containsOperations>
 			<!--TG Requirement 3.6: metadata/2.0/req/sds/coupled-resource: Links pointing to the online metadata descriptions of data sets provided by the described service shall be given using srv:operatesOn element. The multiplicity of this element is 0..n. This property shall be implemented by reference. The xlink:href attribute of each of the srv:operatesOn elements shall contain a URI pointing to the gmd:MD_DataIdentification element of the metadata record of the provided the data set or data set series.-->
-			<srv:operatesOn  xlink:href="https://inspire.ec.europa.eu/sites/default/files/md_2.0_datasets_example.xml"/>
+			<srv:operatesOn  xlink:href="https://raw.githubusercontent.com/INSPIRE-MIF/helpdesk-validator/refs/heads/master/examples/Dataset_metadata_2.0_example.xml"/>
 		</srv:SV_ServiceIdentification>
 	</gmd:identificationInfo>
 	<gmd:distributionInfo>
